@@ -67,8 +67,6 @@ def decoder_training(args, model):
 
     if args.continue_train:
         checkpoint = torch.load(save_path, map_location=device)
-        if 'attention_state_dict' in checkpoint.keys():
-            attention.load_state_dict(checkpoint['attention_state_dict'])
         model.load_state_dict(checkpoint['model_state_dict'])
         optim.load_state_dict(checkpoint['optimizer_state_dict'])
         start_epoch = checkpoint['epoch']
@@ -92,8 +90,8 @@ def decoder_training(args, model):
         # Sampling data using shuffled indices
         num_batches = len(dataloader)
         
-        for batch_idx, (batch_data, batch_attention_mask) in enumerate(dataloader):
-            print(batch_data, batch_attention_mask)
+        for batch_idx, (batch_input_ids, batch_attention_mask) in enumerate(dataloader):
+            print(batch_input_ids, batch_attention_mask)
             print("epoch_idx: %d" % (epoch))
             print("batch_idx: %d" % (batch_idx + start_batch))
             #batch_size = batch_labels.shape[0]
@@ -102,7 +100,7 @@ def decoder_training(args, model):
 
             # Calculate the loss
             pdb.set_trace()
-            loss = model(batch_data, attention_mask=batch_attention_mask, labels=batch_data).loss.sum()
+            loss = model(batch_input_ids, attention_mask=batch_attention_mask, labels=batch_input_ids).loss.sum()
             loss.backward()
             print('loss', loss)
             optim.step()
@@ -118,10 +116,8 @@ def decoder_training(args, model):
 
                 if not os.path.exists(args.save_dir):
                     os.makedirs(args.save_dir, exist_ok = True) 
-                
-                
                 torch.save({
-                    'model_state_dict': model.state_dict(),
+                    'model_state_dict': model.module.state_dict() if isinstance(model, nn.DataParallel) else model.state_dict(),
                     'optimizer_state_dict': optim.state_dict(),
                     'epoch': epoch,
                     'batch_idx': batch_count_tot,
@@ -142,7 +138,7 @@ def decoder_training(args, model):
             if not os.path.exists(save_dir):
                 os.makedirs(save_dir, exist_ok = True) 
             torch.save({
-                        'model_state_dict': model.state_dict(),
+                        'model_state_dict': model.module.state_dict() if isinstance(model, nn.DataParallel) else model.state_dict(),
                         'optimizer_state_dict': optim.state_dict(),
                         'epoch': epoch,
                         'batch_idx': batch_idx + start_batch + 1,
@@ -156,13 +152,45 @@ def decoder_training(args, model):
         start_batch = 0
 
 
-def decoder_infer(input_prompts):
-    #inp = "<startofstring> "+inp+" <bot>: "
-    inp = tokenizer(inp, return_tensors="pt")
-    X = inp["input_ids"].to(device)
-    a = inp["attention_mask"].to(device)
-    output = model.generate(X, attention_mask=a )
-    output = tokenizer.decode(output[0])
+def decoder_infer(model):
+    num_gpus = torch.cuda.device_count()
+    print('number of avilable gpus: %d' % num_gpus)
+
+    device = 'cuda'
+    model = model.to(device)
+
+    # Read checkpoint model
+    checkpoint = torch.load(args.test_model_path, map_location=device)
+
+    if args.use_data_parallel and num_gpus > 1:
+        device_ids_list = list(range(num_gpus))
+        model = torch.nn.DataParallel(model, device_ids=device_ids_list)
+        #model = DDP(model, device_ids=device_ids_list)
+        model = model.module    
+
+    pdb.set_trace()
+    model.load_state_dict(checkpoint['model_state_dict'])
+    #model = AutoModelWithLMHead.from_pretrained(train_path)
+
+    inputs = tokenizer.encode(args.input_prompts, return_tensors = 'pt').to(device)
+    # Create an attention mask for the inputs
+    attention_mask = torch.ones(inputs.shape, dtype=torch.long, device=device)
+    # Set pad_token_id to the pad_token_id of the tokenizer
+    pad_token_id = tokenizer.pad_token_id
+
+
+    print("\ngenerating output")
+    outputs = model.generate(
+        inputs, 
+        attention_mask=attention_mask,
+        pad_token_id=pad_token_id,
+        max_length=100, 
+        num_beams=5, 
+        num_return_sequences=5, 
+        early_stopping=True # Stop generating once max_length is reached
+    )
+
+    output = tokenizer.decode(outputs[0])
     return output
 
  
@@ -195,7 +223,7 @@ if __name__ == '__main__':
     # optimization
     parser.add_argument('--batch_size', type=int, default=64)
     parser.add_argument('--learning_rate', type=float, default=0.0001)
-    parser.add_argument('--num_epochs', type=int, default=5)
+    parser.add_argument('--num_epochs', type=int, default=2)
     parser.add_argument('--save_interval', type=int, default=100)
     parser.add_argument('--return_original', type=int, default=0)
     
@@ -203,38 +231,65 @@ if __name__ == '__main__':
     # parallel, multi-GPU training
     parser.add_argument('--use_data_parallel', type=int, default=1)
 
+    # mode
+    parser.add_argument('--train', type=int, default=1)
+    parser.add_argument('--test', type=int, default=1)
+
+    # input prompts
+    parser.add_argument('--input_prompts', type=str, default='Liu Kang is')
+    parser.add_argument('--test_model_path', type=str, default='/home-nfs/fx2024/NLP/experiments/decoder_checkpoint_e1.pth')
+
     args = parser.parse_args()
     
+    device = 'cuda'
+
     # Usage example
-    save_path = '/home-nfs/fx2024/textdata'  # Set your custom save path
+    save_path = '/home-nfs/fx2024/NLP/textdata'  # Set your custom save path
     wikitext_dataset_train = load_or_download_wikitext(save_path, dataset_name='wikitext', dataset_version='wikitext-2-raw-v1', split='train')
 
     # Print a sample from the dataset to verify
     #print(wikitext_dataset_train['train']['text'][:5])
     print(wikitext_dataset_train['text'][0])
 
-
-    # training
-
     # tokenize the text
     tokenizer = GPT2Tokenizer.from_pretrained("gpt2")
     tokenizer.pad_token = tokenizer.eos_token
-    model = GPT2LMHeadModel.from_pretrained("gpt2")
-
+    model = GPT2LMHeadModel.from_pretrained("gpt2").to(device)
     wikitext_dataset_train_tokenized = My_Dataset(wikitext_dataset_train, tokenizer)
 
-    #model.train()
+    # Test prompt before training
+    inputs = tokenizer.encode(args.input_prompts, return_tensors = 'pt').to(device)
+    # Create an attention mask for the inputs
+    attention_mask = torch.ones(inputs.shape, dtype=torch.long, device=device)
+    # Set pad_token_id to the pad_token_id of the tokenizer
+    pad_token_id = tokenizer.pad_token_id
 
+    pdb.set_trace()
+    print("\ngenerating output")
+    outputs = model.generate(
+        inputs, 
+        attention_mask=attention_mask,
+        #pad_token_id=pad_token_id,
+        max_length=100, 
+        num_beams=5, 
+        num_return_sequences=5, 
+        early_stopping=True # Stop generating once max_length is reached
+    )
+
+    output = tokenizer.decode(outputs[0])
+    print('Before training', args.input_prompts, output)
+
+    #model.train()
     #optim = Adam(model.parameters(), lr=1e-3)
 
-    print("training .... ")
+    # training
+    if args.train == 1:
+        print("training .... ")
+        decoder_training(args, model)
 
-
-    epochs = 12
-
-    decoder_training(args, model)
-    input_prompts = 'Valkyria Chronicles'
-    decoder_infer(input_prompts)
+    if args.test == 1:
+        output = decoder_infer(model)
+        print(args.input_prompts, output)
 
     
 
