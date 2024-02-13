@@ -1,0 +1,92 @@
+tensor([[  383,  8765, 11819,  ..., 11819,   837,   318],
+        [  796,   796,  7712,  ..., 50256, 50256, 50256],
+        [  383,   983,   705,  ...,  3264,   422,   569],
+        ...,
+        [  796,   796, 20395,  ..., 50256, 50256, 50256],
+        [ 1081,   262, 17871,  ...,   666,  5407, 14561],
+        [ 1081,   351,  2180,  ...,  2597,  2488,    12]], device='cuda:0') tensor([[1, 1, 1,  ..., 1, 1, 1],
+        [1, 1, 1,  ..., 0, 0, 0],
+        [1, 1, 1,  ..., 1, 1, 1],
+        ...,
+        [1, 1, 1,  ..., 0, 0, 0],
+        [1, 1, 1,  ..., 1, 1, 1],
+        [1, 1, 1,  ..., 1, 1, 1]], device='cuda:0')
+epoch_idx: 0
+batch_idx: 0
+loss tensor(15.5661, device='cuda:0', grad_fn=<SumBackward0>)
+/home-nfs/fx2024/mc3/envs/fei-venv/lib/python3.11/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+checkpoint saved for epoch 0 batch count total 1
+checkpoint saved for epoch 0
+tensor([[14047, 15934, 11175,  ...,  6573,  5055,   837],
+        [ 8498,  2840,   389,  ..., 20811,   290, 29347],
+        [  383,  1578,  1829,  ...,   262,  3942,  3277],
+        ...,
+        [50256, 50256, 50256,  ..., 50256, 50256, 50256],
+        [50256, 50256, 50256,  ..., 50256, 50256, 50256],
+        [  796,   796, 20395,  ..., 50256, 50256, 50256]], device='cuda:0') tensor([[1, 1, 1,  ..., 1, 1, 1],
+        [1, 1, 1,  ..., 1, 1, 1],
+        [1, 1, 1,  ..., 1, 1, 1],
+        ...,
+        [0, 0, 0,  ..., 0, 0, 0],
+        [0, 0, 0,  ..., 0, 0, 0],
+        [1, 1, 1,  ..., 0, 0, 0]], device='cuda:0')
+epoch_idx: 1
+batch_idx: 0
+loss tensor(9.8539, device='cuda:0', grad_fn=<SumBackward0>)
+checkpoint saved for epoch 1 batch count total 1
+checkpoint saved for epoch 1
+tensor([[  383,  2615, 11583,  ...,  4645,   286,   262],
+        [50256, 50256, 50256,  ..., 50256, 50256, 50256],
+        [  383,  1578,  1829,  ...,   262,  3942,  3277],
+        ...,
+        [50256, 50256, 50256,  ..., 50256, 50256, 50256],
+        [50256, 50256, 50256,  ..., 50256, 50256, 50256],
+        [50256, 50256, 50256,  ..., 50256, 50256, 50256]], device='cuda:0') tensor([[1, 1, 1,  ..., 1, 1, 1],
+        [0, 0, 0,  ..., 0, 0, 0],
+        [1, 1, 1,  ..., 1, 1, 1],
+        ...,
+        [0, 0, 0,  ..., 0, 0, 0],
+        [0, 0, 0,  ..., 0, 0, 0],
+        [0, 0, 0,  ..., 0, 0, 0]], device='cuda:0')
+epoch_idx: 2
+batch_idx: 0
+loss tensor(6.1199, device='cuda:0', grad_fn=<SumBackward0>)
+checkpoint saved for epoch 2 batch count total 1
+checkpoint saved for epoch 2
+tensor([[  383,  2615, 11583,  ...,  4645,   286,   262],
+        [16513, 19831,  8359,  ...,  7776,  2524,  3776],
+        [  796,   796,   796,  ..., 50256, 50256, 50256],
+        ...,
+        [50256, 50256, 50256,  ..., 50256, 50256, 50256],
+        [26097,   670,   329,  ...,  2873,   287,  1903],
+        [  796,   796, 14843,  ..., 50256, 50256, 50256]], device='cuda:0') tensor([[1, 1, 1,  ..., 1, 1, 1],
+        [1, 1, 1,  ..., 1, 1, 1],
+        [1, 1, 1,  ..., 0, 0, 0],
+        ...,
+        [0, 0, 0,  ..., 0, 0, 0],
+        [1, 1, 1,  ..., 1, 1, 1],
+        [1, 1, 1,  ..., 0, 0, 0]], device='cuda:0')
+epoch_idx: 3
+batch_idx: 0
+loss tensor(4.8943, device='cuda:0', grad_fn=<SumBackward0>)
+checkpoint saved for epoch 3 batch count total 1
+checkpoint saved for epoch 3
+tensor([[  796,  8765, 11819,  ..., 50256, 50256, 50256],
+        [  383, 24375,   373,  ..., 11067, 16169,   286],
+        [  383,  1578,  1829,  ...,   262,  3942,  3277],
+        ...,
+        [50256, 50256, 50256,  ..., 50256, 50256, 50256],
+        [50256, 50256, 50256,  ..., 50256, 50256, 50256],
+        [14047, 15934, 11175,  ...,  6573,  5055,   837]], device='cuda:0') tensor([[1, 1, 1,  ..., 0, 0, 0],
+        [1, 1, 1,  ..., 1, 1, 1],
+        [1, 1, 1,  ..., 1, 1, 1],
+        ...,
+        [0, 0, 0,  ..., 0, 0, 0],
+        [0, 0, 0,  ..., 0, 0, 0],
+        [1, 1, 1,  ..., 1, 1, 1]], device='cuda:0')
+epoch_idx: 4
+batch_idx: 0
+loss tensor(4.1867, device='cuda:0', grad_fn=<SumBackward0>)
+checkpoint saved for epoch 4 batch count total 1
+checkpoint saved for epoch 4

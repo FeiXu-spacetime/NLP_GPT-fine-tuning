@@ -1,0 +1,98 @@
+2024-02-12 20:41:57,437 INFO    StreamThr :30462 [internal.py:wandb_internal():86] W&B internal server running at pid: 30462, started at: 2024-02-12 20:41:57.435439
+2024-02-12 20:41:57,439 DEBUG   HandlerThread:30462 [handler.py:handle_request():146] handle_request: status
+2024-02-12 20:41:57,442 INFO    WriterThread:30462 [datastore.py:open_for_write():87] open: /home-nfs/fx2024/NLP/NLP/wandb/run-20240212_204157-test/run-test.wandb
+2024-02-12 20:41:57,445 DEBUG   SenderThread:30462 [sender.py:send():382] send: header
+2024-02-12 20:41:57,451 DEBUG   SenderThread:30462 [sender.py:send():382] send: run
+2024-02-12 20:41:57,456 INFO    SenderThread:30462 [sender.py:_maybe_setup_resume():763] checking resume status for None/test-project/test
+2024-02-12 20:41:57,648 ERROR   SenderThread:30462 [internal_api.py:execute():373] 409 response executing GraphQL.
+2024-02-12 20:41:57,648 ERROR   SenderThread:30462 [internal_api.py:execute():374] {"errors":[{"message":"run fayxu/test-project/test was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2024-02-12 20:41:58,912 ERROR   SenderThread:30462 [internal_api.py:execute():373] 409 response executing GraphQL.
+2024-02-12 20:41:58,912 ERROR   SenderThread:30462 [internal_api.py:execute():374] {"errors":[{"message":"run fayxu/test-project/test was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2024-02-12 20:42:02,452 DEBUG   HandlerThread:30462 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-12 20:42:04,849 ERROR   SenderThread:30462 [internal_api.py:execute():373] 409 response executing GraphQL.
+2024-02-12 20:42:04,849 ERROR   SenderThread:30462 [internal_api.py:execute():374] {"errors":[{"message":"run fayxu/test-project/test was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2024-02-12 20:42:04,850 INFO    SenderThread:30462 [retry.py:__call__():172] Retry attempt failed:
+Traceback (most recent call last):
+  File "/home-nfs/fx2024/mc3/envs/fei-venv/lib/python3.11/site-packages/wandb/sdk/lib/retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home-nfs/fx2024/mc3/envs/fei-venv/lib/python3.11/site-packages/wandb/sdk/internal/internal_api.py", line 369, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home-nfs/fx2024/mc3/envs/fei-venv/lib/python3.11/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home-nfs/fx2024/mc3/envs/fei-venv/lib/python3.11/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home-nfs/fx2024/mc3/envs/fei-venv/lib/python3.11/site-packages/wandb/sdk/lib/gql_request.py", line 59, in execute
+    request.raise_for_status()
+  File "/home-nfs/fx2024/mc3/envs/fei-venv/lib/python3.11/site-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 409 Client Error: Conflict for url: https://api.wandb.ai/graphql
+2024-02-12 20:42:07,453 DEBUG   HandlerThread:30462 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-12 20:42:09,359 ERROR   SenderThread:30462 [internal_api.py:execute():373] 409 response executing GraphQL.
+2024-02-12 20:42:09,359 ERROR   SenderThread:30462 [internal_api.py:execute():374] {"errors":[{"message":"run fayxu/test-project/test was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2024-02-12 20:42:12,455 DEBUG   HandlerThread:30462 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-12 20:42:17,456 DEBUG   HandlerThread:30462 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-12 20:42:19,327 ERROR   SenderThread:30462 [internal_api.py:execute():373] 409 response executing GraphQL.
+2024-02-12 20:42:19,327 ERROR   SenderThread:30462 [internal_api.py:execute():374] {"errors":[{"message":"run fayxu/test-project/test was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2024-02-12 20:42:22,457 DEBUG   HandlerThread:30462 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-12 20:42:27,458 DEBUG   HandlerThread:30462 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-12 20:42:32,460 DEBUG   HandlerThread:30462 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-12 20:42:37,461 DEBUG   HandlerThread:30462 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-12 20:42:38,242 ERROR   SenderThread:30462 [internal_api.py:execute():373] 409 response executing GraphQL.
+2024-02-12 20:42:38,242 ERROR   SenderThread:30462 [internal_api.py:execute():374] {"errors":[{"message":"run fayxu/test-project/test was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2024-02-12 20:42:42,462 DEBUG   HandlerThread:30462 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-12 20:42:47,463 DEBUG   HandlerThread:30462 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-12 20:42:52,465 DEBUG   HandlerThread:30462 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-12 20:42:57,466 DEBUG   HandlerThread:30462 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-12 20:43:02,467 DEBUG   HandlerThread:30462 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-12 20:43:02,589 DEBUG   HandlerThread:30462 [handler.py:handle_request():146] handle_request: shutdown
+2024-02-12 20:43:02,589 INFO    HandlerThread:30462 [handler.py:finish():869] shutting down handler
+2024-02-12 20:43:03,461 INFO    WriterThread:30462 [datastore.py:close():296] close: /home-nfs/fx2024/NLP/NLP/wandb/run-20240212_204157-test/run-test.wandb
+2024-02-12 20:43:10,407 ERROR   SenderThread:30462 [internal_api.py:execute():373] 409 response executing GraphQL.
+2024-02-12 20:43:10,407 ERROR   SenderThread:30462 [internal_api.py:execute():374] {"errors":[{"message":"run fayxu/test-project/test was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2024-02-12 20:44:18,602 ERROR   SenderThread:30462 [internal_api.py:execute():373] 409 response executing GraphQL.
+2024-02-12 20:44:18,936 ERROR   SenderThread:30462 [internal_api.py:execute():374] {"errors":[{"message":"run fayxu/test-project/test was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2024-02-12 20:44:18,937 ERROR   SenderThread:30462 [sender.py:send_run():987] run fayxu/test-project/test was previously created and deleted; try a new run name (Error 409: Conflict)
+Traceback (most recent call last):
+  File "/home-nfs/fx2024/mc3/envs/fei-venv/lib/python3.11/site-packages/wandb/apis/normalize.py", line 41, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home-nfs/fx2024/mc3/envs/fei-venv/lib/python3.11/site-packages/wandb/sdk/internal/internal_api.py", line 2216, in upsert_run
+    response = self.gql(
+               ^^^^^^^^^
+  File "/home-nfs/fx2024/mc3/envs/fei-venv/lib/python3.11/site-packages/wandb/sdk/internal/internal_api.py", line 341, in gql
+    ret = self._retry_gql(
+          ^^^^^^^^^^^^^^^^
+  File "/home-nfs/fx2024/mc3/envs/fei-venv/lib/python3.11/site-packages/wandb/sdk/lib/retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home-nfs/fx2024/mc3/envs/fei-venv/lib/python3.11/site-packages/wandb/sdk/internal/internal_api.py", line 369, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home-nfs/fx2024/mc3/envs/fei-venv/lib/python3.11/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home-nfs/fx2024/mc3/envs/fei-venv/lib/python3.11/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home-nfs/fx2024/mc3/envs/fei-venv/lib/python3.11/site-packages/wandb/sdk/lib/gql_request.py", line 59, in execute
+    request.raise_for_status()
+  File "/home-nfs/fx2024/mc3/envs/fei-venv/lib/python3.11/site-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 409 Client Error: Conflict for url: https://api.wandb.ai/graphql
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home-nfs/fx2024/mc3/envs/fei-venv/lib/python3.11/site-packages/wandb/sdk/internal/sender.py", line 985, in send_run
+    self._init_run(run, config_value_dict)
+  File "/home-nfs/fx2024/mc3/envs/fei-venv/lib/python3.11/site-packages/wandb/sdk/internal/sender.py", line 1027, in _init_run
+    server_run, inserted, server_messages = self._api.upsert_run(
+                                            ^^^^^^^^^^^^^^^^^^^^^
+  File "/home-nfs/fx2024/mc3/envs/fei-venv/lib/python3.11/site-packages/wandb/apis/normalize.py", line 51, in wrapper
+    raise CommError(message, error)
+wandb.errors.CommError: run fayxu/test-project/test was previously created and deleted; try a new run name (Error 409: Conflict)
+2024-02-12 20:44:19,039 INFO    SenderThread:30462 [sender.py:finish():1572] shutting down sender

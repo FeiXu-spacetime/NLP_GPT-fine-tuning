@@ -1,0 +1,2846 @@
+
+  0%|                                                                                                                                     | 0/230 [00:00<?, ?it/s]
+epoch_idx: 0
+  0%|                                                                                                                                     | 0/230 [00:00<?, ?it/s]/home-nfs/fx2024/mc3/envs/fei-venv/lib/python3.11/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+  0%|▌                                                                                                                            | 1/230 [00:05<20:23,  5.34s/it]
+loss tensor(40.5234, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 1
+
+  1%|█                                                                                                                            | 2/230 [00:08<14:28,  3.81s/it]
+epoch_idx: 0
+batch_idx: 2
+
+loss tensor(3.9555, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+  2%|██▏                                                                                                                          | 4/230 [00:13<11:39,  3.09s/it]
+loss tensor(0.9115, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 4
+
+  2%|██▋                                                                                                                          | 5/230 [00:16<11:07,  2.97s/it]
+epoch_idx: 0
+batch_idx: 5
+
+loss tensor(0.7194, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 6
+
+  3%|███▊                                                                                                                         | 7/230 [00:22<10:53,  2.93s/it]
+epoch_idx: 0
+batch_idx: 7
+
+loss tensor(0.9704, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+  4%|████▉                                                                                                                        | 9/230 [00:27<10:26,  2.84s/it]
+loss tensor(2.0430, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 9
+
+  4%|█████▍                                                                                                                      | 10/230 [00:30<10:19,  2.81s/it]
+epoch_idx: 0
+batch_idx: 10
+
+loss tensor(0.9119, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 11
+
+loss tensor(1.0407, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 12
+
+  6%|███████                                                                                                                     | 13/230 [00:38<10:05,  2.79s/it]
+epoch_idx: 0
+batch_idx: 13
+
+loss tensor(1.5438, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 14
+
+  7%|████████                                                                                                                    | 15/230 [00:44<09:51,  2.75s/it]
+epoch_idx: 0
+batch_idx: 15
+
+  7%|████████▋                                                                                                                   | 16/230 [00:46<09:49,  2.76s/it]
+epoch_idx: 0
+batch_idx: 16
+
+loss tensor(1.2671, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 17
+
+  8%|█████████▋                                                                                                                  | 18/230 [00:52<09:38,  2.73s/it]
+epoch_idx: 0
+batch_idx: 18
+
+loss tensor(0.8776, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 19
+
+  9%|██████████▊                                                                                                                 | 20/230 [00:58<09:56,  2.84s/it]
+epoch_idx: 0
+batch_idx: 20
+
+loss tensor(0.9956, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 21
+
+loss tensor(1.3501, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 22
+
+ 10%|████████████▍                                                                                                               | 23/230 [01:06<09:36,  2.78s/it]
+epoch_idx: 0
+batch_idx: 23
+
+loss tensor(0.8163, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 24
+
+loss tensor(1.2895, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 25
+
+ 11%|██████████████                                                                                                              | 26/230 [01:14<09:25,  2.77s/it]
+epoch_idx: 0
+batch_idx: 26
+
+loss tensor(0.8924, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 27
+
+ 12%|███████████████                                                                                                             | 28/230 [01:20<09:14,  2.74s/it]
+epoch_idx: 0
+batch_idx: 28
+
+loss tensor(1.1833, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 29
+
+ 13%|████████████████▏                                                                                                           | 30/230 [01:26<09:57,  2.99s/it]
+epoch_idx: 0
+batch_idx: 30
+
+loss tensor(0.9647, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 31
+
+ 14%|█████████████████▎                                                                                                          | 32/230 [01:32<09:31,  2.89s/it]
+epoch_idx: 0
+batch_idx: 32
+
+loss tensor(0.9781, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 33
+
+batch_idx: 34.1074, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 34.1074, device='cuda:0', grad_fn=<SumBackward0>)
+
+ 15%|██████████████████▊                                                                                                         | 35/230 [01:40<09:05,  2.80s/it]
+epoch_idx: 0
+batch_idx: 35
+
+loss tensor(1.2957, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 36
+loss tensor(0.7697, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 37
+
+loss tensor(1.1530, device='cuda:0', grad_fn=<SumBackward0>)
+
+ 17%|████████████████████▍                                                                                                       | 38/230 [01:48<08:56,  2.79s/it]
+
+loss tensor(0.9052, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.8350, device='cuda:0', grad_fn=<SumBackward0>)
+
+ 17%|█████████████████████▌                                                                                                      | 40/230 [01:54<08:49,  2.78s/it]
+
+loss tensor(0.9991, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.7258, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.8589, device='cuda:0', grad_fn=<SumBackward0>)
+
+ 19%|███████████████████████▏                                                                                                    | 43/230 [02:02<08:39,  2.78s/it]
+
+loss tensor(1.1746, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.3380, device='cuda:0', grad_fn=<SumBackward0>)
+
+ 20%|████████████████████████▎                                                                                                   | 45/230 [02:08<08:37,  2.80s/it]
+
+loss tensor(1.1728, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.9143, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.8336, device='cuda:0', grad_fn=<SumBackward0>)
+
+ 21%|█████████████████████████▉                                                                                                  | 48/230 [02:16<08:24,  2.77s/it]
+
+loss tensor(0.9719, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.1117, device='cuda:0', grad_fn=<SumBackward0>)
+
+ 22%|██████████████████████████▉                                                                                                 | 50/230 [02:22<08:27,  2.82s/it]
+
+loss tensor(0.7579, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.7029, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.9317, device='cuda:0', grad_fn=<SumBackward0>)
+
+ 23%|████████████████████████████▌                                                                                               | 53/230 [02:30<08:14,  2.80s/it]
+
+loss tensor(1.0102, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.5672, device='cuda:0', grad_fn=<SumBackward0>)
+
+ 24%|█████████████████████████████▋                                                                                              | 55/230 [02:36<08:06,  2.78s/it]
+
+loss tensor(1.0580, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.9557, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.0559, device='cuda:0', grad_fn=<SumBackward0>)
+
+ 25%|███████████████████████████████▎                                                                                            | 58/230 [02:44<08:01,  2.80s/it]
+
+loss tensor(1.6567, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.7327, device='cuda:0', grad_fn=<SumBackward0>)
+
+ 26%|████████████████████████████████▎                                                                                           | 60/230 [02:50<07:50,  2.76s/it]
+
+loss tensor(0.6928, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.7905, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.7030, device='cuda:0', grad_fn=<SumBackward0>)
+
+ 27%|█████████████████████████████████▉                                                                                          | 63/230 [02:58<07:50,  2.82s/it]
+
+loss tensor(0.5878, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.9558, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.9047, device='cuda:0', grad_fn=<SumBackward0>)
+
+ 29%|███████████████████████████████████▌                                                                                        | 66/230 [03:06<07:36,  2.78s/it]
+
+loss tensor(0.6754, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.0378, device='cuda:0', grad_fn=<SumBackward0>)
+
+ 30%|████████████████████████████████████▋                                                                                       | 68/230 [03:12<07:25,  2.75s/it]
+
+loss tensor(0.7809, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.0161, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.9994, device='cuda:0', grad_fn=<SumBackward0>)
+
+ 31%|██████████████████████████████████████▎                                                                                     | 71/230 [03:21<08:10,  3.09s/it]
+loss tensor(0.9245, device='cuda:0', grad_fn=<SumBackward0>)
+
+ 31%|██████████████████████████████████████▊                                                                                     | 72/230 [03:24<07:54,  3.00s/it]
+
+loss tensor(0.8333, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.8246, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.0069, device='cuda:0', grad_fn=<SumBackward0>)
+
+ 33%|████████████████████████████████████████▍                                                                                   | 75/230 [03:32<07:21,  2.85s/it]
+
+loss tensor(1.0478, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.1464, device='cuda:0', grad_fn=<SumBackward0>)
+
+ 33%|█████████████████████████████████████████▌                                                                                  | 77/230 [03:38<07:06,  2.79s/it]
+
+loss tensor(1.0890, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.1761, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.8112, device='cuda:0', grad_fn=<SumBackward0>)
+
+ 35%|███████████████████████████████████████████▏                                                                                | 80/230 [03:46<06:56,  2.77s/it]
+
+loss tensor(0.9861, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.0864, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.7019, device='cuda:0', grad_fn=<SumBackward0>)
+
+ 36%|████████████████████████████████████████████▋                                                                               | 83/230 [03:54<06:47,  2.77s/it]
+
+loss tensor(0.7407, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.2270, device='cuda:0', grad_fn=<SumBackward0>)
+
+ 37%|█████████████████████████████████████████████▊                                                                              | 85/230 [04:00<06:37,  2.74s/it]
+
+loss tensor(1.1081, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.7734, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.0039, device='cuda:0', grad_fn=<SumBackward0>)
+
+ 38%|███████████████████████████████████████████████▍                                                                            | 88/230 [04:08<06:29,  2.74s/it]
+
+loss tensor(0.8489, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.3937, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.9160, device='cuda:0', grad_fn=<SumBackward0>)
+
+ 40%|█████████████████████████████████████████████████                                                                           | 91/230 [04:16<06:22,  2.76s/it]
+
+loss tensor(0.9322, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.9322, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.0347, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.8934, device='cuda:0', grad_fn=<SumBackward0>)
+
+ 41%|██████████████████████████████████████████████████▋                                                                         | 94/230 [04:26<06:49,  3.01s/it]
+
+loss tensor(0.5465, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.0665, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.6008, device='cuda:0', grad_fn=<SumBackward0>)
+
+ 42%|████████████████████████████████████████████████████▎                                                                       | 97/230 [04:34<06:23,  2.88s/it]
+
+loss tensor(0.9483, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.0913, device='cuda:0', grad_fn=<SumBackward0>)
+
+ 43%|█████████████████████████████████████████████████████▎                                                                      | 99/230 [04:40<06:09,  2.82s/it]
+loss tensor(0.9440, device='cuda:0', grad_fn=<SumBackward0>)
+
+batch_idx: 1009440, device='cuda:0', grad_fn=<SumBackward0>)
+
+batch_idx: 1019440, device='cuda:0', grad_fn=<SumBackward0>)
+batch_idx: 1019440, device='cuda:0', grad_fn=<SumBackward0>)
+
+batch_idx: 1029440, device='cuda:0', grad_fn=<SumBackward0>)
+
+batch_idx: 1039440, device='cuda:0', grad_fn=<SumBackward0>)
+
+batch_idx: 1049440, device='cuda:0', grad_fn=<SumBackward0>)
+batch_idx: 1049440, device='cuda:0', grad_fn=<SumBackward0>)
+
+batch_idx: 1059440, device='cuda:0', grad_fn=<SumBackward0>)
+
+batch_idx: 1069440, device='cuda:0', grad_fn=<SumBackward0>)
+batch_idx: 1069440, device='cuda:0', grad_fn=<SumBackward0>)
+
+batch_idx: 1079440, device='cuda:0', grad_fn=<SumBackward0>)
+
+batch_idx: 1089440, device='cuda:0', grad_fn=<SumBackward0>)
+
+batch_idx: 1099440, device='cuda:0', grad_fn=<SumBackward0>)
+batch_idx: 1099440, device='cuda:0', grad_fn=<SumBackward0>)
+
+batch_idx: 1109440, device='cuda:0', grad_fn=<SumBackward0>)
+
+ 48%|███████████████████████████████████████████████████████████▎                                                               | 111/230 [05:21<05:56,  2.99s/it]
+batch_idx: 1119440, device='cuda:0', grad_fn=<SumBackward0>)
+
+batch_idx: 1129440, device='cuda:0', grad_fn=<SumBackward0>)
+
+batch_idx: 1139440, device='cuda:0', grad_fn=<SumBackward0>)
+batch_idx: 1149440, device='cuda:0', grad_fn=<SumBackward0>)
+
+ 50%|████████████████████████████████████████████████████████████▉                                                              | 114/230 [05:30<05:29,  2.84s/it]
+
+batch_idx: 1159440, device='cuda:0', grad_fn=<SumBackward0>)
+
+batch_idx: 1169440, device='cuda:0', grad_fn=<SumBackward0>)
+batch_idx: 1169440, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 0169440, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.8942, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.9491, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.2600, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 01.2600, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(1.2085, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.9674, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 00.9674, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.9966, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.8081, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.7731, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 00.7731, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.9224, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.0217, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.8994, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 00.8994, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.3348, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.4865, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 01.4865, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.7751, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.7911, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.7911, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.8161, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.8587, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 00.8587, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.6544, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.8661, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 00.8661, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.0440, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.8061, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.8126, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 00.8126, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.7892, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.5271, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 00.5271, device='cuda:0', grad_fn=<SumBackward0>)
+
+ 62%|███████████████████████████████████████████████████████████████████████████▉                                               | 142/230 [06:49<04:06,  2.80s/it]
+
+epochtensor(0.7664, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.5617, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 00.5617, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.2996, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.9477, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.8458, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 00.8458, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(1.0831, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.0765, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 01.0765, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.5738, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.5498, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.9153, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 00.9153, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(1.2122, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.2122, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.9080, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.7097, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 00.7097, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.6227, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.0010, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.8401, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 00.8401, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.7062, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.5650, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.8542, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 00.8542, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.5687, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.1819, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 01.1819, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.7357, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.1240, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.0825, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 01.0825, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.6824, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.6388, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.9406, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 00.9406, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.9980, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.6407, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 00.6407, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.7382, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.3319, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.7959, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 00.7959, device='cuda:0', grad_fn=<SumBackward0>)
+epochtensor(1.2639, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.0370, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 01.0370, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.9586, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.0718, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 01.0718, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.6895, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.0102, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.4092, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 01.4092, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.9170, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.0823, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 01.0823, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.7617, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.5217, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.2794, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 01.2794, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.1022, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.2288, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.9018, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 01.9018, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.8384, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(2.2084, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 02.2084, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.6368, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.1055, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.0551, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 01.0551, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.8153, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.3641, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.3641, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.4068, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.9957, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 00.9957, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(1.0530, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.6724, device='cuda:0', grad_fn=<SumBackward0>)
+
+checkpoint saved for epoch 0 batch count total 200ackward0>)
+loss tensor(1.6274, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 01.6274, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.9773, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.1472, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 01.1472, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.2128, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.5013, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.1261, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 01.1261, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(3.5011, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.1587, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.9546, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 00.9546, device='cuda:0', grad_fn=<SumBackward0>)
+epochtensor(1.1687, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.9669, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 01.9669, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 01.9669, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(1.1703, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.5029, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 01.5029, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(1.9521, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.0506, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 01.0506, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss _idx: 01.0506, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.0506, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.1938, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 01.1938, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(1.5078, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.5884, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 00.5884, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.4646, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.4331, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.9732, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 00.9732, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.2713, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.5736, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.2190, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 01.2190, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.7155, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(2.0227, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 02.0227, device='cuda:0', grad_fn=<SumBackward0>)
+
+checkpoint saved for epoch 0 batch count total 230ackward0>)
+checkpoint saved for epoch 0 batch count total 230ackward0>)
+  0%|                                                                                                                                     | 0/230 [00:00<?, ?it/s]
+loss tensor(1.4305, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 11.4305, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(2.0714, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.4451, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.8012, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 10.8012, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(1.7260, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.5568, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 11.5568, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.8721, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.5051, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.3806, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 11.3806, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.6483, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.7484, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.2844, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 11.2844, device='cuda:0', grad_fn=<SumBackward0>)
+epochtensor(1.5602, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.6868, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 11.6868, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.0433, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.7598, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.0504, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 11.0504, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.4880, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.8822, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.9786, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 10.9786, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(1.1557, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.4502, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 11.4502, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.4056, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 11.4056, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.6193, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.8246, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.9795, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 10.9795, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(1.6271, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.4495, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 11.4495, device='cuda:0', grad_fn=<SumBackward0>)
+
+ 13%|███████████████▋                                                                                                            | 29/230 [01:22<09:25,  2.81s/it]
+
+epochtensor(1.1712, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.7909, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 10.7909, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.8627, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.0464, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.3237, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 11.3237, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.6458, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.1850, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 11.1850, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.9165, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.1330, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.2949, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 11.2949, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(1.6658, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.5384, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 11.5384, device='cuda:0', grad_fn=<SumBackward0>)
+
+ 18%|██████████████████████▋                                                                                                     | 42/230 [01:58<08:41,  2.78s/it]
+epochtensor(1.0689, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 11.0689, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(1.2867, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.6435, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 10.6435, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.0411, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.5186, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.3524, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 11.3524, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.0981, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.4539, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.9692, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 10.9692, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(1.7088, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.5988, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 11.5988, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.8555, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.8988, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.3851, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 11.3851, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.6082, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.8940, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 10.8940, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.0697, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.2296, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.2417, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 11.2417, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(1.4802, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.0884, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 11.0884, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(1.4608, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.0870, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 11.0870, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.9703, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.9658, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 10.9658, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.2920, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.8862, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.2540, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 11.2540, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.6737, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.9986, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 10.9986, device='cuda:0', grad_fn=<SumBackward0>)
+
+ 32%|███████████████████████████████████████▎                                                                                    | 73/230 [03:26<07:19,  2.80s/it]
+
+epochtensor(1.2885, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.4608, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 11.4608, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.8922, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.6112, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.8939, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 11.8939, device='cuda:0', grad_fn=<SumBackward0>)
+epochtensor(1.8908, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.8362, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 10.8362, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.7517, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.9064, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.0230, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 11.0230, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(1.2092, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.3614, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 11.3614, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.7491, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.2945, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 11.2945, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.1568, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.3504, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.2504, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 11.2504, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(1.2265, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.4855, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 11.4855, device='cuda:0', grad_fn=<SumBackward0>)
+
+ 40%|██████████████████████████████████████████████████▏                                                                         | 93/230 [04:22<06:18,  2.76s/it]
+
+epochtensor(0.8472, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.2501, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 11.2501, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.3965, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.9924, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.2388, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 11.2388, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.5558, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.0521, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss point saved for epoch 1 batch count total 100ackward0>)
+
+loss tensor(1.0186, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.9291, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.3233, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 11.3233, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.8650, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.8650, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.2645, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.3334, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.0970, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 11.0970, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.1571, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.0986, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.3900, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 11.3900, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(1.2280, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.8415, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 10.8415, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.3142, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.8129, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.2736, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 11.2736, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.9495, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.9553, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 10.9553, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.4345, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.9957, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.6376, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 10.6376, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.3763, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.2337, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.2255, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 11.2255, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.5800, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.5566, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 11.5566, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(1.2309, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.8472, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 10.8472, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.4503, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.0927, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.1953, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 11.1953, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.9134, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.7492, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 11.7492, device='cuda:0', grad_fn=<SumBackward0>)
+
+ 58%|███████████████████████████████████████████████████████████████████████▏                                                   | 133/230 [06:22<04:28,  2.77s/it]
+
+epochtensor(1.5078, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.1376, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 11.1376, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.0522, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.3640, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.7811, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 10.7811, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(1.0324, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.4622, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 11.4622, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.1990, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.1722, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.1003, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 11.1003, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.8758, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.6256, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 10.6256, device='cuda:0', grad_fn=<SumBackward0>)
+
+ 63%|██████████████████████████████████████████████████████████████████████████████                                             | 146/230 [06:58<03:51,  2.75s/it]
+
+epochtensor(1.2122, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.2122, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.9218, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.2811, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 11.2811, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.0439, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.4428, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.1138, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 11.1138, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.8634, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.6370, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 10.6370, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.0278, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.9806, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.5858, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 11.5858, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.9355, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.3173, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 11.3173, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.5299, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.1981, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.3355, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 11.3355, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(1.4295, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.6960, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 10.6960, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.8834, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.8787, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.9120, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 10.9120, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.9762, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 10.9762, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.3056, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.8688, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.1453, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 11.1453, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(1.0176, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.2674, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 11.2674, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 11.2674, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(1.2080, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(2.2864, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 12.2864, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.0775, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.0269, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.4840, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 11.4840, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.9162, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.9830, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 10.9830, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.2593, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.0738, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.0094, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 11.0094, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.8674, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.0379, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 11.0379, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 11.0379, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.8277, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.7385, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 10.7385, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.6540, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 10.6540, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.9543, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.7581, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.4450, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 11.4450, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.9331, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.0215, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 11.0215, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.6842, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.8009, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.6991, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 10.6991, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.8026, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.1547, device='cuda:0', grad_fn=<SumBackward0>)
+checkpoint saved for epoch 1 batch count total 200ackward0>)
+
+loss tensor(1.2092, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.2092, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.3099, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.1892, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 11.1892, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.1437, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.5881, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.5911, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 11.5911, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(1.0763, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.8382, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 10.8382, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.6524, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.2888, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 11.2888, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.9862, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.1290, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.8747, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 10.8747, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.8975, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.1632, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 11.1632, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.1006, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.0190, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.5486, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 11.5486, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.1165, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.2770, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.8811, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 10.8811, device='cuda:0', grad_fn=<SumBackward0>)
+
+losshtensor(0.8849, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.0814, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.0290, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 11.0290, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(1.2849, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.0908, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 11.0908, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.6682, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.7579, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.3994, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 10.3994, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.0620, device='cuda:0', grad_fn=<SumBackward0>)
+
+checkpoint saved for epoch 1 batch count total 230ackward0>)
+checkpoint saved for epoch 1 batch count total 230ackward0>)
+loss point saved for epoch 1 batch count total 230ackward0>)
+
+loss tensor(1.2721, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.6529, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.9782, device='cuda:0', grad_fn=<SumBackward0>)
+
+  1%|█▋                                                                                                                           | 3/230 [00:08<10:47,  2.85s/it]
+
+loss tensor(0.9102, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.3249, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 21.3249, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.5058, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.2500, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.9769, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 20.9769, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.8909, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.9097, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 20.9097, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.5656, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.1520, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.2638, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 21.2638, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.1017, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.0240, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 21.0240, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(1.2213, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.7010, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 20.7010, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.7111, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.1854, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.5679, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 20.5679, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.9771, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.7393, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 20.7393, device='cuda:0', grad_fn=<SumBackward0>)
+
+ 10%|████████████▍                                                                                                               | 23/230 [01:04<09:34,  2.78s/it]
+
+epochtensor(1.0485, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.0193, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 21.0193, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.2985, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.3973, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.9291, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 20.9291, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.6867, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.1761, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 21.1761, device='cuda:0', grad_fn=<SumBackward0>)
+
+ 13%|████████████████▋                                                                                                           | 31/230 [01:26<09:02,  2.73s/it]
+
+epochtensor(0.6842, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.7155, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 20.7155, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.7920, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.7035, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.9252, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 20.9252, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.5434, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 20.5434, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.5671, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.7447, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.7915, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 20.7915, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(1.1888, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.5675, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 20.5675, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.5814, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.9525, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.2020, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 21.2020, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(1.1693, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.6989, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 20.6989, device='cuda:0', grad_fn=<SumBackward0>)
+
+ 21%|█████████████████████████▉                                                                                                  | 48/230 [02:15<08:20,  2.75s/it]
+
+epochtensor(0.3054, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.8354, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 20.8354, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.8644, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.8000, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.8465, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 20.8465, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.7412, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.8321, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 20.8321, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.9754, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.7785, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.5249, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 20.5249, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(1.0488, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.1317, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 21.1317, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.7762, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.5263, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.9399, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 20.9399, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.7271, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.9961, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 20.9961, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.7914, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.7307, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.6571, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 20.6571, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(1.0196, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.6587, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 20.6587, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.3007, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.0637, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.2555, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 21.2555, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.8926, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.0996, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.0433, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 21.0433, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.9099, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.8870, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 20.8870, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.9041, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.0485, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 21.0485, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(1.2272, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.9468, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 20.9468, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.3584, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.1665, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.9139, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 20.9139, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(1.1583, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.7633, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 20.7633, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.9443, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.0632, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.5467, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 20.5467, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.4031, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.7809, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.1754, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 21.1754, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(1.2303, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.0151, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 21.0151, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.9610, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.7151, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.9289, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 20.9289, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(1.1345, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.3292, device='cuda:0', grad_fn=<SumBackward0>)
+
+checkpoint saved for epoch 2 batch count total 100ackward0>)
+loss tensor(0.9949, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 20.9949, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.7291, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.8490, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 20.8490, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.7434, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.0469, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.0071, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 21.0071, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.7035, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.6186, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.2536, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 21.2536, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(1.3048, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.0163, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 21.0163, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.4765, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.5570, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.7893, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 20.7893, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.8502, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.8037, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 20.8037, device='cuda:0', grad_fn=<SumBackward0>)
+
+ 51%|██████████████████████████████████████████████████████████████▌                                                            | 117/230 [05:37<05:11,  2.76s/it]
+
+epochtensor(0.4594, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.4594, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.6045, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.5334, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 20.5334, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.5121, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.1263, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.1819, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 21.1819, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(1.1797, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.6606, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 20.6606, device='cuda:0', grad_fn=<SumBackward0>)
+
+ 55%|███████████████████████████████████████████████████████████████████▍                                                       | 126/230 [06:03<04:50,  2.79s/it]
+
+epochtensor(1.2369, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.5143, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 20.5143, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.3790, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.9586, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.9816, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 20.9816, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(1.2861, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.2741, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 21.2741, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.1783, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.8687, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.0351, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 21.0351, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.8828, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.0049, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 21.0049, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.9689, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.6872, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 20.6872, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.0196, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.8732, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.3974, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 21.3974, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.8715, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.6535, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 20.6535, device='cuda:0', grad_fn=<SumBackward0>)
+
+ 63%|██████████████████████████████████████████████████████████████████████████████                                             | 146/230 [06:59<03:53,  2.78s/it]
+
+epochtensor(1.1190, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.7962, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 20.7962, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.9358, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.9085, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.8211, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 20.8211, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.9714, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.6164, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.8892, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 20.8892, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(1.1273, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.8816, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 20.8816, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.2324, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.2835, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.8431, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 20.8431, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.6862, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.6911, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 20.6911, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.9764, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 20.9764, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.3517, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.1874, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.5338, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 20.5338, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.7632, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.0155, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.6119, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 20.6119, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.5468, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.9890, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 20.9890, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.1831, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.8075, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.9497, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 20.9497, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.9247, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.0317, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 21.0317, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.9103, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.1535, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.7961, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 20.7961, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.8714, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.5225, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.1768, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 21.1768, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.8202, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.8137, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 20.8137, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(1.1779, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.8575, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 20.8575, device='cuda:0', grad_fn=<SumBackward0>)
+
+ 81%|███████████████████████████████████████████████████████████████████████████████████████████████████▍                       | 186/230 [08:51<02:02,  2.79s/it]
+
+epochtensor(0.8323, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.0189, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 21.0189, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.3137, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.6285, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.7491, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 20.7491, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.7460, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.1073, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 21.1073, device='cuda:0', grad_fn=<SumBackward0>)
+
+ 84%|███████████████████████████████████████████████████████████████████████████████████████████████████████▋                   | 194/230 [09:13<01:38,  2.74s/it]
+
+epochtensor(0.7861, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.9278, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 20.9278, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.0327, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.8920, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.8341, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 20.8341, device='cuda:0', grad_fn=<SumBackward0>)
+epochtensor(1.0323, device='cuda:0', grad_fn=<SumBackward0>)
+
+checkpoint saved for epoch 2 batch count total 200ackward0>)
+loss tensor(1.0926, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 21.0926, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.6336, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 20.6336, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.0014, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.5649, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.7308, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 20.7308, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.3820, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.8230, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.7832, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 20.7832, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.5948, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.5108, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 20.5108, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.8301, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.0438, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 21.0438, device='cuda:0', grad_fn=<SumBackward0>)
+
+ 93%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉         | 213/230 [10:14<00:47,  2.77s/it]
+
+loss tensor(0.9400, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.8634, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.1765, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 21.1765, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(1.2446, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.3674, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 21.3674, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.6280, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.2599, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.4827, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 21.4827, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.6742, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.7960, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 20.7960, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.9677, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.9549, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 20.9549, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.2246, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.9996, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.9586, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 20.9586, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.9143, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.9578, device='cuda:0', grad_fn=<SumBackward0>)
+
+checkpoint saved for epoch 2 batch count total 230ackward0>)
+checkpoint saved for epoch 2 batch count total 230ackward0>)
+  0%|                                                                                                                                     | 0/230 [00:00<?, ?it/s]
+loss tensor(0.7779, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 30.7779, device='cuda:0', grad_fn=<SumBackward0>)
+
+  1%|█                                                                                                                            | 2/230 [00:05<10:27,  2.75s/it]
+
+epochtensor(1.1704, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.8928, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 30.8928, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.0320, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.0658, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.4760, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 31.4760, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.9306, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.9306, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.8148, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.1821, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.9084, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 30.9084, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.7664, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.8160, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 30.8160, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.7156, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.3514, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.0236, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 31.0236, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.5435, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.9061, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 30.9061, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.7722, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.8938, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.6584, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 30.6584, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.9362, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.7742, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.9350, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 30.9350, device='cuda:0', grad_fn=<SumBackward0>)
+epochtensor(0.4843, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.0252, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 31.0252, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.8128, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.4379, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.9566, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 30.9566, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.8263, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.3567, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 31.3567, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.8155, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.8740, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 30.8740, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.8678, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.0885, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.1079, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 31.1079, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.9496, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.6087, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.6845, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 30.6845, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.9892, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.9963, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 30.9963, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.0760, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.5301, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.0498, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 31.0498, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.8354, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.6156, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.7468, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 30.7468, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(1.4586, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.9005, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 30.9005, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.3770, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.9837, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 30.9837, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.9786, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.8784, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 30.8784, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.7138, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.7629, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 30.7629, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.5201, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.0623, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.7430, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 30.7430, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.6898, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.7512, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.1430, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 31.1430, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.6409, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.9196, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 30.9196, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.1804, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.1619, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.9446, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 30.9446, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.1698, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.7670, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.8955, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 30.8955, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.5670, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.7593, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.6388, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 30.6388, device='cuda:0', grad_fn=<SumBackward0>)
+epochtensor(0.9612, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 30.9612, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.2503, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.7574, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.1055, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 31.1055, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.8422, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.1056, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.3116, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 31.3116, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.8087, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.8103, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 30.8103, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.7266, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.9259, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.6164, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 30.6164, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.5946, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.2790, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.0086, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 31.0086, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(1.0337, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.2068, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 31.2068, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.9895, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.8562, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.2868, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 31.2868, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.7981, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.7673, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.7673, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.8295, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.7150, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 30.7150, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.9698, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.7613, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.7205, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 30.7205, device='cuda:0', grad_fn=<SumBackward0>)
+epochtensor(1.1321, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss point saved for epoch 3 batch count total 100ackward0>)
+
+loss tensor(0.4912, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.6984, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.6984, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.6827, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.0752, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.4422, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 30.4422, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(1.0091, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.9286, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 30.9286, device='cuda:0', grad_fn=<SumBackward0>)
+
+ 47%|█████████████████████████████████████████████████████████▊                                                                 | 108/230 [05:11<05:58,  2.94s/it]
+
+epochtensor(0.9791, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.0519, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.7013, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 30.7013, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.6025, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.6025, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.7056, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.0693, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 31.0693, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.0711, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.8025, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.8082, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 30.8082, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.8661, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.0204, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 31.0204, device='cuda:0', grad_fn=<SumBackward0>)
+
+ 52%|████████████████████████████████████████████████████████████████▏                                                          | 120/230 [05:46<05:08,  2.80s/it]
+
+epochtensor(0.7566, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.0709, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 31.0709, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.1074, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.0582, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.0468, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 31.0468, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.6893, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.6257, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 30.6257, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.0551, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.9192, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.7550, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 30.7550, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.6858, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.9400, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.5690, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 30.5690, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.5869, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.8992, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 30.8992, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.7137, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.5126, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 30.5126, device='cuda:0', grad_fn=<SumBackward0>)
+
+ 60%|█████████████████████████████████████████████████████████████████████████▊                                                 | 138/230 [06:36<04:15,  2.78s/it]
+
+epochtensor(0.8113, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.6847, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 30.6847, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.7523, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.6662, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.0195, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 31.0195, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.9848, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.6500, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 30.6500, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.6868, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.9506, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.8213, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 30.8213, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.9533, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.9132, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.6522, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 30.6522, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.7692, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.0924, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 31.0924, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.5860, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.0673, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 31.0673, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.6418, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.8403, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 30.8403, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.1572, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.8065, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.5529, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 30.5529, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.7704, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.0078, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 31.0078, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.9184, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.5449, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.0918, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 31.0918, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.6298, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.7261, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 30.7261, device='cuda:0', grad_fn=<SumBackward0>)
+
+ 73%|█████████████████████████████████████████████████████████████████████████████████████████▊                                 | 168/230 [08:00<02:50,  2.76s/it]
+
+epochtensor(0.4033, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.5671, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 30.5671, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.7186, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.5428, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.9168, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 30.9168, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.6814, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.8056, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.7546, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 30.7546, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.9130, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 30.9130, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.9446, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.0641, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 31.0641, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.8603, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.5899, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.1787, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 31.1787, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.0209, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.7067, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.1284, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 31.1284, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.6928, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.7699, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 30.7699, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.8040, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.8378, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.7814, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 30.7814, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.4841, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.8205, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 30.8205, device='cuda:0', grad_fn=<SumBackward0>)
+
+ 84%|███████████████████████████████████████████████████████████████████████████████████████████████████████▏                   | 193/230 [09:10<01:41,  2.75s/it]
+
+epochtensor(0.5162, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.7438, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 30.7438, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.6543, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.6569, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.0525, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 31.0525, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.9035, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.5078, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss point saved for epoch 3 batch count total 200ackward0>)
+
+loss tensor(0.7123, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.8713, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.0677, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 31.0677, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(1.3599, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.3397, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 31.3397, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.2194, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.0052, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.0466, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 31.0466, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.7702, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.8344, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 30.8344, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.7764, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.4915, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.8230, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 30.8230, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.6856, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.6762, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.5522, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 30.5522, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.9125, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 30.9125, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.8493, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.1178, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 31.1178, device='cuda:0', grad_fn=<SumBackward0>)
+
+ 96%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋     | 220/230 [10:34<00:28,  2.88s/it]
+
+epochtensor(0.8725, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.7753, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 30.7753, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.0959, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.9767, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.8650, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 30.8650, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.7056, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.8179, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 30.8179, device='cuda:0', grad_fn=<SumBackward0>)
+
+ 99%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉ | 228/230 [10:56<00:05,  2.78s/it]
+
+epochtensor(0.7409, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.9559, device='cuda:0', grad_fn=<SumBackward0>)
+
+checkpoint saved for epoch 3 batch count total 230ackward0>)
+checkpoint saved for epoch 3 batch count total 230ackward0>)
+loss point saved for epoch 3 batch count total 230ackward0>)
+
+loss tensor(1.3035, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.7657, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 40.7657, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.8638, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.0341, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 41.0341, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.7465, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.7705, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.7967, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 40.7967, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.9467, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.5284, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 40.5284, device='cuda:0', grad_fn=<SumBackward0>)
+
+  4%|█████▍                                                                                                                      | 10/230 [00:28<10:12,  2.78s/it]
+
+epochtensor(0.7209, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.9073, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 40.9073, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.9285, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.6704, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.4550, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 40.4550, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.6085, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.7717, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 40.7717, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.8071, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.1590, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.6337, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 40.6337, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.2274, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.0338, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.8898, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 40.8898, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.8179, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 40.8179, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.9263, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.8278, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 40.8278, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.5538, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.0136, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.8013, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 40.8013, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.7158, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.2189, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.6263, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 40.6263, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(1.0325, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.7203, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 40.7203, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.9496, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.5616, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.3954, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 40.3954, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.8894, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.7291, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 40.7291, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.8153, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.1164, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.6617, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 40.6617, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.8241, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.7967, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 40.7967, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.7528, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.6114, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 40.6114, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.7284, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.6295, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.4212, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 40.4212, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.1314, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.8405, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.9341, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 40.9341, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.9997, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.8327, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 40.8327, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.8899, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.8238, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.1739, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 41.1739, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.8408, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.1972, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 41.1972, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.6610, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.9577, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.7688, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 40.7688, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.9859, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.7706, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.8734, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 40.8734, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.7661, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.7661, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.6782, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.3229, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 40.3229, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.1883, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.6693, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.8170, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 40.8170, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.8603, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.5604, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.7666, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 40.7666, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.6552, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.7978, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 40.7978, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.3803, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.7899, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.6357, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 40.6357, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.6553, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.0079, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 41.0079, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.5302, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.4576, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.8345, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 40.8345, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.7524, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.5921, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 40.5921, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.7698, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.0583, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.7691, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 40.7691, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.9561, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.0330, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 41.0330, device='cuda:0', grad_fn=<SumBackward0>)
+
+ 40%|█████████████████████████████████████████████████▌                                                                          | 92/230 [04:18<06:21,  2.77s/it]
+
+epochtensor(0.7643, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.9572, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 40.9572, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.8659, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.9508, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.6335, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 40.6335, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.7854, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.6344, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 40.6344, device='cuda:0', grad_fn=<SumBackward0>)
+epochtensor(0.7416, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss point saved for epoch 4 batch count total 100ackward0>)
+
+loss tensor(0.8225, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.4991, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 40.4991, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.9872, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.8928, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 40.8928, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.9127, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.6862, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 40.6862, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.9805, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.8559, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 40.8559, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.0424, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.6506, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.8567, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 40.8567, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.4122, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.9384, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 40.9384, device='cuda:0', grad_fn=<SumBackward0>)
+
+ 50%|████████████████████████████████████████████████████████████▉                                                              | 114/230 [05:28<05:22,  2.78s/it]
+
+epochtensor(0.6683, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.8636, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 40.8636, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.9218, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.6599, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.9906, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 40.9906, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.4320, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.6770, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 40.6770, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.5790, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.8016, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.6466, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 40.6466, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.8842, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.6278, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.5991, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 40.5991, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.9419, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 40.9419, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.4789, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.9467, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 40.9467, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.7951, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.0706, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.6850, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 40.6850, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.1032, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.6684, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 40.6684, device='cuda:0', grad_fn=<SumBackward0>)
+
+ 59%|████████████████████████████████████████████████████████████████████████▋                                                  | 136/230 [06:30<04:21,  2.78s/it]
+
+epochtensor(0.7049, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.7063, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 40.7063, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.6000, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.8228, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.8228, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.5233, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.8412, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.7780, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 40.7780, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.9827, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.0035, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.7236, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 40.7236, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(1.1405, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.9298, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 40.9298, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.7316, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.5862, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 40.5862, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.7571, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.1366, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.8050, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 40.8050, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.8946, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.7472, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.7472, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.5214, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.7784, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.6393, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 40.6393, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.8984, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.7166, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.1607, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 41.1607, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.8927, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.6473, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 40.6473, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.8725, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.6760, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.0716, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 41.0716, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.8578, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.6829, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.4938, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 40.4938, device='cuda:0', grad_fn=<SumBackward0>)
+epochtensor(1.0280, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 41.0280, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.5027, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.8370, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 40.8370, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.1142, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.9083, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.7275, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 40.7275, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.6447, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.6856, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 40.6856, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.0838, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.8243, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.6312, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 40.6312, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.7902, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.5825, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 40.5825, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.2564, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.6934, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.9314, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 40.9314, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.3974, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.5889, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 40.5889, device='cuda:0', grad_fn=<SumBackward0>)
+
+ 82%|████████████████████████████████████████████████████████████████████████████████████████████████████▌                      | 188/230 [08:57<01:56,  2.77s/it]
+
+epochtensor(0.5647, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.7987, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 40.7987, device='cuda:0', grad_fn=<SumBackward0>)
+epochtensor(0.6619, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 40.6619, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.5753, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.8060, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.4503, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 40.4503, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.6206, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.7832, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.5570, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 40.5570, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.6494, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.9101, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 40.9101, device='cuda:0', grad_fn=<SumBackward0>)
+epochtensor(1.0073, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss point saved for epoch 4 batch count total 200ackward0>)
+
+loss tensor(1.0075, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 41.0075, device='cuda:0', grad_fn=<SumBackward0>)
+
+ 88%|████████████████████████████████████████████████████████████████████████████████████████████████████████████               | 202/230 [09:45<01:51,  3.99s/it]
+
+epochtensor(0.7312, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.6024, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 40.6024, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.9900, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.7385, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.8630, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 40.8630, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.8495, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.4970, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.4517, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 40.4517, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.6014, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.0334, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 41.0334, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.5468, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.6007, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.8351, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 40.8351, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.8533, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.3341, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 41.3341, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.5195, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.8029, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.8097, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 40.8097, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.9480, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.9610, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.4529, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 40.4529, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.5341, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.2247, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 41.2247, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.5050, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.7640, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.0103, device='cuda:0', grad_fn=<SumBackward0>)
+
+epoch_idx: 41.0103, device='cuda:0', grad_fn=<SumBackward0>)
+
+epochtensor(0.4894, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(1.0838, device='cuda:0', grad_fn=<SumBackward0>)
+
+checkpoint saved for epoch 4 batch count total 230ackward0>)
+checkpoint saved for epoch 4 batch count total 230ackward0>)
+checkpoint saved for epoch 4 batch count total 230ackward0>)

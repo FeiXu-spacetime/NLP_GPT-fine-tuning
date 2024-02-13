@@ -1,0 +1,55 @@
+
+  0%|                                                                                                                                | 0/115 [00:00<?, ?it/s]
+epoch_idx: 0
+  0%|                                                                                                                                | 0/115 [00:00<?, ?it/s]/home-nfs/fx2024/mc3/envs/fei-venv/lib/python3.11/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+  0%|                                                                                                                                | 0/115 [00:03<?, ?it/s]
+Traceback (most recent call last):
+  File "/home-nfs/fx2024/NLP/NLP/main.py", line 334, in <module>
+    gpt_finetune(args, model)
+  File "/home-nfs/fx2024/NLP/NLP/main.py", line 134, in gpt_finetune
+    loss = model(batch_input_ids, attention_mask=batch_attention_mask, labels=batch_input_ids).loss.sum()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home-nfs/fx2024/mc3/envs/fei-venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home-nfs/fx2024/mc3/envs/fei-venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home-nfs/fx2024/mc3/envs/fei-venv/lib/python3.11/site-packages/torch/nn/parallel/data_parallel.py", line 186, in forward
+    return self.gather(outputs, self.output_device)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home-nfs/fx2024/mc3/envs/fei-venv/lib/python3.11/site-packages/torch/nn/parallel/data_parallel.py", line 203, in gather
+    return gather(outputs, output_device, dim=self.dim)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home-nfs/fx2024/mc3/envs/fei-venv/lib/python3.11/site-packages/torch/nn/parallel/scatter_gather.py", line 104, in gather
+    res = gather_map(outputs)
+          ^^^^^^^^^^^^^^^^^^^
+  File "/home-nfs/fx2024/mc3/envs/fei-venv/lib/python3.11/site-packages/torch/nn/parallel/scatter_gather.py", line 95, in gather_map
+    return type(out)((k, gather_map([d[k] for d in outputs]))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 9, in __init__
+  File "/home-nfs/fx2024/mc3/envs/fei-venv/lib/python3.11/site-packages/transformers/utils/generic.py", line 292, in __post_init__
+    for idx, element in enumerate(iterator):
+  File "/home-nfs/fx2024/mc3/envs/fei-venv/lib/python3.11/site-packages/torch/nn/parallel/scatter_gather.py", line 95, in <genexpr>
+    return type(out)((k, gather_map([d[k] for d in outputs]))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home-nfs/fx2024/mc3/envs/fei-venv/lib/python3.11/site-packages/torch/nn/parallel/scatter_gather.py", line 99, in gather_map
+    return type(out)(map(gather_map, zip(*outputs)))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home-nfs/fx2024/mc3/envs/fei-venv/lib/python3.11/site-packages/torch/nn/parallel/scatter_gather.py", line 99, in gather_map
+    return type(out)(map(gather_map, zip(*outputs)))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home-nfs/fx2024/mc3/envs/fei-venv/lib/python3.11/site-packages/torch/nn/parallel/scatter_gather.py", line 89, in gather_map
+    return Gather.apply(target_device, dim, *outputs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home-nfs/fx2024/mc3/envs/fei-venv/lib/python3.11/site-packages/torch/autograd/function.py", line 553, in apply
+    return super().apply(*args, **kwargs)  # type: ignore[misc]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home-nfs/fx2024/mc3/envs/fei-venv/lib/python3.11/site-packages/torch/nn/parallel/_functions.py", line 75, in forward
+    return comm.gather(inputs, ctx.dim, ctx.target_device)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home-nfs/fx2024/mc3/envs/fei-venv/lib/python3.11/site-packages/torch/nn/parallel/comm.py", line 231, in gather
+    return torch._C._gather(tensors, dim, destination)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 192.00 MiB. GPU 0 has a total capacity of 47.54 GiB of which 83.81 MiB is free. Including non-PyTorch memory, this process has 47.44 GiB memory in use. Of the allocated memory 46.86 GiB is allocated by PyTorch, and 155.14 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

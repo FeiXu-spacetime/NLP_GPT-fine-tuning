@@ -27,9 +27,10 @@ import torch
 import torch.nn.functional as F
 from torch.utils.data import Dataset, DataLoader, SubsetRandomSampler
 from torch.nn.parallel import DistributedDataParallel as DDP
+import wandb
 
 
-def decoder_training(args, model):
+def gpt_finetune(args, model):
     
     num_gpus = torch.cuda.device_count()
     print('number of avilable gpus: %d' % num_gpus)
@@ -42,6 +43,36 @@ def decoder_training(args, model):
     np.random.seed(args.seed)
     torch.backends.cudnn.benchmark = False
     torch.backends.cudnn.deterministic = True
+
+    
+
+    # set up wandb configurations
+    id = args.wandb_run_id#wandb.util.generate_id()
+
+    #if args.wandb_delete_previous_run == 1:
+    #    api = wandb.Api()
+    #    # Delete the previous result
+    #    try:
+    #        run_to_delete = api.run("fayxu/test-project/test")
+    #        run_to_delete.delete()
+    #    except:
+    #        print("id {} doesn't exist".format(id))
+
+    wandb.init(
+        # set the wandb project where this run will be logged
+        project="test-project",
+        name='test',
+        id=id, 
+        resume="allow",
+        # track hyperparameters and run metadata
+        config={
+        "learning_rate": args.learning_rate,
+        "architecture": "GPT2",
+        "dataset": "wikitext",
+        "epochs": args.num_epochs,
+        }
+    )
+
 
     device = 'cuda'
     model = model.to(device)
@@ -86,12 +117,12 @@ def decoder_training(args, model):
         # create the DataLoader
         dataloader =  DataLoader(wikitext_dataset_train_tokenized, sampler=sampler, batch_size=args.batch_size)
         #dataloader = DataLoader(dataset, batch_size=args.batch_size)
-        pdb.set_trace()
+        
         # Sampling data using shuffled indices
         num_batches = len(dataloader)
         
-        for batch_idx, (batch_input_ids, batch_attention_mask) in enumerate(dataloader):
-            print(batch_input_ids, batch_attention_mask)
+        for batch_idx, (batch_input_ids, batch_attention_mask) in enumerate(tqdm(dataloader)):
+            #print(batch_input_ids, batch_attention_mask)
             print("epoch_idx: %d" % (epoch))
             print("batch_idx: %d" % (batch_idx + start_batch))
             #batch_size = batch_labels.shape[0]
@@ -99,7 +130,7 @@ def decoder_training(args, model):
             #batch_attention_mask = batch_attention_mask.to(device)
 
             # Calculate the loss
-            pdb.set_trace()
+            
             loss = model(batch_input_ids, attention_mask=batch_attention_mask, labels=batch_input_ids).loss.sum()
             loss.backward()
             print('loss', loss)
@@ -107,6 +138,7 @@ def decoder_training(args, model):
             optim.zero_grad()
             with torch.no_grad():
                 losses.append(loss.item())
+                wandb.log({"loss": loss})
             torch.cuda.empty_cache()
             
             # Save checkpoint logic (every args.save_interval batches)
@@ -126,6 +158,7 @@ def decoder_training(args, model):
                     'num_batch': round(num_batches)+1
                 }, save_path)
                 print('checkpoint saved for epoch %d batch count total %d' % (epoch, batch_count_tot))
+                
 
               
         # save epoch check point
@@ -134,7 +167,7 @@ def decoder_training(args, model):
             fbody, fext = fname.split(".")
             fname_epoch = ".".join(["%s_e%d" % (fbody, epoch + 1), fext])
             save_path_epoch = os.path.join(save_dir, fname_epoch)
-            pdb.set_trace()
+            
             if not os.path.exists(save_dir):
                 os.makedirs(save_dir, exist_ok = True) 
             torch.save({
@@ -147,12 +180,24 @@ def decoder_training(args, model):
                         'num_batch': round(num_batches)+1
                         }, save_path_epoch)
             print('checkpoint saved for epoch %d' % epoch)
-            
+            #with torch.no_grad():
+                #plot_loss(loss.detach().cpu().numpy(), type='training')
 
         start_batch = 0
 
+    wandb.finish()
 
-def decoder_infer(model):
+def plot_loss(loss, type=''):
+    plt.figure()
+    plt.plot(loss, label=type)
+    plt.legend(True)
+    plt.yscale('log')
+    plt.xlabel('Epoch')
+    plt.ylabel('Loss')
+    plt.savefig(os.path.join(dir, 'loss.jpg'))
+
+
+def gpt_infer(args, model):
     num_gpus = torch.cuda.device_count()
     print('number of avilable gpus: %d' % num_gpus)
 
@@ -168,7 +213,7 @@ def decoder_infer(model):
         #model = DDP(model, device_ids=device_ids_list)
         model = model.module    
 
-    pdb.set_trace()
+    
     model.load_state_dict(checkpoint['model_state_dict'])
     #model = AutoModelWithLMHead.from_pretrained(train_path)
 
@@ -202,17 +247,19 @@ if __name__ == '__main__':
     parser.add_argument('--seed', type=int, default=0)
 
     # directory structure
-    parser.add_argument('--dataset_path', type=str, default='./data')
-    parser.add_argument('--obj_path', type=str, default='./demo_meshes/hammer.obj')
-    parser.add_argument('--save_dir', type=str, default='./experiments/')
-    parser.add_argument('--model_name', type=str, default='decoder_checkpoint.pth')
-    parser.add_argument('--root', type=str, default='')
-    parser.add_argument('--encoder_f_path', type=str, default='./demo_models/hammer/pred_f.pth') # encoder feature file path
 
     # training data setting
 
     # data info
-    #parser.add_argument('--data_percentage', type=float, default=1.0)
+    parser.add_argument('--data_percentage', type=float, default=0.1)
+
+    parser.add_argument('--save_dir', type=str, default='../experiments/')
+    parser.add_argument('--data_path', type=str, default='/home-nfs/fx2024/NLP/textdata')
+    parser.add_argument('--model_name', type=str, default='checkpoint.pth')
+
+    parser.add_argument('--wandb_delete_previous_run', type=int, default=0)
+
+    parser.add_argument('--wandb_run_id', type=str, default='test1')
     
     # network
     parser.add_argument('--continue_train', type=int, default=0)
@@ -221,9 +268,9 @@ if __name__ == '__main__':
     parser.add_argument('--n_classes', type=int, default=256) # 256 channels for SAM embedding feature
 
     # optimization
-    parser.add_argument('--batch_size', type=int, default=64)
+    parser.add_argument('--batch_size', type=int, default=32)
     parser.add_argument('--learning_rate', type=float, default=0.0001)
-    parser.add_argument('--num_epochs', type=int, default=2)
+    parser.add_argument('--num_epochs', type=int, default=5)
     parser.add_argument('--save_interval', type=int, default=100)
     parser.add_argument('--return_original', type=int, default=0)
     
@@ -237,25 +284,24 @@ if __name__ == '__main__':
 
     # input prompts
     parser.add_argument('--input_prompts', type=str, default='Liu Kang is')
-    parser.add_argument('--test_model_path', type=str, default='/home-nfs/fx2024/NLP/experiments/decoder_checkpoint_e1.pth')
+    parser.add_argument('--test_model_path', type=str, default='/home-nfs/fx2024/NLP/experiments/checkpoint.pth')
 
     args = parser.parse_args()
     
     device = 'cuda'
 
     # Usage example
-    save_path = '/home-nfs/fx2024/NLP/textdata'  # Set your custom save path
-    wikitext_dataset_train = load_or_download_wikitext(save_path, dataset_name='wikitext', dataset_version='wikitext-2-raw-v1', split='train')
+    wikitext_dataset_train = load_or_download_wikitext(args.data_path, dataset_name='wikitext', dataset_version='wikitext-2-raw-v1')['train']
 
     # Print a sample from the dataset to verify
     #print(wikitext_dataset_train['train']['text'][:5])
-    print(wikitext_dataset_train['text'][0])
+    #print(wikitext_dataset_train['text'][0])
 
     # tokenize the text
     tokenizer = GPT2Tokenizer.from_pretrained("gpt2")
     tokenizer.pad_token = tokenizer.eos_token
     model = GPT2LMHeadModel.from_pretrained("gpt2").to(device)
-    wikitext_dataset_train_tokenized = My_Dataset(wikitext_dataset_train, tokenizer)
+    wikitext_dataset_train_tokenized = My_Dataset(args, wikitext_dataset_train, tokenizer)
 
     # Test prompt before training
     inputs = tokenizer.encode(args.input_prompts, return_tensors = 'pt').to(device)
@@ -264,7 +310,7 @@ if __name__ == '__main__':
     # Set pad_token_id to the pad_token_id of the tokenizer
     pad_token_id = tokenizer.pad_token_id
 
-    pdb.set_trace()
+    
     print("\ngenerating output")
     outputs = model.generate(
         inputs, 
@@ -285,10 +331,10 @@ if __name__ == '__main__':
     # training
     if args.train == 1:
         print("training .... ")
-        decoder_training(args, model)
+        gpt_finetune(args, model)
 
     if args.test == 1:
-        output = decoder_infer(model)
+        output = gpt_infer(args, model)
         print(args.input_prompts, output)
 
     

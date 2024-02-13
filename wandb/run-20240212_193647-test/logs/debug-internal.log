@@ -1,0 +1,10 @@
+2024-02-12 19:36:47,497 INFO    StreamThr :57588 [internal.py:wandb_internal():86] W&B internal server running at pid: 57588, started at: 2024-02-12 19:36:47.496134
+2024-02-12 19:36:47,500 DEBUG   HandlerThread:57588 [handler.py:handle_request():146] handle_request: status
+2024-02-12 19:36:47,509 INFO    WriterThread:57588 [datastore.py:open_for_write():87] open: /home-nfs/fx2024/NLP/NLP/wandb/run-20240212_193647-test/run-test.wandb
+2024-02-12 19:36:47,511 DEBUG   SenderThread:57588 [sender.py:send():382] send: header
+2024-02-12 19:36:47,525 DEBUG   SenderThread:57588 [sender.py:send():382] send: run
+2024-02-12 19:36:47,532 INFO    SenderThread:57588 [sender.py:_maybe_setup_resume():763] checking resume status for None/test-project/test
+2024-02-12 19:36:47,818 DEBUG   HandlerThread:57588 [handler.py:handle_request():146] handle_request: shutdown
+2024-02-12 19:36:47,819 INFO    HandlerThread:57588 [handler.py:finish():869] shutting down handler
+2024-02-12 19:36:48,525 INFO    WriterThread:57588 [datastore.py:close():296] close: /home-nfs/fx2024/NLP/NLP/wandb/run-20240212_193647-test/run-test.wandb
+2024-02-12 19:36:48,702 INFO    SenderThread:57588 [sender.py:finish():1572] shutting down sender

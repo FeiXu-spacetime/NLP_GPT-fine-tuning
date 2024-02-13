@@ -1,0 +1,667 @@
+2024-02-12 18:57:50,565 INFO    StreamThr :48268 [internal.py:wandb_internal():86] W&B internal server running at pid: 48268, started at: 2024-02-12 18:57:50.563373
+2024-02-12 18:57:50,567 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status
+2024-02-12 18:57:50,574 INFO    WriterThread:48268 [datastore.py:open_for_write():87] open: /home-nfs/fx2024/NLP/NLP/wandb/run-20240212_185750-qtmgkqte/run-qtmgkqte.wandb
+2024-02-12 18:57:50,576 DEBUG   SenderThread:48268 [sender.py:send():382] send: header
+2024-02-12 18:57:50,589 DEBUG   SenderThread:48268 [sender.py:send():382] send: run
+2024-02-12 18:57:50,597 INFO    SenderThread:48268 [sender.py:_maybe_setup_resume():763] checking resume status for None/test-project/qtmgkqte
+2024-02-12 18:57:50,875 INFO    SenderThread:48268 [dir_watcher.py:__init__():211] watching files in: /home-nfs/fx2024/NLP/NLP/wandb/run-20240212_185750-qtmgkqte/files
+2024-02-12 18:57:50,875 INFO    SenderThread:48268 [sender.py:_start_run_threads():1136] run started: qtmgkqte with start time 1707785870.565488
+2024-02-12 18:57:50,894 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: check_version
+2024-02-12 18:57:50,895 DEBUG   SenderThread:48268 [sender.py:send_request():409] send_request: check_version
+2024-02-12 18:57:51,038 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: run_start
+2024-02-12 18:57:51,080 DEBUG   HandlerThread:48268 [system_info.py:__init__():27] System info init
+2024-02-12 18:57:51,081 DEBUG   HandlerThread:48268 [system_info.py:__init__():42] System info init done
+2024-02-12 18:57:51,081 INFO    HandlerThread:48268 [system_monitor.py:start():194] Starting system monitor
+2024-02-12 18:57:51,081 INFO    SystemMonitor:48268 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-02-12 18:57:51,083 INFO    HandlerThread:48268 [system_monitor.py:probe():214] Collecting system info
+2024-02-12 18:57:51,084 INFO    SystemMonitor:48268 [interfaces.py:start():190] Started cpu monitoring
+2024-02-12 18:57:51,085 INFO    SystemMonitor:48268 [interfaces.py:start():190] Started disk monitoring
+2024-02-12 18:57:51,087 INFO    SystemMonitor:48268 [interfaces.py:start():190] Started gpu monitoring
+2024-02-12 18:57:51,088 INFO    SystemMonitor:48268 [interfaces.py:start():190] Started memory monitoring
+2024-02-12 18:57:51,089 INFO    SystemMonitor:48268 [interfaces.py:start():190] Started network monitoring
+2024-02-12 18:57:51,141 DEBUG   HandlerThread:48268 [system_info.py:probe():151] Probing system
+2024-02-12 18:57:51,148 DEBUG   HandlerThread:48268 [system_info.py:_probe_git():136] Probing git
+2024-02-12 18:57:51,167 DEBUG   HandlerThread:48268 [system_info.py:_probe_git():144] Probing git done
+2024-02-12 18:57:51,167 DEBUG   HandlerThread:48268 [system_info.py:probe():199] Probing system done
+2024-02-12 18:57:51,167 DEBUG   HandlerThread:48268 [system_monitor.py:probe():223] {'os': 'Linux-3.10.0-1160.88.1.el7.x86_64-x86_64-with-glibc2.17', 'python': '3.11.7', 'heartbeatAt': '2024-02-13T00:57:51.142082', 'startedAt': '2024-02-13T00:57:50.543134', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/home-nfs/fx2024/NLP/NLP/main.py', 'codePathLocal': 'main.py', 'codePath': 'main.py', 'git': {'remote': 'https://github.com/FeiXu-spacetime/NLP.git', 'commit': 'a695dd7df78b479d8a50ad9efb8fa0111497f788'}, 'email': None, 'root': '/home-nfs/fx2024/NLP/NLP', 'host': 'gpu15.ttic.edu', 'username': 'fx2024', 'executable': '/home-nfs/fx2024/mc3/envs/fei-venv/bin/python', 'cpu_count': 20, 'cpu_count_logical': 20, 'cpu_freq': {'current': 1.3077999999999999, 'min': 1000.0, 'max': 3200.0}, 'cpu_freq_per_core': [{'current': 2.452, 'min': 1000.0, 'max': 3200.0}, {'current': 1.809, 'min': 1000.0, 'max': 3200.0}, {'current': 0.999, 'min': 1000.0, 'max': 3200.0}, {'current': 1.178, 'min': 1000.0, 'max': 3200.0}, {'current': 0.999, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 2.15, 'min': 1000.0, 'max': 3200.0}, {'current': 0.999, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 0.999, 'min': 1000.0, 'max': 3200.0}, {'current': 0.999, 'min': 1000.0, 'max': 3200.0}, {'current': 0.999, 'min': 1000.0, 'max': 3200.0}, {'current': 0.999, 'min': 1000.0, 'max': 3200.0}, {'current': 0.999, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 1.973, 'min': 1000.0, 'max': 3200.0}, {'current': 1.0, 'min': 1000.0, 'max': 3200.0}, {'current': 3.003, 'min': 1000.0, 'max': 3200.0}], 'disk': {'/': {'total': 223.46017456054688, 'used': 26.924976348876953}}, 'gpu': 'NVIDIA RTX A6000', 'gpu_count': 8, 'gpu_devices': [{'name': 'NVIDIA RTX A6000', 'memory_total': 51527024640}, {'name': 'NVIDIA RTX A6000', 'memory_total': 51527024640}, {'name': 'NVIDIA RTX A6000', 'memory_total': 51527024640}, {'name': 'NVIDIA RTX A6000', 'memory_total': 51527024640}, {'name': 'NVIDIA RTX A6000', 'memory_total': 51527024640}, {'name': 'NVIDIA RTX A6000', 'memory_total': 51527024640}, {'name': 'NVIDIA RTX A6000', 'memory_total': 51527024640}, {'name': 'NVIDIA RTX A6000', 'memory_total': 51527024640}], 'memory': {'total': 376.3852348327637}}
+2024-02-12 18:57:51,168 INFO    HandlerThread:48268 [system_monitor.py:probe():224] Finished collecting system info
+2024-02-12 18:57:51,168 INFO    HandlerThread:48268 [system_monitor.py:probe():227] Publishing system info
+2024-02-12 18:57:51,168 DEBUG   HandlerThread:48268 [system_info.py:_save_conda():208] Saving list of conda packages installed into the current environment
+2024-02-12 18:57:51,879 INFO    Thread-13 :48268 [dir_watcher.py:_on_file_created():271] file/dir created: /home-nfs/fx2024/NLP/NLP/wandb/run-20240212_185750-qtmgkqte/files/conda-environment.yaml
+2024-02-12 18:57:55,569 DEBUG   HandlerThread:48268 [system_info.py:_save_conda():220] Saving conda packages done
+2024-02-12 18:57:55,572 INFO    HandlerThread:48268 [system_monitor.py:probe():229] Finished publishing system info
+2024-02-12 18:57:55,579 DEBUG   SenderThread:48268 [sender.py:send():382] send: files
+2024-02-12 18:57:55,579 INFO    SenderThread:48268 [sender.py:_save_file():1403] saving file wandb-metadata.json with policy now
+2024-02-12 18:57:55,580 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 18:57:55,588 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: python_packages
+2024-02-12 18:57:55,590 DEBUG   SenderThread:48268 [sender.py:send_request():409] send_request: python_packages
+2024-02-12 18:57:55,591 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-12 18:57:55,592 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-12 18:57:55,593 DEBUG   SenderThread:48268 [sender.py:send():382] send: telemetry
+2024-02-12 18:57:55,593 DEBUG   SenderThread:48268 [sender.py:send_request():409] send_request: stop_status
+2024-02-12 18:57:55,881 INFO    Thread-13 :48268 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home-nfs/fx2024/NLP/NLP/wandb/run-20240212_185750-qtmgkqte/files/conda-environment.yaml
+2024-02-12 18:57:55,881 INFO    Thread-13 :48268 [dir_watcher.py:_on_file_created():271] file/dir created: /home-nfs/fx2024/NLP/NLP/wandb/run-20240212_185750-qtmgkqte/files/wandb-metadata.json
+2024-02-12 18:57:55,882 INFO    Thread-13 :48268 [dir_watcher.py:_on_file_created():271] file/dir created: /home-nfs/fx2024/NLP/NLP/wandb/run-20240212_185750-qtmgkqte/files/requirements.txt
+2024-02-12 18:57:55,912 INFO    wandb-upload_0:48268 [upload_job.py:push():131] Uploaded file /tmp/tmppzga_376wandb/izaf7fvm-wandb-metadata.json
+2024-02-12 18:57:56,882 INFO    Thread-13 :48268 [dir_watcher.py:_on_file_created():271] file/dir created: /home-nfs/fx2024/NLP/NLP/wandb/run-20240212_185750-qtmgkqte/files/output.log
+2024-02-12 18:57:58,885 INFO    Thread-13 :48268 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home-nfs/fx2024/NLP/NLP/wandb/run-20240212_185750-qtmgkqte/files/output.log
+2024-02-12 18:58:00,852 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 18:58:05,853 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 18:58:10,588 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-12 18:58:10,588 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-12 18:58:10,589 DEBUG   SenderThread:48268 [sender.py:send_request():409] send_request: stop_status
+2024-02-12 18:58:11,721 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 18:58:16,722 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 18:58:21,728 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 18:58:21,909 INFO    Thread-13 :48268 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home-nfs/fx2024/NLP/NLP/wandb/run-20240212_185750-qtmgkqte/files/config.yaml
+2024-02-12 18:58:25,589 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-12 18:58:25,590 DEBUG   SenderThread:48268 [sender.py:send_request():409] send_request: stop_status
+2024-02-12 18:58:25,627 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-12 18:58:27,741 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 18:58:32,742 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 18:58:37,743 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 18:58:40,588 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-12 18:58:40,589 DEBUG   SenderThread:48268 [sender.py:send_request():409] send_request: stop_status
+2024-02-12 18:58:40,627 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-12 18:58:43,678 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 18:58:48,679 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 18:58:51,090 DEBUG   SystemMonitor:48268 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-02-12 18:58:51,093 DEBUG   SenderThread:48268 [sender.py:send():382] send: stats
+2024-02-12 18:58:54,096 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 18:58:55,588 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-12 18:58:55,589 DEBUG   SenderThread:48268 [sender.py:send_request():409] send_request: stop_status
+2024-02-12 18:58:55,628 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-12 18:58:59,696 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 18:59:04,697 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 18:59:09,698 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 18:59:10,588 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-12 18:59:10,589 DEBUG   SenderThread:48268 [sender.py:send_request():409] send_request: stop_status
+2024-02-12 18:59:10,628 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-12 18:59:14,735 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 18:59:19,736 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 18:59:21,095 DEBUG   SenderThread:48268 [sender.py:send():382] send: stats
+2024-02-12 18:59:25,098 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 18:59:25,589 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-12 18:59:25,589 DEBUG   SenderThread:48268 [sender.py:send_request():409] send_request: stop_status
+2024-02-12 18:59:25,629 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-12 18:59:30,708 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 18:59:35,708 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 18:59:40,589 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-12 18:59:40,590 DEBUG   SenderThread:48268 [sender.py:send_request():409] send_request: stop_status
+2024-02-12 18:59:40,628 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-12 18:59:41,635 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 18:59:46,636 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 18:59:51,098 DEBUG   SenderThread:48268 [sender.py:send():382] send: stats
+2024-02-12 18:59:52,100 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 18:59:55,589 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-12 18:59:55,590 DEBUG   SenderThread:48268 [sender.py:send_request():409] send_request: stop_status
+2024-02-12 18:59:55,628 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-12 18:59:57,680 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:00:02,682 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:00:07,683 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:00:10,589 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-12 19:00:10,590 DEBUG   SenderThread:48268 [sender.py:send_request():409] send_request: stop_status
+2024-02-12 19:00:10,629 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-12 19:00:12,723 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:00:17,724 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:00:21,099 DEBUG   SenderThread:48268 [sender.py:send():382] send: stats
+2024-02-12 19:00:23,102 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:00:25,589 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-12 19:00:25,590 DEBUG   SenderThread:48268 [sender.py:send_request():409] send_request: stop_status
+2024-02-12 19:00:25,629 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-12 19:00:28,661 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:00:33,662 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:00:38,663 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:00:40,590 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-12 19:00:40,590 DEBUG   SenderThread:48268 [sender.py:send_request():409] send_request: stop_status
+2024-02-12 19:00:40,629 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-12 19:00:43,721 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:00:48,722 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:00:51,102 DEBUG   SenderThread:48268 [sender.py:send():382] send: stats
+2024-02-12 19:00:54,104 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:00:55,590 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-12 19:00:55,590 DEBUG   SenderThread:48268 [sender.py:send_request():409] send_request: stop_status
+2024-02-12 19:00:55,629 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-12 19:00:59,637 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:01:04,638 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:01:09,640 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:01:10,590 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-12 19:01:10,591 DEBUG   SenderThread:48268 [sender.py:send_request():409] send_request: stop_status
+2024-02-12 19:01:10,629 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-12 19:01:14,681 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:01:19,682 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:01:21,104 DEBUG   SenderThread:48268 [sender.py:send():382] send: stats
+2024-02-12 19:01:25,106 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:01:25,590 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-12 19:01:25,591 DEBUG   SenderThread:48268 [sender.py:send_request():409] send_request: stop_status
+2024-02-12 19:01:25,629 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-12 19:01:30,683 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:01:35,684 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:01:40,591 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-12 19:01:40,592 DEBUG   SenderThread:48268 [sender.py:send_request():409] send_request: stop_status
+2024-02-12 19:01:40,630 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-12 19:01:40,692 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:01:45,693 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:01:50,694 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:01:51,106 DEBUG   SenderThread:48268 [sender.py:send():382] send: stats
+2024-02-12 19:01:55,591 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-12 19:01:55,591 DEBUG   SenderThread:48268 [sender.py:send_request():409] send_request: stop_status
+2024-02-12 19:01:55,630 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-12 19:01:55,705 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:01:59,124 INFO    Thread-13 :48268 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home-nfs/fx2024/NLP/NLP/wandb/run-20240212_185750-qtmgkqte/files/output.log
+2024-02-12 19:02:00,632 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-12 19:02:00,635 DEBUG   SenderThread:48268 [sender.py:send():382] send: history
+2024-02-12 19:02:00,635 DEBUG   SenderThread:48268 [sender.py:send_request():409] send_request: summary_record
+2024-02-12 19:02:00,637 INFO    SenderThread:48268 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-12 19:02:01,126 INFO    Thread-13 :48268 [dir_watcher.py:_on_file_created():271] file/dir created: /home-nfs/fx2024/NLP/NLP/wandb/run-20240212_185750-qtmgkqte/files/wandb-summary.json
+2024-02-12 19:02:01,638 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:02:03,794 INFO    Thread-13 :48268 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home-nfs/fx2024/NLP/NLP/wandb/run-20240212_185750-qtmgkqte/files/output.log
+2024-02-12 19:02:06,639 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:02:10,592 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-12 19:02:10,592 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-12 19:02:10,593 DEBUG   SenderThread:48268 [sender.py:send_request():409] send_request: stop_status
+2024-02-12 19:02:11,290 INFO    Thread-13 :48268 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home-nfs/fx2024/NLP/NLP/wandb/run-20240212_185750-qtmgkqte/files/output.log
+2024-02-12 19:02:11,694 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:02:16,695 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:02:21,074 INFO    Thread-13 :48268 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home-nfs/fx2024/NLP/NLP/wandb/run-20240212_185750-qtmgkqte/files/output.log
+2024-02-12 19:02:21,109 DEBUG   SenderThread:48268 [sender.py:send():382] send: stats
+2024-02-12 19:02:22,110 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:02:25,591 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-12 19:02:25,591 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-12 19:02:25,592 DEBUG   SenderThread:48268 [sender.py:send_request():409] send_request: stop_status
+2024-02-12 19:02:27,693 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:02:32,694 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:02:37,695 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:02:40,592 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-12 19:02:40,594 DEBUG   SenderThread:48268 [sender.py:send_request():409] send_request: stop_status
+2024-02-12 19:02:40,630 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-12 19:02:43,035 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:02:45,098 INFO    Thread-13 :48268 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home-nfs/fx2024/NLP/NLP/wandb/run-20240212_185750-qtmgkqte/files/output.log
+2024-02-12 19:02:45,566 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-12 19:02:45,568 DEBUG   SenderThread:48268 [sender.py:send():382] send: history
+2024-02-12 19:02:45,568 DEBUG   SenderThread:48268 [sender.py:send_request():409] send_request: summary_record
+2024-02-12 19:02:45,570 INFO    SenderThread:48268 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-12 19:02:46,099 INFO    Thread-13 :48268 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home-nfs/fx2024/NLP/NLP/wandb/run-20240212_185750-qtmgkqte/files/wandb-summary.json
+2024-02-12 19:02:47,101 INFO    Thread-13 :48268 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home-nfs/fx2024/NLP/NLP/wandb/run-20240212_185750-qtmgkqte/files/output.log
+2024-02-12 19:02:48,572 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:02:51,111 DEBUG   SenderThread:48268 [sender.py:send():382] send: stats
+2024-02-12 19:02:53,739 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:02:55,593 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-12 19:02:55,593 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-12 19:02:55,594 DEBUG   SenderThread:48268 [sender.py:send_request():409] send_request: stop_status
+2024-02-12 19:02:55,683 INFO    Thread-13 :48268 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home-nfs/fx2024/NLP/NLP/wandb/run-20240212_185750-qtmgkqte/files/output.log
+2024-02-12 19:02:59,695 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:03:05,163 INFO    Thread-13 :48268 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home-nfs/fx2024/NLP/NLP/wandb/run-20240212_185750-qtmgkqte/files/output.log
+2024-02-12 19:03:05,431 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:03:07,165 INFO    Thread-13 :48268 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home-nfs/fx2024/NLP/NLP/wandb/run-20240212_185750-qtmgkqte/files/output.log
+2024-02-12 19:03:10,432 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:03:10,592 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-12 19:03:10,592 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-12 19:03:10,593 DEBUG   SenderThread:48268 [sender.py:send_request():409] send_request: stop_status
+2024-02-12 19:03:15,653 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:03:20,655 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:03:21,116 DEBUG   SenderThread:48268 [sender.py:send():382] send: stats
+2024-02-12 19:03:25,592 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-12 19:03:25,593 DEBUG   SenderThread:48268 [sender.py:send_request():409] send_request: stop_status
+2024-02-12 19:03:25,631 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-12 19:03:25,683 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:03:27,182 INFO    Thread-13 :48268 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home-nfs/fx2024/NLP/NLP/wandb/run-20240212_185750-qtmgkqte/files/output.log
+2024-02-12 19:03:28,197 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: partial_history
+2024-02-12 19:03:28,198 DEBUG   SenderThread:48268 [sender.py:send():382] send: history
+2024-02-12 19:03:28,199 DEBUG   SenderThread:48268 [sender.py:send_request():409] send_request: summary_record
+2024-02-12 19:03:28,201 INFO    SenderThread:48268 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-12 19:03:29,184 INFO    Thread-13 :48268 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home-nfs/fx2024/NLP/NLP/wandb/run-20240212_185750-qtmgkqte/files/output.log
+2024-02-12 19:03:29,185 INFO    Thread-13 :48268 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home-nfs/fx2024/NLP/NLP/wandb/run-20240212_185750-qtmgkqte/files/wandb-summary.json
+2024-02-12 19:03:31,202 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:03:36,203 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:03:39,709 INFO    Thread-13 :48268 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home-nfs/fx2024/NLP/NLP/wandb/run-20240212_185750-qtmgkqte/files/output.log
+2024-02-12 19:03:40,592 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-12 19:03:40,593 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-12 19:03:40,594 DEBUG   SenderThread:48268 [sender.py:send_request():409] send_request: stop_status
+2024-02-12 19:03:41,662 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:03:46,663 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:03:51,118 DEBUG   SenderThread:48268 [sender.py:send():382] send: stats
+2024-02-12 19:03:51,895 INFO    Thread-13 :48268 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home-nfs/fx2024/NLP/NLP/wandb/run-20240212_185750-qtmgkqte/files/output.log
+2024-02-12 19:03:52,121 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:03:55,592 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-12 19:03:55,593 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-12 19:03:55,594 DEBUG   SenderThread:48268 [sender.py:send_request():409] send_request: stop_status
+2024-02-12 19:03:57,714 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:04:02,715 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:04:07,717 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:04:10,593 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-12 19:04:10,593 DEBUG   SenderThread:48268 [sender.py:send_request():409] send_request: stop_status
+2024-02-12 19:04:10,633 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-12 19:04:13,666 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:04:18,668 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:04:21,120 DEBUG   SenderThread:48268 [sender.py:send():382] send: stats
+2024-02-12 19:04:24,122 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:04:25,592 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-12 19:04:25,593 DEBUG   SenderThread:48268 [sender.py:send_request():409] send_request: stop_status
+2024-02-12 19:04:25,632 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-12 19:04:29,655 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:04:34,655 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:04:39,656 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:04:40,593 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-12 19:04:40,593 DEBUG   SenderThread:48268 [sender.py:send_request():409] send_request: stop_status
+2024-02-12 19:04:40,632 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-12 19:04:44,695 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:04:49,696 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:04:51,122 DEBUG   SenderThread:48268 [sender.py:send():382] send: stats
+2024-02-12 19:04:55,124 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:04:55,593 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-12 19:04:55,594 DEBUG   SenderThread:48268 [sender.py:send_request():409] send_request: stop_status
+2024-02-12 19:04:55,632 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-12 19:05:00,723 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:05:05,724 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:05:10,593 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-12 19:05:10,595 DEBUG   SenderThread:48268 [sender.py:send_request():409] send_request: stop_status
+2024-02-12 19:05:10,632 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-12 19:05:11,715 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:05:16,716 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:05:21,125 DEBUG   SenderThread:48268 [sender.py:send():382] send: stats
+2024-02-12 19:05:22,127 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:05:25,593 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-12 19:05:25,594 DEBUG   SenderThread:48268 [sender.py:send_request():409] send_request: stop_status
+2024-02-12 19:05:25,632 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-12 19:05:27,727 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:05:32,729 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:05:37,730 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:05:40,594 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-12 19:05:40,594 DEBUG   SenderThread:48268 [sender.py:send_request():409] send_request: stop_status
+2024-02-12 19:05:40,633 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-12 19:05:43,681 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:05:48,682 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:05:51,128 DEBUG   SenderThread:48268 [sender.py:send():382] send: stats
+2024-02-12 19:05:54,130 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:05:55,594 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-12 19:05:55,594 DEBUG   SenderThread:48268 [sender.py:send_request():409] send_request: stop_status
+2024-02-12 19:05:55,633 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-12 19:05:59,744 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:06:04,745 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:06:09,746 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:06:10,594 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-12 19:06:10,595 DEBUG   SenderThread:48268 [sender.py:send_request():409] send_request: stop_status
+2024-02-12 19:06:10,634 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-12 19:06:15,644 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:06:20,645 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:06:21,130 DEBUG   SenderThread:48268 [sender.py:send():382] send: stats
+2024-02-12 19:06:25,596 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-12 19:06:25,597 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-12 19:06:25,598 DEBUG   SenderThread:48268 [sender.py:send_request():409] send_request: stop_status
+2024-02-12 19:06:26,632 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:06:31,051 INFO    Thread-13 :48268 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home-nfs/fx2024/NLP/NLP/wandb/run-20240212_185750-qtmgkqte/files/output.log
+2024-02-12 19:06:31,877 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:06:36,878 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:06:41,879 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:06:46,880 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:06:51,132 DEBUG   SenderThread:48268 [sender.py:send():382] send: stats
+2024-02-12 19:06:51,168 ERROR   FileStreamThread:48268 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/fayxu/test-project/qtmgkqte/file_stream
+NoneType: None
+2024-02-12 19:06:52,134 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:06:57,135 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:07:02,136 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:07:07,137 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:07:12,139 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:07:17,140 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:07:21,135 DEBUG   SenderThread:48268 [sender.py:send():382] send: stats
+2024-02-12 19:07:21,168 ERROR   FileStreamThread:48268 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/fayxu/test-project/qtmgkqte/file_stream
+NoneType: None
+2024-02-12 19:07:23,138 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:07:28,139 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:07:33,140 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:07:38,141 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:07:43,142 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:07:48,143 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:07:51,137 DEBUG   SenderThread:48268 [sender.py:send():382] send: stats
+2024-02-12 19:07:51,161 ERROR   FileStreamThread:48268 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/fayxu/test-project/qtmgkqte/file_stream
+NoneType: None
+2024-02-12 19:07:54,140 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:07:59,141 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:08:04,142 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:08:09,143 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:08:14,144 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:08:19,145 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:08:21,142 DEBUG   SenderThread:48268 [sender.py:send():382] send: stats
+2024-02-12 19:08:21,181 ERROR   FileStreamThread:48268 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/fayxu/test-project/qtmgkqte/file_stream
+NoneType: None
+2024-02-12 19:08:25,144 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:08:30,145 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:08:35,146 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:08:40,147 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:08:45,149 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:08:50,150 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:08:51,142 DEBUG   SenderThread:48268 [sender.py:send():382] send: stats
+2024-02-12 19:08:51,165 ERROR   FileStreamThread:48268 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/fayxu/test-project/qtmgkqte/file_stream
+NoneType: None
+2024-02-12 19:08:56,145 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:09:01,146 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:09:06,147 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:09:11,148 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:09:16,149 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:09:21,145 DEBUG   SenderThread:48268 [sender.py:send():382] send: stats
+2024-02-12 19:09:21,175 ERROR   FileStreamThread:48268 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/fayxu/test-project/qtmgkqte/file_stream
+NoneType: None
+2024-02-12 19:09:22,146 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:09:27,147 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:09:32,148 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:09:37,150 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:09:42,151 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:09:47,152 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:09:51,148 DEBUG   SenderThread:48268 [sender.py:send():382] send: stats
+2024-02-12 19:09:51,181 ERROR   FileStreamThread:48268 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/fayxu/test-project/qtmgkqte/file_stream
+NoneType: None
+2024-02-12 19:09:53,150 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:09:58,151 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:10:03,152 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:10:08,153 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:10:13,154 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:10:18,156 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:10:21,150 DEBUG   SenderThread:48268 [sender.py:send():382] send: stats
+2024-02-12 19:10:21,180 ERROR   FileStreamThread:48268 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/fayxu/test-project/qtmgkqte/file_stream
+NoneType: None
+2024-02-12 19:10:24,152 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:10:29,153 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:10:34,154 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:10:39,155 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:10:44,157 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:10:49,158 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:10:51,152 DEBUG   SenderThread:48268 [sender.py:send():382] send: stats
+2024-02-12 19:10:51,186 ERROR   FileStreamThread:48268 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/fayxu/test-project/qtmgkqte/file_stream
+NoneType: None
+2024-02-12 19:10:55,154 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:11:00,155 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:11:05,156 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:11:10,157 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:11:15,158 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:11:20,159 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:11:21,154 DEBUG   SenderThread:48268 [sender.py:send():382] send: stats
+2024-02-12 19:11:21,184 ERROR   FileStreamThread:48268 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/fayxu/test-project/qtmgkqte/file_stream
+NoneType: None
+2024-02-12 19:11:26,156 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:11:31,157 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:11:36,159 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:11:41,160 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:11:46,161 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:11:51,156 DEBUG   SenderThread:48268 [sender.py:send():382] send: stats
+2024-02-12 19:11:51,202 ERROR   FileStreamThread:48268 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/fayxu/test-project/qtmgkqte/file_stream
+NoneType: None
+2024-02-12 19:11:52,158 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:11:57,159 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:12:02,160 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:12:07,161 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:12:12,162 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:12:17,163 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:12:21,157 DEBUG   SenderThread:48268 [sender.py:send():382] send: stats
+2024-02-12 19:12:21,193 ERROR   FileStreamThread:48268 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/fayxu/test-project/qtmgkqte/file_stream
+NoneType: None
+2024-02-12 19:12:23,160 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:12:28,161 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:12:33,162 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:12:38,163 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:12:43,164 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:12:48,165 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:12:51,160 DEBUG   SenderThread:48268 [sender.py:send():382] send: stats
+2024-02-12 19:12:51,209 ERROR   FileStreamThread:48268 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/fayxu/test-project/qtmgkqte/file_stream
+NoneType: None
+2024-02-12 19:12:54,163 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:12:59,164 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:13:04,165 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:13:09,166 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:13:14,167 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:13:19,168 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:13:21,162 DEBUG   SenderThread:48268 [sender.py:send():382] send: stats
+2024-02-12 19:13:21,187 ERROR   FileStreamThread:48268 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/fayxu/test-project/qtmgkqte/file_stream
+NoneType: None
+2024-02-12 19:13:25,165 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:13:30,166 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:13:35,167 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:13:40,168 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:13:45,169 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:13:50,169 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:13:51,166 DEBUG   SenderThread:48268 [sender.py:send():382] send: stats
+2024-02-12 19:13:51,200 ERROR   FileStreamThread:48268 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/fayxu/test-project/qtmgkqte/file_stream
+NoneType: None
+2024-02-12 19:13:56,168 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:14:01,169 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:14:06,170 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:14:11,171 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:14:16,172 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:14:21,167 DEBUG   SenderThread:48268 [sender.py:send():382] send: stats
+2024-02-12 19:14:21,206 ERROR   FileStreamThread:48268 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/fayxu/test-project/qtmgkqte/file_stream
+NoneType: None
+2024-02-12 19:14:22,168 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:14:27,169 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:14:32,171 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:14:37,171 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:14:42,172 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:14:47,174 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:14:51,170 DEBUG   SenderThread:48268 [sender.py:send():382] send: stats
+2024-02-12 19:14:51,209 ERROR   FileStreamThread:48268 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/fayxu/test-project/qtmgkqte/file_stream
+NoneType: None
+2024-02-12 19:14:53,172 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:14:58,173 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:15:03,174 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:15:08,175 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:15:13,176 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:15:18,177 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:15:21,172 DEBUG   SenderThread:48268 [sender.py:send():382] send: stats
+2024-02-12 19:15:21,197 ERROR   FileStreamThread:48268 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/fayxu/test-project/qtmgkqte/file_stream
+NoneType: None
+2024-02-12 19:15:24,174 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:15:29,175 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:15:34,176 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:15:39,177 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:15:44,178 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:15:49,179 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:15:51,175 DEBUG   SenderThread:48268 [sender.py:send():382] send: stats
+2024-02-12 19:15:51,210 ERROR   FileStreamThread:48268 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/fayxu/test-project/qtmgkqte/file_stream
+NoneType: None
+2024-02-12 19:15:55,177 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:16:00,179 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:16:05,179 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:16:10,180 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:16:15,182 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:16:20,183 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:16:21,178 DEBUG   SenderThread:48268 [sender.py:send():382] send: stats
+2024-02-12 19:16:21,211 ERROR   FileStreamThread:48268 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/fayxu/test-project/qtmgkqte/file_stream
+NoneType: None
+2024-02-12 19:16:26,180 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:16:31,182 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:16:36,183 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:16:41,184 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:16:46,185 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:16:51,180 DEBUG   SenderThread:48268 [sender.py:send():382] send: stats
+2024-02-12 19:16:51,217 ERROR   FileStreamThread:48268 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/fayxu/test-project/qtmgkqte/file_stream
+NoneType: None
+2024-02-12 19:16:52,182 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:16:57,183 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:17:02,184 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:17:07,185 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:17:12,186 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:17:17,187 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:17:21,182 DEBUG   SenderThread:48268 [sender.py:send():382] send: stats
+2024-02-12 19:17:21,212 ERROR   FileStreamThread:48268 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/fayxu/test-project/qtmgkqte/file_stream
+NoneType: None
+2024-02-12 19:17:23,184 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:17:28,185 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:17:33,186 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:17:38,187 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:17:43,188 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:17:48,189 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:17:51,186 DEBUG   SenderThread:48268 [sender.py:send():382] send: stats
+2024-02-12 19:17:51,217 ERROR   FileStreamThread:48268 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/fayxu/test-project/qtmgkqte/file_stream
+NoneType: None
+2024-02-12 19:17:54,189 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:17:59,190 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:18:04,191 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:18:09,192 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:18:14,193 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:18:19,193 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:18:21,188 DEBUG   SenderThread:48268 [sender.py:send():382] send: stats
+2024-02-12 19:18:21,225 ERROR   FileStreamThread:48268 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/fayxu/test-project/qtmgkqte/file_stream
+NoneType: None
+2024-02-12 19:18:25,190 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:18:30,191 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:18:35,192 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:18:40,193 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:18:45,193 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:18:50,194 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:18:51,190 DEBUG   SenderThread:48268 [sender.py:send():382] send: stats
+2024-02-12 19:18:51,225 ERROR   FileStreamThread:48268 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/fayxu/test-project/qtmgkqte/file_stream
+NoneType: None
+2024-02-12 19:18:56,192 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:19:01,193 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:19:06,194 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:19:11,195 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:19:16,196 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:19:21,197 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:19:21,208 DEBUG   SenderThread:48268 [sender.py:send():382] send: stats
+2024-02-12 19:19:21,295 ERROR   FileStreamThread:48268 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/fayxu/test-project/qtmgkqte/file_stream
+NoneType: None
+2024-02-12 19:19:26,211 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:19:31,212 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:19:36,213 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:19:41,214 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:19:46,215 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:19:51,195 DEBUG   SenderThread:48268 [sender.py:send():382] send: stats
+2024-02-12 19:19:52,197 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:19:57,198 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:20:02,199 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:20:07,200 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:20:12,202 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:20:17,203 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:20:21,201 DEBUG   SenderThread:48268 [sender.py:send():382] send: stats
+2024-02-12 19:20:21,237 ERROR   FileStreamThread:48268 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/fayxu/test-project/qtmgkqte/file_stream
+NoneType: None
+2024-02-12 19:20:23,203 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:20:28,204 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:20:33,205 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:20:38,206 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:20:43,207 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:20:48,208 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:20:51,200 DEBUG   SenderThread:48268 [sender.py:send():382] send: stats
+2024-02-12 19:20:51,238 ERROR   FileStreamThread:48268 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/fayxu/test-project/qtmgkqte/file_stream
+NoneType: None
+2024-02-12 19:20:54,202 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:20:59,203 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:21:04,204 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:21:09,205 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:21:14,206 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:21:19,207 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:21:21,202 DEBUG   SenderThread:48268 [sender.py:send():382] send: stats
+2024-02-12 19:21:21,237 ERROR   FileStreamThread:48268 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/fayxu/test-project/qtmgkqte/file_stream
+NoneType: None
+2024-02-12 19:21:25,205 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:21:30,206 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:21:35,207 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:21:40,208 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:21:45,209 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:21:50,210 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:21:51,204 DEBUG   SenderThread:48268 [sender.py:send():382] send: stats
+2024-02-12 19:21:51,338 ERROR   FileStreamThread:48268 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/fayxu/test-project/qtmgkqte/file_stream
+NoneType: None
+2024-02-12 19:21:56,207 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:22:01,208 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:22:06,209 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:22:11,210 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:22:16,212 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:22:21,207 DEBUG   SenderThread:48268 [sender.py:send():382] send: stats
+2024-02-12 19:22:21,244 ERROR   FileStreamThread:48268 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/fayxu/test-project/qtmgkqte/file_stream
+NoneType: None
+2024-02-12 19:22:22,208 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:22:27,209 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:22:32,211 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:22:37,212 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:22:42,213 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:22:47,214 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:22:51,209 DEBUG   SenderThread:48268 [sender.py:send():382] send: stats
+2024-02-12 19:22:51,245 ERROR   FileStreamThread:48268 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/fayxu/test-project/qtmgkqte/file_stream
+NoneType: None
+2024-02-12 19:22:53,210 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:22:58,212 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:23:03,213 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:23:08,214 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:23:13,215 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:23:18,216 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:23:21,211 DEBUG   SenderThread:48268 [sender.py:send():382] send: stats
+2024-02-12 19:23:21,252 ERROR   FileStreamThread:48268 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/fayxu/test-project/qtmgkqte/file_stream
+NoneType: None
+2024-02-12 19:23:24,213 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:23:29,214 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:23:34,215 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:23:39,216 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:23:44,218 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:23:49,219 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:23:51,214 DEBUG   SenderThread:48268 [sender.py:send():382] send: stats
+2024-02-12 19:23:51,253 ERROR   FileStreamThread:48268 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/fayxu/test-project/qtmgkqte/file_stream
+NoneType: None
+2024-02-12 19:23:55,216 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:24:00,217 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:24:05,218 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:24:10,220 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:24:15,221 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:24:20,222 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:24:21,217 DEBUG   SenderThread:48268 [sender.py:send():382] send: stats
+2024-02-12 19:24:21,252 ERROR   FileStreamThread:48268 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/fayxu/test-project/qtmgkqte/file_stream
+NoneType: None
+2024-02-12 19:24:26,219 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:24:31,220 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:24:36,221 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:24:41,222 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:24:46,224 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:24:51,221 DEBUG   SenderThread:48268 [sender.py:send():382] send: stats
+2024-02-12 19:24:51,256 ERROR   FileStreamThread:48268 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/fayxu/test-project/qtmgkqte/file_stream
+NoneType: None
+2024-02-12 19:24:52,224 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:24:57,225 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:25:02,226 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:25:07,227 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:25:12,228 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:25:17,229 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:25:21,222 DEBUG   SenderThread:48268 [sender.py:send():382] send: stats
+2024-02-12 19:25:21,599 ERROR   FileStreamThread:48268 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/fayxu/test-project/qtmgkqte/file_stream
+NoneType: None
+2024-02-12 19:25:22,535 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:25:27,536 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:25:32,537 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:25:37,538 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:25:42,539 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:25:47,540 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:25:51,226 DEBUG   SenderThread:48268 [sender.py:send():382] send: stats
+2024-02-12 19:25:53,237 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:25:58,239 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:26:03,239 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:26:08,241 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:26:13,242 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:26:18,243 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:26:21,227 DEBUG   SenderThread:48268 [sender.py:send():382] send: stats
+2024-02-12 19:26:21,273 ERROR   FileStreamThread:48268 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/fayxu/test-project/qtmgkqte/file_stream
+NoneType: None
+2024-02-12 19:26:24,228 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:26:29,230 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:26:34,231 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:26:39,232 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:26:44,232 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:26:49,233 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:26:51,229 DEBUG   SenderThread:48268 [sender.py:send():382] send: stats
+2024-02-12 19:26:51,267 ERROR   FileStreamThread:48268 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/fayxu/test-project/qtmgkqte/file_stream
+NoneType: None
+2024-02-12 19:26:55,232 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:27:00,233 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:27:05,234 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:27:10,235 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:27:15,236 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:27:20,237 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:27:21,232 DEBUG   SenderThread:48268 [sender.py:send():382] send: stats
+2024-02-12 19:27:21,271 ERROR   FileStreamThread:48268 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/fayxu/test-project/qtmgkqte/file_stream
+NoneType: None
+2024-02-12 19:27:26,235 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:27:31,236 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:27:36,237 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:27:41,238 DEBUG   HandlerThread:48268 [handler.py:handle_request():146] handle_request: status_report
+2024-02-12 19:27:46,099 INFO    memory    :48268 [interfaces.py:monitor():140] Process proc.memory.rssMB has exited.
+2024-02-12 19:27:46,100 DEBUG   SystemMonitor:48268 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-02-12 19:27:46,100 DEBUG   SystemMonitor:48268 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-02-12 19:27:46,104 DEBUG   SenderThread:48268 [sender.py:send():382] send: stats
+2024-02-12 19:27:46,574 INFO    MainThread:48268 [internal.py:handle_exit():76] Internal process exited

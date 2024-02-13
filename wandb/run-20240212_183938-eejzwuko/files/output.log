@@ -1,0 +1,43 @@
+> /home-nfs/fx2024/NLP/NLP/main.py(109)gpt_finetune()
+-> num_batches = len(dataloader)
+tensor([[  383,  8765, 11819,  ..., 11819,   837,   318],
+        [  796,   796,  7712,  ..., 50256, 50256, 50256],
+        [  383,   983,   705,  ...,  3264,   422,   569],
+        ...,
+        [  796,   796, 20395,  ..., 50256, 50256, 50256],
+        [ 1081,   262, 17871,  ...,   666,  5407, 14561],
+        [ 1081,   351,  2180,  ...,  2597,  2488,    12]], device='cuda:0') tensor([[1, 1, 1,  ..., 1, 1, 1],
+        [1, 1, 1,  ..., 0, 0, 0],
+        [1, 1, 1,  ..., 1, 1, 1],
+        ...,
+        [1, 1, 1,  ..., 0, 0, 0],
+        [1, 1, 1,  ..., 1, 1, 1],
+        [1, 1, 1,  ..., 1, 1, 1]], device='cuda:0')
+epoch_idx: 0
+batch_idx: 0
+> /home-nfs/fx2024/NLP/NLP/main.py(121)gpt_finetune()
+-> loss = model(batch_input_ids, attention_mask=batch_attention_mask, labels=batch_input_ids).loss.sum()
+loss tensor(15.5661, device='cuda:0', grad_fn=<SumBackward0>)
+/home-nfs/fx2024/mc3/envs/fei-venv/lib/python3.11/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+checkpoint saved for epoch 0 batch count total 1
+> /home-nfs/fx2024/NLP/NLP/main.py(158)gpt_finetune()
+-> if not os.path.exists(save_dir):
+Traceback (most recent call last):
+  File "/home-nfs/fx2024/NLP/NLP/main.py", line 317, in <module>
+    gpt_finetune(args, model)
+  File "/home-nfs/fx2024/NLP/NLP/main.py", line 171, in gpt_finetune
+    plot_loss(loss.detach().cpu().numpy(), type='training')
+  File "/home-nfs/fx2024/NLP/NLP/main.py", line 180, in plot_loss
+    plt.legend(True)
+  File "/home-nfs/fx2024/mc3/envs/fei-venv/lib/python3.11/site-packages/matplotlib/pyplot.py", line 3372, in legend
+    return gca().legend(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home-nfs/fx2024/mc3/envs/fei-venv/lib/python3.11/site-packages/matplotlib/axes/_axes.py", line 322, in legend
+    handles, labels, kwargs = mlegend._parse_legend_args([self], *args, **kwargs)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home-nfs/fx2024/mc3/envs/fei-venv/lib/python3.11/site-packages/matplotlib/legend.py", line 1370, in _parse_legend_args
+    if any(isinstance(l, Artist) for l in labels):
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'bool' object is not iterable
+checkpoint saved for epoch 0
