@@ -19,5 +19,5 @@ After you run the above command, the code will first print out the model perform
 
 The fine-tuned GPT model correctly answered the company that produces this game (Sega and Media.Vision), the year the game was released (2011), and the platform (PlayStation 4). With more training epoch, the model will become more accurate. 
 
-More result coming ... Stay tuned! If you like this repo, please like or collect! 
+More results coming ... Stay tuned! If you like this repo, please give it a :star:!  
 
