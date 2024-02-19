@@ -28,6 +28,10 @@ import torch.nn.functional as F
 from torch.utils.data import Dataset, DataLoader, SubsetRandomSampler
 from torch.nn.parallel import DistributedDataParallel as DDP
 import wandb
+from utils import group_texts, tokenize_function
+
+def data_cleaning(args):
+    return
 
 
 def gpt_finetune(args, model):
@@ -47,8 +51,11 @@ def gpt_finetune(args, model):
     
 
     # set up wandb configurations
-    id = args.wandb_run_id#wandb.util.generate_id()
-
+    if args.wandb_run_id:
+        id = args.wandb_run_id#wandb.util.generate_id()
+    else:
+        id = "-bs-" + str(args.batch_size) + "-e-" + str(args.num_epochs) + "-lr-" + format(args.learning_rate, '.0e') + "-dp-" + format(args.data_percentage, '.0e')
+    pdb.set_trace()
     #if args.wandb_delete_previous_run == 1:
     #    api = wandb.Api()
     #    # Delete the previous result
@@ -61,7 +68,7 @@ def gpt_finetune(args, model):
     wandb.init(
         # set the wandb project where this run will be logged
         project="test-project",
-        name='test',
+        name=id,
         id=id, 
         resume="allow",
         # track hyperparameters and run metadata
@@ -84,6 +91,7 @@ def gpt_finetune(args, model):
         device_ids_list = list(range(num_gpus))
         model = torch.nn.DataParallel(model, device_ids=device_ids_list)
         #model = DDP(model, device_ids=device_ids_list)
+        model = model.module    
        
     # Create the dataset
     #dir = os.path.join(args.dataset_path, args.mesh.name)
@@ -251,7 +259,7 @@ if __name__ == '__main__':
     # training data setting
 
     # data info
-    parser.add_argument('--data_percentage', type=float, default=0.1)
+    parser.add_argument('--data_percentage', type=float, default=1)
 
     parser.add_argument('--save_dir', type=str, default='../experiments/')
     parser.add_argument('--data_path', type=str, default='/home-nfs/fx2024/NLP/textdata')
@@ -259,7 +267,7 @@ if __name__ == '__main__':
 
     parser.add_argument('--wandb_delete_previous_run', type=int, default=0)
 
-    parser.add_argument('--wandb_run_id', type=str, default='test1')
+    parser.add_argument('--wandb_run_id', type=str, default=None)
     
     # network
     parser.add_argument('--continue_train', type=int, default=0)
@@ -291,17 +299,22 @@ if __name__ == '__main__':
     device = 'cuda'
 
     # Usage example
-    wikitext_dataset_train = load_or_download_wikitext(args.data_path, dataset_name='wikitext', dataset_version='wikitext-2-raw-v1')['train']
+    wikitext_dataset = load_or_download_wikitext(args.data_path, dataset_name='wikitext', dataset_version='wikitext-2-raw-v1')
 
     # Print a sample from the dataset to verify
     #print(wikitext_dataset_train['train']['text'][:5])
     #print(wikitext_dataset_train['text'][0])
 
+    # Data Cleaning:
     # tokenize the text
     tokenizer = GPT2Tokenizer.from_pretrained("gpt2")
     tokenizer.pad_token = tokenizer.eos_token
     model = GPT2LMHeadModel.from_pretrained("gpt2").to(device)
-    wikitext_dataset_train_tokenized = My_Dataset(args, wikitext_dataset_train, tokenizer)
+
+    tokenized_datasets = wikitext_dataset.map(tokenize_function, fn_kwargs={'tokenizer': tokenizer}, batched=True, num_proc=4, remove_columns=["text"])
+    lm_datasets = tokenized_datasets.map(group_texts, fn_kwargs={'block_size': 128}, batched=True, batch_size=1000, num_proc=4)
+    wikitext_dataset_train_tokenized = My_Dataset(args, lm_datasets['train'], tokenizer)
+
 
     # Test prompt before training
     inputs = tokenizer.encode(args.input_prompts, return_tensors = 'pt').to(device)
@@ -309,6 +322,8 @@ if __name__ == '__main__':
     attention_mask = torch.ones(inputs.shape, dtype=torch.long, device=device)
     # Set pad_token_id to the pad_token_id of the tokenizer
     pad_token_id = tokenizer.pad_token_id
+
+    #group_texts
 
     
     print("\ngenerating output")
@@ -335,7 +350,7 @@ if __name__ == '__main__':
 
     if args.test == 1:
         output = gpt_infer(args, model)
-        print(args.input_prompts, output)
+        print(output)
 
     
 

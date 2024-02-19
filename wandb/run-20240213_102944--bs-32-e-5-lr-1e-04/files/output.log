@@ -1,0 +1,152 @@
+
+  0%|                                                                                                                                                  | 0/584 [00:00<?, ?it/s]
+epoch_idx: 0
+  0%|                                                                                                                                                  | 0/584 [00:00<?, ?it/s]/home-nfs/fx2024/mc3/envs/fei-venv/lib/python3.11/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+  0%|▏                                                                                                                                         | 1/584 [00:03<31:53,  3.28s/it]
+loss tensor(16.4057, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+  1%|▋                                                                                                                                         | 3/584 [00:05<15:14,  1.57s/it]
+loss tensor(15.5848, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 2
+loss tensor(15.2016, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+  1%|█▏                                                                                                                                        | 5/584 [00:07<11:02,  1.14s/it]
+loss tensor(15.4588, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 4
+loss tensor(15.2291, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+  1%|█▋                                                                                                                                        | 7/584 [00:08<09:28,  1.02it/s]
+loss tensor(15.2710, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 6
+loss tensor(14.7318, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 7
+
+  2%|██▏                                                                                                                                       | 9/584 [00:10<08:44,  1.10it/s]
+epoch_idx: 0
+batch_idx: 8
+loss tensor(14.6857, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+  2%|██▎                                                                                                                                      | 10/584 [00:12<12:12,  1.28s/it]
+loss tensor(14.6601, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 10
+loss tensor(14.6732, device='cuda:0', grad_fn=<SumBackward0>)
+Program interrupted. (Use 'cont' to resume).
+--Return--
+> /home-nfs/fx2024/mc3/envs/fei-venv/lib/python3.11/site-packages/torch/cuda/memory.py(162)empty_cache()->None
+
+  2%|██▊                                                                                                                                      | 12/584 [00:21<24:39,  2.59s/it]
+epoch_idx: 0
+batch_idx: 11
+loss tensor(14.5933, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+  2%|███▎                                                                                                                                     | 14/584 [00:23<16:07,  1.70s/it]
+loss tensor(13.9968, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 13
+loss tensor(14.6230, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 14
+Program interrupted. (Use 'cont' to resume).
+> /home-nfs/fx2024/mc3/envs/fei-venv/lib/python3.11/threading.py(1140)_wait_for_tstate_lock()
+-> lock.release()
+self = <Thread(Thread-62 (_worker), started 139690539710208)>
+block = True
+
+  3%|███▌                                                                                                                                     | 15/584 [00:32<38:56,  4.11s/it]
+loss tensor(14.6785, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 15
+
+  3%|████▏                                                                                                                                    | 18/584 [00:35<18:28,  1.96s/it]
+epoch_idx: 0
+batch_idx: 16
+loss tensor(14.3215, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 17
+loss tensor(14.5965, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+  3%|████▋                                                                                                                                    | 20/584 [00:37<13:14,  1.41s/it]
+loss tensor(14.3786, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 19
+loss tensor(13.8613, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+  4%|█████▏                                                                                                                                   | 22/584 [00:38<10:30,  1.12s/it]
+loss tensor(13.5931, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 21
+loss tensor(14.2063, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 22
+
+  4%|█████▊                                                                                                                                   | 25/584 [00:41<08:40,  1.07it/s]
+epoch_idx: 0
+batch_idx: 23
+loss tensor(14.1010, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 24
+loss tensor(14.0387, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+  5%|██████▎                                                                                                                                  | 27/584 [00:43<08:17,  1.12it/s]
+loss tensor(13.9387, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 26
+loss tensor(14.3538, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 27
+
+loss tensor(14.0750, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 28
+loss tensor(14.0838, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 29
+loss tensor(14.5056, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+  5%|███████▌                                                                                                                                 | 32/584 [00:47<07:45,  1.19it/s]
+loss tensor(15.1962, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 31
+loss tensor(14.1021, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+  6%|███████▉                                                                                                                                 | 34/584 [00:48<07:33,  1.21it/s]
+loss tensor(14.4278, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 33
+loss tensor(13.9928, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 34
+loss tensor(14.1194, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+  6%|████████▋                                                                                                                                | 37/584 [00:51<07:28,  1.22it/s]
+loss tensor(14.0328, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 36
+loss tensor(14.2124, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+  7%|████████▉                                                                                                                                | 38/584 [00:52<07:25,  1.22it/s]
+loss tensor(14.2129, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 38
+loss tensor(13.5228, device='cuda:0', grad_fn=<SumBackward0>)
+Program interrupted. (Use 'cont' to resume).
+--Return--
+> /home-nfs/fx2024/mc3/envs/fei-venv/lib/python3.11/site-packages/torch/cuda/memory.py(162)empty_cache()->None

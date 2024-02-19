@@ -1,0 +1,7 @@
+
+  0%|                                                                                                                                     | 0/115 [00:00<?, ?it/s]
+epoch_idx: 0
+batch_idx: 0
+Program interrupted. (Use 'cont' to resume).
+> /home-nfs/fx2024/mc3/envs/fei-venv/lib/python3.11/threading.py(1140)_wait_for_tstate_lock()
+-> lock.release()

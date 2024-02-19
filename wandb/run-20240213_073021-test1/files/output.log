@@ -1,0 +1,23 @@
+
+  0%|                                                                                                                                                                | 0/1 [00:00<?, ?it/s]
+epoch_idx: 0
+  0%|                                                                                                                                                                | 0/1 [00:00<?, ?it/s]/home-nfs/fx2024/mc3/envs/fei-venv/lib/python3.11/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+loss tensor(11.6280, device='cuda:0', grad_fn=<SumBackward0>)
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:10<00:00, 10.29s/it]
+checkpoint saved for epoch 0 batch count total 1
+  0%|                                                                                                                                                                | 0/1 [00:00<?, ?it/s]
+checkpoint saved for epoch 0
+epoch_idx: 1
+batch_idx: 0
+
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:08<00:00,  8.59s/it]
+checkpoint saved for epoch 1 batch count total 1
+  0%|                                                                                                                                                                | 0/1 [00:00<?, ?it/s]
+checkpoint saved for epoch 1
+epoch_idx: 2
+batch_idx: 0
+
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:08<00:00,  8.62s/it]
+checkpoint saved for epoch 2 batch count total 1
+checkpoint saved for epoch 2

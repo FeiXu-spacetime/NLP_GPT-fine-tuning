@@ -1,0 +1,64 @@
+2024-02-13 12:20:00,640 INFO    StreamThr :106055 [internal.py:wandb_internal():86] W&B internal server running at pid: 106055, started at: 2024-02-13 12:20:00.639075
+2024-02-13 12:20:00,643 DEBUG   HandlerThread:106055 [handler.py:handle_request():146] handle_request: status
+2024-02-13 12:20:00,653 INFO    WriterThread:106055 [datastore.py:open_for_write():87] open: /home-nfs/fx2024/NLP/NLP/wandb/run-20240213_122000--bs-32-e-6-lr-1e-04-dp-1e-01/run--bs-32-e-6-lr-1e-04-dp-1e-01.wandb
+2024-02-13 12:20:00,655 DEBUG   SenderThread:106055 [sender.py:send():382] send: header
+2024-02-13 12:20:00,669 DEBUG   SenderThread:106055 [sender.py:send():382] send: run
+2024-02-13 12:20:00,677 INFO    SenderThread:106055 [sender.py:_maybe_setup_resume():763] checking resume status for None/test-project/-bs-32-e-6-lr-1e-04-dp-1e-01
+2024-02-13 12:20:00,948 ERROR   SenderThread:106055 [internal_api.py:execute():373] 409 response executing GraphQL.
+2024-02-13 12:20:00,948 ERROR   SenderThread:106055 [internal_api.py:execute():374] {"errors":[{"message":"run fayxu/test-project/-bs-32-e-6-lr-1e-04-dp-1e-01 was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2024-02-13 12:20:02,048 ERROR   SenderThread:106055 [internal_api.py:execute():373] 409 response executing GraphQL.
+2024-02-13 12:20:02,048 ERROR   SenderThread:106055 [internal_api.py:execute():374] {"errors":[{"message":"run fayxu/test-project/-bs-32-e-6-lr-1e-04-dp-1e-01 was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2024-02-13 12:20:04,283 ERROR   SenderThread:106055 [internal_api.py:execute():373] 409 response executing GraphQL.
+2024-02-13 12:20:04,284 ERROR   SenderThread:106055 [internal_api.py:execute():374] {"errors":[{"message":"run fayxu/test-project/-bs-32-e-6-lr-1e-04-dp-1e-01 was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2024-02-13 12:20:04,284 INFO    SenderThread:106055 [retry.py:__call__():172] Retry attempt failed:
+Traceback (most recent call last):
+  File "/home-nfs/fx2024/mc3/envs/fei-venv/lib/python3.11/site-packages/wandb/sdk/lib/retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home-nfs/fx2024/mc3/envs/fei-venv/lib/python3.11/site-packages/wandb/sdk/internal/internal_api.py", line 369, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home-nfs/fx2024/mc3/envs/fei-venv/lib/python3.11/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home-nfs/fx2024/mc3/envs/fei-venv/lib/python3.11/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home-nfs/fx2024/mc3/envs/fei-venv/lib/python3.11/site-packages/wandb/sdk/lib/gql_request.py", line 59, in execute
+    request.raise_for_status()
+  File "/home-nfs/fx2024/mc3/envs/fei-venv/lib/python3.11/site-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 409 Client Error: Conflict for url: https://api.wandb.ai/graphql
+2024-02-13 12:20:05,671 DEBUG   HandlerThread:106055 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-13 12:20:09,041 ERROR   SenderThread:106055 [internal_api.py:execute():373] 409 response executing GraphQL.
+2024-02-13 12:20:09,041 ERROR   SenderThread:106055 [internal_api.py:execute():374] {"errors":[{"message":"run fayxu/test-project/-bs-32-e-6-lr-1e-04-dp-1e-01 was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2024-02-13 12:20:10,673 DEBUG   HandlerThread:106055 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-13 12:20:15,674 DEBUG   HandlerThread:106055 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-13 12:20:17,123 ERROR   SenderThread:106055 [internal_api.py:execute():373] 409 response executing GraphQL.
+2024-02-13 12:20:17,123 ERROR   SenderThread:106055 [internal_api.py:execute():374] {"errors":[{"message":"run fayxu/test-project/-bs-32-e-6-lr-1e-04-dp-1e-01 was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2024-02-13 12:20:20,676 DEBUG   HandlerThread:106055 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-13 12:20:25,677 DEBUG   HandlerThread:106055 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-13 12:20:30,679 DEBUG   HandlerThread:106055 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-13 12:20:35,556 ERROR   SenderThread:106055 [internal_api.py:execute():373] 409 response executing GraphQL.
+2024-02-13 12:20:35,557 ERROR   SenderThread:106055 [internal_api.py:execute():374] {"errors":[{"message":"run fayxu/test-project/-bs-32-e-6-lr-1e-04-dp-1e-01 was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2024-02-13 12:20:35,681 DEBUG   HandlerThread:106055 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-13 12:20:40,682 DEBUG   HandlerThread:106055 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-13 12:20:45,684 DEBUG   HandlerThread:106055 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-13 12:20:50,685 DEBUG   HandlerThread:106055 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-13 12:20:55,687 DEBUG   HandlerThread:106055 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-13 12:21:00,689 DEBUG   HandlerThread:106055 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-13 12:21:05,690 DEBUG   HandlerThread:106055 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-13 12:21:10,692 DEBUG   HandlerThread:106055 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-13 12:21:12,083 ERROR   SenderThread:106055 [internal_api.py:execute():373] 409 response executing GraphQL.
+2024-02-13 12:21:12,083 ERROR   SenderThread:106055 [internal_api.py:execute():374] {"errors":[{"message":"run fayxu/test-project/-bs-32-e-6-lr-1e-04-dp-1e-01 was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2024-02-13 12:21:15,694 DEBUG   HandlerThread:106055 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-13 12:21:20,695 DEBUG   HandlerThread:106055 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-13 12:21:25,698 DEBUG   HandlerThread:106055 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-13 12:21:30,699 DEBUG   HandlerThread:106055 [handler.py:handle_request():146] handle_request: cancel
+2024-02-13 12:21:30,699 DEBUG   HandlerThread:106055 [handler.py:handle_request():146] handle_request: cancel
+2024-02-13 12:21:30,701 DEBUG   SenderThread:106055 [sender.py:send():391] Record cancelled: run
+2024-02-13 12:21:30,704 DEBUG   HandlerThread:106055 [handler.py:handle_request():146] handle_request: status_report
+2024-02-13 12:21:30,836 DEBUG   HandlerThread:106055 [handler.py:handle_request():146] handle_request: shutdown
+2024-02-13 12:21:30,836 INFO    HandlerThread:106055 [handler.py:finish():869] shutting down handler
+2024-02-13 12:21:31,704 INFO    SenderThread:106055 [sender.py:finish():1572] shutting down sender
+2024-02-13 12:21:31,707 INFO    WriterThread:106055 [datastore.py:close():296] close: /home-nfs/fx2024/NLP/NLP/wandb/run-20240213_122000--bs-32-e-6-lr-1e-04-dp-1e-01/run--bs-32-e-6-lr-1e-04-dp-1e-01.wandb

@@ -1,0 +1,1189 @@
+
+  5%|██████▊                                                                                                                               | 3/59 [00:01<00:24,  2.30it/s]
+epoch_idx: 0
+batch_idx: 0
+loss tensor(4.0838, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 1
+loss tensor(3.8072, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 2
+loss tensor(3.7717, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 3
+
+loss tensor(3.8220, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 4
+loss tensor(3.7938, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 5
+loss tensor(3.6385, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 6
+loss tensor(3.8028, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 7
+loss tensor(3.6383, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 8
+
+loss tensor(3.4750, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 9
+loss tensor(3.6078, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 10
+loss tensor(3.6352, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 11
+loss tensor(3.4812, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 12
+loss tensor(3.6222, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 13
+
+loss tensor(3.5767, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 14
+loss tensor(3.4439, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 15
+loss tensor(3.5111, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 16
+loss tensor(3.5030, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 17
+loss tensor(3.4228, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 18
+
+loss tensor(3.5701, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 19
+loss tensor(3.4251, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 20
+loss tensor(3.4431, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 21
+loss tensor(3.3773, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 22
+loss tensor(3.4681, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 23
+
+loss tensor(3.4395, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 24
+loss tensor(3.4335, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 25
+loss tensor(3.5105, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 26
+loss tensor(3.4608, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 27
+loss tensor(3.5260, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 28
+
+loss tensor(3.4094, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 29
+loss tensor(3.5403, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 30
+loss tensor(3.2589, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 31
+loss tensor(3.3623, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 32
+loss tensor(3.4582, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+ 64%|█████████████████████████████████████████████████████████████████████████████████████▋                                               | 38/59 [00:15<00:08,  2.48it/s]
+loss tensor(3.5152, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 34
+loss tensor(3.4573, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 35
+loss tensor(3.3895, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 36
+loss tensor(3.2935, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 37
+loss tensor(3.1637, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+ 73%|████████████████████████████████████████████████████████████████████████████████████████████████▉                                    | 43/59 [00:17<00:06,  2.47it/s]
+loss tensor(3.2558, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 39
+loss tensor(3.3984, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 40
+loss tensor(3.3494, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 41
+loss tensor(3.2402, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 42
+loss tensor(3.4759, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+ 81%|████████████████████████████████████████████████████████████████████████████████████████████████████████████▏                        | 48/59 [00:19<00:04,  2.45it/s]
+loss tensor(3.3926, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 44
+loss tensor(3.4674, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 45
+loss tensor(3.2855, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 46
+loss tensor(3.2600, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 47
+loss tensor(3.2363, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+ 88%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏               | 52/59 [00:21<00:02,  2.38it/s]
+loss tensor(3.2693, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 49
+loss tensor(3.3411, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 50
+loss tensor(3.3492, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 51
+loss tensor(3.2868, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 52
+
+ 97%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▍    | 57/59 [00:23<00:00,  2.43it/s]
+epoch_idx: 0
+batch_idx: 53
+loss tensor(3.3126, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 54
+loss tensor(3.2411, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 55
+loss tensor(3.2396, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 56
+loss tensor(3.2693, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 57
+
+ 98%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋  | 58/59 [00:23<00:00,  2.45it/s]
+epoch_idx: 0
+batch_idx: 58
+
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 59/59 [00:32<00:00,  1.84it/s]
+checkpoint saved for epoch 0 batch count total 59
+  2%|██▎                                                                                                                                   | 1/59 [00:00<00:23,  2.50it/s]
+checkpoint saved for epoch 0
+epoch_idx: 1
+batch_idx: 0
+loss tensor(2.8762, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 1
+batch_idx: 1
+
+loss tensor(2.9601, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 1
+batch_idx: 2
+loss tensor(2.9898, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 1
+batch_idx: 3
+loss tensor(2.8174, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 1
+batch_idx: 4
+loss tensor(2.9729, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 1
+batch_idx: 5
+loss tensor(2.9679, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 1
+batch_idx: 6
+
+loss tensor(3.0223, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 1
+batch_idx: 7
+loss tensor(2.8387, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 1
+batch_idx: 8
+loss tensor(3.1222, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 1
+batch_idx: 9
+loss tensor(3.0008, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 1
+batch_idx: 10
+loss tensor(2.9135, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 1
+batch_idx: 11
+
+loss tensor(2.9859, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 1
+batch_idx: 12
+loss tensor(2.9197, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 1
+batch_idx: 13
+loss tensor(2.8513, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 1
+batch_idx: 14
+loss tensor(2.8264, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 1
+batch_idx: 15
+
+ 31%|████████████████████████████████████████▌                                                                                            | 18/59 [00:08<00:24,  1.68it/s]
+epoch_idx: 1
+batch_idx: 16
+loss tensor(3.0168, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 1
+batch_idx: 17
+loss tensor(2.9840, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 1
+
+ 39%|███████████████████████████████████████████████████▊                                                                                 | 23/59 [00:10<00:15,  2.29it/s]
+loss tensor(2.9031, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 1
+batch_idx: 19
+loss tensor(2.8510, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 1
+batch_idx: 20
+loss tensor(2.9832, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 1
+batch_idx: 21
+loss tensor(2.8422, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 1
+batch_idx: 22
+loss tensor(2.8976, device='cuda:0', grad_fn=<SumBackward0>)
+
+ 46%|████████████████████████████████████████████████████████████▊                                                                        | 27/59 [00:12<00:13,  2.42it/s]
+batch_idx: 23
+loss tensor(2.9767, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 1
+batch_idx: 24
+loss tensor(3.0139, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 1
+batch_idx: 25
+loss tensor(2.9142, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 1
+batch_idx: 26
+loss tensor(2.8543, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 1
+batch_idx: 27
+
+ 54%|████████████████████████████████████████████████████████████████████████▏                                                            | 32/59 [00:14<00:11,  2.45it/s]
+epoch_idx: 1
+batch_idx: 28
+loss tensor(3.0102, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 1
+batch_idx: 29
+loss tensor(2.9634, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 1
+batch_idx: 30
+loss tensor(2.8917, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 1
+batch_idx: 31
+loss tensor(3.1181, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 1
+batch_idx: 32
+
+ 63%|███████████████████████████████████████████████████████████████████████████████████▍                                                 | 37/59 [00:16<00:08,  2.46it/s]
+epoch_idx: 1
+batch_idx: 33
+loss tensor(2.9260, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 1
+batch_idx: 34
+loss tensor(3.0112, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 1
+batch_idx: 35
+loss tensor(2.9137, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 1
+batch_idx: 36
+loss tensor(2.9871, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 1
+batch_idx: 37
+
+ 71%|██████████████████████████████████████████████████████████████████████████████████████████████▋                                      | 42/59 [00:18<00:06,  2.45it/s]
+epoch_idx: 1
+batch_idx: 38
+loss tensor(2.8771, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 1
+batch_idx: 39
+loss tensor(2.9078, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 1
+batch_idx: 40
+loss tensor(2.9326, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 1
+batch_idx: 41
+loss tensor(2.8299, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 1
+batch_idx: 42
+
+ 80%|█████████████████████████████████████████████████████████████████████████████████████████████████████████▉                           | 47/59 [00:20<00:04,  2.45it/s]
+epoch_idx: 1
+batch_idx: 43
+loss tensor(2.9059, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 1
+batch_idx: 44
+loss tensor(2.9838, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 1
+batch_idx: 45
+loss tensor(3.0193, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 1
+batch_idx: 46
+loss tensor(2.9962, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 1
+batch_idx: 47
+
+ 88%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏               | 52/59 [00:22<00:02,  2.45it/s]
+epoch_idx: 1
+batch_idx: 48
+loss tensor(2.8653, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 1
+batch_idx: 49
+loss tensor(2.9811, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 1
+batch_idx: 50
+loss tensor(2.8673, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 1
+batch_idx: 51
+loss tensor(2.8619, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 1
+batch_idx: 52
+
+loss tensor(2.8715, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 1
+batch_idx: 53
+loss tensor(2.8897, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 1
+batch_idx: 54
+loss tensor(2.8356, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 1
+batch_idx: 55
+loss tensor(2.8891, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 1
+batch_idx: 56
+loss tensor(2.8883, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 1
+batch_idx: 57
+
+loss tensor(2.8783, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 1
+batch_idx: 58
+
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 59/59 [00:33<00:00,  1.76it/s]
+checkpoint saved for epoch 1 batch count total 59
+  0%|                                                                                                                                              | 0/59 [00:00<?, ?it/s]
+checkpoint saved for epoch 1
+epoch_idx: 2
+batch_idx: 0
+
+  8%|███████████▎                                                                                                                          | 5/59 [00:02<00:22,  2.44it/s]
+epoch_idx: 2
+batch_idx: 1
+loss tensor(2.6235, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 2
+batch_idx: 2
+loss tensor(2.5937, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 2
+batch_idx: 3
+loss tensor(2.6811, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 2
+batch_idx: 4
+loss tensor(2.7279, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 2
+batch_idx: 5
+
+ 17%|██████████████████████▌                                                                                                              | 10/59 [00:04<00:19,  2.45it/s]
+epoch_idx: 2
+batch_idx: 6
+loss tensor(2.6296, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 2
+batch_idx: 7
+loss tensor(2.5465, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 2
+batch_idx: 8
+loss tensor(2.6102, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 2
+batch_idx: 9
+loss tensor(2.5099, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 2
+batch_idx: 10
+
+loss tensor(2.5862, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 2
+batch_idx: 11
+loss tensor(2.5963, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 2
+batch_idx: 12
+loss tensor(2.4876, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 2
+batch_idx: 13
+loss tensor(2.5697, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 2
+batch_idx: 14
+loss tensor(2.5172, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 2
+batch_idx: 15
+
+loss tensor(2.5730, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 2
+batch_idx: 16
+loss tensor(2.5898, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 2
+batch_idx: 17
+loss tensor(2.5667, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 2
+batch_idx: 18
+loss tensor(2.6713, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 2
+batch_idx: 19
+loss tensor(2.5933, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 2
+batch_idx: 20
+
+loss tensor(2.6192, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 2
+batch_idx: 21
+loss tensor(2.5958, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 2
+batch_idx: 22
+loss tensor(2.6638, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 2
+batch_idx: 23
+loss tensor(2.5492, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 2
+batch_idx: 24
+loss tensor(2.5777, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 2
+batch_idx: 25
+
+loss tensor(2.5773, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 2
+batch_idx: 26
+loss tensor(2.6783, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 2
+batch_idx: 27
+loss tensor(2.7391, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 2
+batch_idx: 28
+loss tensor(2.5785, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 2
+batch_idx: 29
+loss tensor(2.5424, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 2
+batch_idx: 30
+
+loss tensor(2.5896, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 2
+batch_idx: 31
+loss tensor(2.5710, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 2
+batch_idx: 32
+loss tensor(2.4885, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 2
+batch_idx: 33
+loss tensor(2.5558, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 2
+batch_idx: 34
+loss tensor(2.6258, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 2
+batch_idx: 35
+
+loss tensor(2.6141, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 2
+batch_idx: 36
+loss tensor(2.4966, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 2
+batch_idx: 37
+loss tensor(2.4218, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 2
+batch_idx: 38
+loss tensor(2.4693, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 2
+batch_idx: 39
+loss tensor(2.4535, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 2
+
+ 76%|█████████████████████████████████████████████████████████████████████████████████████████████████████▍                               | 45/59 [00:18<00:05,  2.45it/s]
+loss tensor(2.6410, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 2
+batch_idx: 41
+loss tensor(2.6720, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 2
+batch_idx: 42
+loss tensor(2.4772, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 2
+batch_idx: 43
+loss tensor(2.6523, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 2
+batch_idx: 44
+loss tensor(2.6801, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 2
+
+ 85%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋                    | 50/59 [00:20<00:03,  2.46it/s]
+loss tensor(2.4102, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 2
+batch_idx: 46
+loss tensor(2.5229, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 2
+batch_idx: 47
+loss tensor(2.6368, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 2
+batch_idx: 48
+loss tensor(2.5841, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 2
+batch_idx: 49
+loss tensor(2.5637, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 2
+
+ 93%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉         | 55/59 [00:22<00:01,  2.46it/s]
+loss tensor(2.6525, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 2
+batch_idx: 51
+loss tensor(2.6979, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 2
+batch_idx: 52
+loss tensor(2.6033, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 2
+batch_idx: 53
+loss tensor(2.6065, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 2
+batch_idx: 54
+loss tensor(2.5723, device='cuda:0', grad_fn=<SumBackward0>)
+
+ 98%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋  | 58/59 [00:23<00:00,  2.42it/s]
+batch_idx: 55
+loss tensor(2.5592, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 2
+batch_idx: 56
+loss tensor(2.5540, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 2
+batch_idx: 57
+loss tensor(2.5048, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 2
+batch_idx: 58
+
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 59/59 [00:32<00:00,  1.84it/s]
+checkpoint saved for epoch 2 batch count total 59
+  7%|█████████                                                                                                                             | 4/59 [00:01<00:22,  2.46it/s]
+checkpoint saved for epoch 2
+epoch_idx: 3
+batch_idx: 0
+loss tensor(2.2689, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 3
+batch_idx: 1
+loss tensor(2.2740, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 3
+batch_idx: 2
+loss tensor(2.2457, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 3
+batch_idx: 3
+loss tensor(2.2157, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 3
+
+ 15%|████████████████████▍                                                                                                                 | 9/59 [00:03<00:20,  2.45it/s]
+loss tensor(2.2429, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 3
+batch_idx: 5
+loss tensor(2.1067, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 3
+batch_idx: 6
+loss tensor(2.1887, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 3
+batch_idx: 7
+loss tensor(2.1093, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 3
+batch_idx: 8
+loss tensor(2.2124, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 3
+
+ 22%|█████████████████████████████▎                                                                                                       | 13/59 [00:05<00:19,  2.40it/s]
+loss tensor(2.2312, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 3
+batch_idx: 10
+loss tensor(2.1500, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 3
+batch_idx: 11
+loss tensor(2.1379, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 3
+batch_idx: 12
+loss tensor(2.2643, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 3
+batch_idx: 13
+
+ 31%|████████████████████████████████████████▌                                                                                            | 18/59 [00:07<00:16,  2.42it/s]
+epoch_idx: 3
+batch_idx: 14
+loss tensor(2.0679, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 3
+batch_idx: 15
+loss tensor(2.1927, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 3
+batch_idx: 16
+loss tensor(2.1722, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 3
+batch_idx: 17
+loss tensor(2.1661, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 3
+batch_idx: 18
+
+ 39%|███████████████████████████████████████████████████▊                                                                                 | 23/59 [00:09<00:14,  2.43it/s]
+epoch_idx: 3
+batch_idx: 19
+loss tensor(2.1895, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 3
+batch_idx: 20
+loss tensor(2.2238, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 3
+batch_idx: 21
+loss tensor(2.2468, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 3
+batch_idx: 22
+loss tensor(2.2090, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 3
+batch_idx: 23
+
+ 47%|███████████████████████████████████████████████████████████████                                                                      | 28/59 [00:11<00:12,  2.43it/s]
+epoch_idx: 3
+batch_idx: 24
+loss tensor(2.1798, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 3
+batch_idx: 25
+loss tensor(2.1907, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 3
+batch_idx: 26
+loss tensor(2.2620, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 3
+batch_idx: 27
+loss tensor(2.3460, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 3
+batch_idx: 28
+
+ 56%|██████████████████████████████████████████████████████████████████████████▍                                                          | 33/59 [00:13<00:10,  2.43it/s]
+epoch_idx: 3
+batch_idx: 29
+loss tensor(2.1641, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 3
+batch_idx: 30
+loss tensor(2.1603, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 3
+batch_idx: 31
+loss tensor(2.2502, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 3
+batch_idx: 32
+loss tensor(2.2537, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 3
+batch_idx: 33
+
+ 64%|█████████████████████████████████████████████████████████████████████████████████████▋                                               | 38/59 [00:15<00:08,  2.42it/s]
+epoch_idx: 3
+batch_idx: 34
+loss tensor(2.1609, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 3
+batch_idx: 35
+loss tensor(2.2885, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 3
+batch_idx: 36
+loss tensor(2.2746, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 3
+batch_idx: 37
+loss tensor(2.2006, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 3
+batch_idx: 38
+
+loss tensor(2.2120, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 3
+batch_idx: 39
+loss tensor(2.2116, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 3
+batch_idx: 40
+loss tensor(2.2740, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 3
+batch_idx: 41
+loss tensor(2.2110, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 3
+batch_idx: 42
+loss tensor(2.2785, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 3
+batch_idx: 43
+
+loss tensor(2.1380, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 3
+batch_idx: 44
+loss tensor(2.2323, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 3
+batch_idx: 45
+loss tensor(2.1580, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 3
+batch_idx: 46
+loss tensor(2.2668, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 3
+batch_idx: 47
+loss tensor(2.2781, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 3
+batch_idx: 48
+
+loss tensor(2.1910, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 3
+batch_idx: 49
+loss tensor(2.0847, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 3
+batch_idx: 50
+loss tensor(2.2705, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 3
+batch_idx: 51
+loss tensor(2.2646, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 3
+batch_idx: 52
+loss tensor(2.1401, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 3
+
+ 98%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋  | 58/59 [00:23<00:00,  2.45it/s]
+loss tensor(2.2141, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 3
+batch_idx: 54
+loss tensor(2.3555, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 3
+batch_idx: 55
+loss tensor(2.2329, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 3
+batch_idx: 56
+loss tensor(2.2777, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 3
+batch_idx: 57
+loss tensor(2.1389, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 3
+batch_idx: 58
+
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 59/59 [00:32<00:00,  1.81it/s]
+checkpoint saved for epoch 3 batch count total 59
+  2%|██▎                                                                                                                                   | 1/59 [00:00<00:22,  2.63it/s]
+checkpoint saved for epoch 3
+epoch_idx: 4
+batch_idx: 0
+loss tensor(1.7843, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 4
+
+  7%|█████████                                                                                                                             | 4/59 [00:01<00:22,  2.45it/s]
+loss tensor(1.7884, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 4
+batch_idx: 2
+loss tensor(1.7995, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 4
+batch_idx: 3
+loss tensor(1.8256, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 4
+batch_idx: 4
+
+ 12%|███████████████▉                                                                                                                      | 7/59 [00:04<00:31,  1.67it/s]
+epoch_idx: 4
+batch_idx: 5
+loss tensor(1.8097, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 4
+batch_idx: 6
+loss tensor(1.8124, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 4
+batch_idx: 7
+
+ 20%|███████████████████████████                                                                                                          | 12/59 [00:06<00:20,  2.28it/s]
+epoch_idx: 4
+batch_idx: 8
+loss tensor(1.7447, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 4
+batch_idx: 9
+loss tensor(1.6588, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 4
+batch_idx: 10
+loss tensor(1.7675, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 4
+batch_idx: 11
+loss tensor(1.7743, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 4
+batch_idx: 12
+
+ 29%|██████████████████████████████████████▎                                                                                              | 17/59 [00:08<00:17,  2.38it/s]
+epoch_idx: 4
+batch_idx: 13
+loss tensor(1.8024, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 4
+batch_idx: 14
+loss tensor(1.7306, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 4
+batch_idx: 15
+loss tensor(1.7575, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 4
+batch_idx: 16
+loss tensor(1.7170, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 4
+batch_idx: 17
+
+loss tensor(1.8053, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 4
+batch_idx: 18
+loss tensor(1.7686, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 4
+batch_idx: 19
+loss tensor(1.6799, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 4
+batch_idx: 20
+loss tensor(1.7750, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 4
+batch_idx: 21
+loss tensor(1.8375, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 4
+batch_idx: 22
+
+loss tensor(1.7793, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 4
+batch_idx: 23
+loss tensor(1.8327, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 4
+batch_idx: 24
+loss tensor(1.7822, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 4
+batch_idx: 25
+loss tensor(1.8498, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 4
+batch_idx: 26
+loss tensor(1.7732, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 4
+batch_idx: 27
+
+loss tensor(1.7489, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 4
+batch_idx: 28
+loss tensor(1.7691, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 4
+batch_idx: 29
+loss tensor(1.7897, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 4
+batch_idx: 30
+loss tensor(1.8480, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 4
+batch_idx: 31
+loss tensor(1.8476, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 4
+batch_idx: 32
+
+loss tensor(1.6758, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 4
+batch_idx: 33
+loss tensor(1.7739, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 4
+batch_idx: 34
+loss tensor(1.7906, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 4
+batch_idx: 35
+loss tensor(1.7759, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 4
+batch_idx: 36
+loss tensor(1.7556, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 4
+batch_idx: 37
+
+loss tensor(1.7923, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 4
+batch_idx: 38
+loss tensor(1.8201, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 4
+batch_idx: 39
+loss tensor(1.8042, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 4
+batch_idx: 40
+loss tensor(1.8122, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 4
+batch_idx: 41
+loss tensor(1.8089, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 4
+
+ 80%|█████████████████████████████████████████████████████████████████████████████████████████████████████████▉                           | 47/59 [00:20<00:04,  2.47it/s]
+loss tensor(1.8300, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 4
+batch_idx: 43
+loss tensor(1.8042, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 4
+batch_idx: 44
+loss tensor(1.8571, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 4
+batch_idx: 45
+loss tensor(1.8553, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 4
+batch_idx: 46
+loss tensor(1.8430, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 4
+
+ 88%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏               | 52/59 [00:22<00:02,  2.47it/s]
+loss tensor(1.7765, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 4
+batch_idx: 48
+loss tensor(1.8372, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 4
+batch_idx: 49
+loss tensor(1.8169, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 4
+batch_idx: 50
+loss tensor(1.8477, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 4
+batch_idx: 51
+loss tensor(1.9483, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 4
+
+ 97%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▍    | 57/59 [00:24<00:00,  2.48it/s]
+loss tensor(1.8150, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 4
+batch_idx: 53
+loss tensor(1.8694, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 4
+batch_idx: 54
+loss tensor(1.8462, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 4
+batch_idx: 55
+loss tensor(1.7836, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 4
+batch_idx: 56
+loss tensor(1.8914, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 4
+
+ 98%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋  | 58/59 [00:24<00:00,  2.48it/s]
+loss tensor(1.7979, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 4
+batch_idx: 58
+
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 59/59 [00:33<00:00,  1.77it/s]
+checkpoint saved for epoch 4 batch count total 59
+  0%|                                                                                                                                              | 0/59 [00:00<?, ?it/s]
+checkpoint saved for epoch 4
+epoch_idx: 5
+batch_idx: 0
+
+loss tensor(1.3497, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 5
+batch_idx: 1
+loss tensor(1.3527, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 5
+batch_idx: 2
+loss tensor(1.3743, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 5
+batch_idx: 3
+loss tensor(1.3671, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 5
+batch_idx: 4
+loss tensor(1.3600, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 5
+batch_idx: 5
+
+loss tensor(1.2942, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 5
+batch_idx: 6
+loss tensor(1.3899, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 5
+batch_idx: 7
+loss tensor(1.4336, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 5
+batch_idx: 8
+loss tensor(1.3683, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 5
+batch_idx: 9
+loss tensor(1.3249, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 5
+batch_idx: 10
+
+loss tensor(1.2668, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 5
+batch_idx: 11
+loss tensor(1.3759, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 5
+batch_idx: 12
+loss tensor(1.3976, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 5
+batch_idx: 13
+loss tensor(1.3413, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 5
+batch_idx: 14
+loss tensor(1.3537, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 5
+batch_idx: 15
+
+loss tensor(1.3890, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 5
+batch_idx: 16
+loss tensor(1.4101, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 5
+batch_idx: 17
+loss tensor(1.3250, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 5
+batch_idx: 18
+loss tensor(1.3785, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 5
+batch_idx: 19
+loss tensor(1.2911, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 5
+batch_idx: 20
+
+loss tensor(1.2857, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 5
+batch_idx: 21
+loss tensor(1.4110, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 5
+batch_idx: 22
+loss tensor(1.3081, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 5
+batch_idx: 23
+loss tensor(1.3800, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 5
+batch_idx: 24
+loss tensor(1.3556, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 5
+
+ 51%|███████████████████████████████████████████████████████████████████▋                                                                 | 30/59 [00:12<00:11,  2.48it/s]
+loss tensor(1.4033, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 5
+batch_idx: 26
+loss tensor(1.3479, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 5
+batch_idx: 27
+loss tensor(1.4254, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 5
+batch_idx: 28
+loss tensor(1.3827, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 5
+batch_idx: 29
+loss tensor(1.4217, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 5
+
+ 59%|██████████████████████████████████████████████████████████████████████████████▉                                                      | 35/59 [00:14<00:09,  2.45it/s]
+loss tensor(1.3884, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 5
+batch_idx: 31
+loss tensor(1.4029, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 5
+batch_idx: 32
+loss tensor(1.3724, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 5
+batch_idx: 33
+loss tensor(1.3953, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 5
+batch_idx: 34
+loss tensor(1.3606, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 5
+
+ 68%|██████████████████████████████████████████████████████████████████████████████████████████▏                                          | 40/59 [00:16<00:07,  2.46it/s]
+loss tensor(1.3708, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 5
+batch_idx: 36
+loss tensor(1.4087, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 5
+batch_idx: 37
+loss tensor(1.4487, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 5
+batch_idx: 38
+loss tensor(1.3639, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 5
+batch_idx: 39
+loss tensor(1.2812, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 5
+
+ 75%|███████████████████████████████████████████████████████████████████████████████████████████████████▏                                 | 44/59 [00:17<00:06,  2.39it/s]
+loss tensor(1.2691, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 5
+batch_idx: 41
+loss tensor(1.4083, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 5
+batch_idx: 42
+loss tensor(1.3594, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 5
+batch_idx: 43
+loss tensor(1.4147, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 5
+batch_idx: 44
+
+ 80%|█████████████████████████████████████████████████████████████████████████████████████████████████████████▉                           | 47/59 [00:19<00:04,  2.42it/s]
+epoch_idx: 5
+batch_idx: 45
+loss tensor(1.4490, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 5
+batch_idx: 46
+loss tensor(1.4526, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 5
+batch_idx: 47
+
+ 81%|████████████████████████████████████████████████████████████████████████████████████████████████████████████▏                        | 48/59 [00:20<00:08,  1.26it/s]
+epoch_idx: 5
+batch_idx: 48
+
+loss tensor(1.4290, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 5
+batch_idx: 49
+loss tensor(1.3853, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 5
+batch_idx: 50
+loss tensor(1.3545, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 5
+batch_idx: 51
+loss tensor(1.4013, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 5
+batch_idx: 52
+loss tensor(1.4170, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 5
+batch_idx: 53
+loss tensor(1.4504, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 5
+batch_idx: 54
+loss tensor(1.3582, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 5
+batch_idx: 55
+loss tensor(1.4339, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 5
+batch_idx: 56
+
+loss tensor(1.3754, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 5
+batch_idx: 57
+loss tensor(1.3819, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 5
+batch_idx: 58
+loss tensor(1.4236, device='cuda:0', grad_fn=<SumBackward0>)
+
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 59/59 [00:33<00:00,  1.76it/s]
+loss tensor(1.3754, device='cuda:0', grad_fn=<SumBackward0>)
+  7%|█████████                                                                                                                             | 4/59 [00:01<00:22,  2.48it/s]
+
+epoch_idx: 61.3754, device='cuda:0', grad_fn=<SumBackward0>)
+
+ 22%|█████████████████████████████▎                                                                                                       | 13/59 [00:05<00:19,  2.41it/s]
+
+ 31%|████████████████████████████████████████▌                                                                                            | 18/59 [00:07<00:16,  2.47it/s]
+
+ 39%|███████████████████████████████████████████████████▊                                                                                 | 23/59 [00:09<00:14,  2.46it/s]
+
+ 47%|███████████████████████████████████████████████████████████████                                                                      | 28/59 [00:11<00:12,  2.46it/s]
+
+ 56%|██████████████████████████████████████████████████████████████████████████▍                                                          | 33/59 [00:13<00:10,  2.44it/s]
+
+ 64%|█████████████████████████████████████████████████████████████████████████████████████▋                                               | 38/59 [00:15<00:08,  2.45it/s]
+
+loss tensor(0.9576, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.0468, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(1.0159, device='cuda:0', grad_fn=<SumBackward0>)
+
+loss tensor(0.9833, device='cuda:0', grad_fn=<SumBackward0>)
+
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 59/59 [00:32<00:00,  1.82it/s]
+loss tensor(0.9833, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.9833, device='cuda:0', grad_fn=<SumBackward0>)
+loss tensor(0.9833, device='cuda:0', grad_fn=<SumBackward0>)

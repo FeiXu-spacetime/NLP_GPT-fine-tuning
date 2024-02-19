@@ -1,0 +1,2295 @@
+
+  0%|                                                                                                                                                  | 0/584 [00:00<?, ?it/s]
+epoch_idx: 0
+  0%|                                                                                                                                                  | 0/584 [00:00<?, ?it/s]/home-nfs/fx2024/mc3/envs/fei-venv/lib/python3.11/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+  0%|▏                                                                                                                                         | 1/584 [00:03<30:47,  3.17s/it]
+loss tensor(16.4057, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+  1%|▋                                                                                                                                         | 3/584 [00:05<15:02,  1.55s/it]
+loss tensor(15.5848, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 2
+loss tensor(15.2016, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+  1%|█▍                                                                                                                                        | 6/584 [00:07<10:06,  1.05s/it]
+loss tensor(15.4588, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 4
+loss tensor(15.2291, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+  1%|█▉                                                                                                                                        | 8/584 [00:09<09:05,  1.06it/s]
+loss tensor(15.2710, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 6
+loss tensor(14.7318, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 7
+
+  2%|██▎                                                                                                                                      | 10/584 [00:11<08:40,  1.10it/s]
+epoch_idx: 0
+batch_idx: 8
+loss tensor(14.6857, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 9
+loss tensor(14.6601, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+  2%|███                                                                                                                                      | 13/584 [00:14<08:25,  1.13it/s]
+loss tensor(14.6732, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 11
+loss tensor(14.5933, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+  3%|███▌                                                                                                                                     | 15/584 [00:15<08:18,  1.14it/s]
+loss tensor(13.9968, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 13
+loss tensor(14.6230, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 14
+
+  3%|███▉                                                                                                                                     | 17/584 [00:17<08:18,  1.14it/s]
+epoch_idx: 0
+batch_idx: 15
+loss tensor(14.3818, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 16
+loss tensor(14.3215, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+  3%|████▍                                                                                                                                    | 19/584 [00:19<08:18,  1.13it/s]
+loss tensor(14.5965, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 18
+loss tensor(14.3786, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+  4%|█████▏                                                                                                                                   | 22/584 [00:21<08:12,  1.14it/s]
+loss tensor(13.8613, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 20
+loss tensor(13.5931, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 21
+
+loss tensor(14.2063, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 22
+loss tensor(13.8512, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 23
+
+  4%|██████                                                                                                                                   | 26/584 [00:25<08:06,  1.15it/s]
+epoch_idx: 0
+batch_idx: 24
+loss tensor(14.0387, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 25
+loss tensor(13.9387, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+  5%|██████▊                                                                                                                                  | 29/584 [00:27<08:02,  1.15it/s]
+loss tensor(14.3538, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 27
+loss tensor(14.0750, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+  5%|███████▎                                                                                                                                 | 31/584 [00:29<08:01,  1.15it/s]
+loss tensor(14.0838, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 29
+loss tensor(14.5056, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 30
+
+  6%|███████▋                                                                                                                                 | 33/584 [00:31<07:59,  1.15it/s]
+epoch_idx: 0
+batch_idx: 31
+loss tensor(14.1021, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 32
+loss tensor(14.4278, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+  6%|████████▏                                                                                                                                | 35/584 [00:33<07:59,  1.15it/s]
+loss tensor(13.9928, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 34
+loss tensor(14.1194, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+  7%|████████▉                                                                                                                                | 38/584 [00:35<08:00,  1.14it/s]
+loss tensor(14.0328, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 36
+loss tensor(14.2124, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 37
+
+loss tensor(14.2129, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 38
+loss tensor(13.5228, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 39
+loss tensor(14.1205, device='cuda:0', grad_fn=<SumBackward0>)
+
+batch_idx: 424.2129, device='cuda:0', grad_fn=<SumBackward0>)
+batch_idx: 40
+loss tensor(14.1296, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 41
+loss tensor(14.0919, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+  8%|██████████▎                                                                                                                              | 44/584 [00:41<07:50,  1.15it/s]
+loss tensor(14.2193, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 43
+loss tensor(13.4988, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+  8%|███████████                                                                                                                              | 47/584 [00:43<07:47,  1.15it/s]
+loss tensor(13.6044, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 45
+loss tensor(14.0223, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 46
+
+  8%|███████████▍                                                                                                                             | 49/584 [00:45<07:45,  1.15it/s]
+epoch_idx: 0
+batch_idx: 47
+loss tensor(13.8863, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 48
+loss tensor(14.2764, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+  9%|███████████▉                                                                                                                             | 51/584 [00:47<07:43,  1.15it/s]
+loss tensor(13.8424, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 50
+loss tensor(14.8444, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+  9%|████████████▍                                                                                                                            | 53/584 [00:49<07:49,  1.13it/s]
+loss tensor(13.8131, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 52
+loss tensor(14.1817, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+  9%|████████████▋                                                                                                                            | 54/584 [00:51<11:18,  1.28s/it]
+loss tensor(14.7057, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+ 10%|█████████████▎                                                                                                                           | 57/584 [00:53<08:56,  1.02s/it]
+loss tensor(13.5941, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 55
+loss tensor(13.4033, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 56
+loss tensor(13.7017, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+ 10%|█████████████▊                                                                                                                           | 59/584 [00:55<08:20,  1.05it/s]
+loss tensor(13.7786, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 58
+loss tensor(14.4568, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+ 10%|██████████████▎                                                                                                                          | 61/584 [00:57<07:55,  1.10it/s]
+loss tensor(13.6026, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 60
+loss tensor(13.5458, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+ 11%|██████████████▊                                                                                                                          | 63/584 [00:59<08:21,  1.04it/s]
+loss tensor(14.1206, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 62
+loss tensor(13.6790, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+ 11%|███████████████▏                                                                                                                         | 65/584 [01:01<07:57,  1.09it/s]
+loss tensor(13.9429, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 64
+loss tensor(13.2433, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+ 12%|███████████████▉                                                                                                                         | 68/584 [01:03<07:40,  1.12it/s]
+loss tensor(13.6979, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 66
+loss tensor(14.0687, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 67
+loss tensor(13.8923, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+ 12%|████████████████▍                                                                                                                        | 70/584 [01:05<07:34,  1.13it/s]
+loss tensor(13.1745, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 69
+loss tensor(13.9299, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+ 12%|████████████████▉                                                                                                                        | 72/584 [01:07<07:18,  1.17it/s]
+loss tensor(14.1656, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 71
+loss tensor(13.7610, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+ 13%|█████████████████▌                                                                                                                       | 75/584 [01:10<07:25,  1.14it/s]
+loss tensor(14.2084, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 73
+loss tensor(13.5288, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+ 13%|██████████████████                                                                                                                       | 77/584 [01:11<07:19,  1.15it/s]
+loss tensor(14.2688, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 75
+loss tensor(13.3713, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 76
+
+ 14%|██████████████████▌                                                                                                                      | 79/584 [01:13<07:16,  1.16it/s]
+epoch_idx: 0
+batch_idx: 77
+loss tensor(14.4188, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 78
+loss tensor(13.8333, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 79
+
+ 14%|███████████████████                                                                                                                      | 81/584 [01:15<07:19,  1.14it/s]
+epoch_idx: 0
+batch_idx: 80
+loss tensor(13.4885, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+ 14%|███████████████████▋                                                                                                                     | 84/584 [01:17<07:19,  1.14it/s]
+loss tensor(13.5331, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 82
+loss tensor(14.0476, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 83
+loss tensor(13.8848, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+ 15%|████████████████████▏                                                                                                                    | 86/584 [01:19<07:13,  1.15it/s]
+loss tensor(13.4513, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 85
+loss tensor(14.1741, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+ 15%|████████████████████▋                                                                                                                    | 88/584 [01:21<07:12,  1.15it/s]
+loss tensor(13.4454, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 87
+loss tensor(13.5741, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 88
+
+ 16%|█████████████████████▎                                                                                                                   | 91/584 [01:24<07:12,  1.14it/s]
+epoch_idx: 0
+batch_idx: 89
+loss tensor(13.7133, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 90
+loss tensor(13.8127, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+ 16%|█████████████████████▊                                                                                                                   | 93/584 [01:25<07:07,  1.15it/s]
+loss tensor(13.9356, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 92
+loss tensor(13.4381, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+ 16%|██████████████████████▎                                                                                                                  | 95/584 [01:27<07:04,  1.15it/s]
+loss tensor(13.5646, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 94
+loss tensor(13.7282, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 95
+
+ 17%|██████████████████████▊                                                                                                                  | 97/584 [01:29<07:09,  1.13it/s]
+epoch_idx: 0
+batch_idx: 96
+loss tensor(14.1400, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 97
+
+ 17%|███████████████████████▏                                                                                                                 | 99/584 [01:31<07:06,  1.14it/s]
+epoch_idx: 0
+batch_idx: 98
+loss tensor(13.8526, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 99
+
+ 17%|███████████████████████▎                                                                                                                | 100/584 [01:39<26:12,  3.25s/it]
+checkpoint saved for epoch 0 batch count total 100
+epoch_idx: 0
+
+ 17%|███████████████████████▊                                                                                                                | 102/584 [01:41<16:23,  2.04s/it]
+loss tensor(13.2734, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 101
+loss tensor(14.0955, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 102
+
+loss tensor(13.6206, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 103
+loss tensor(13.3660, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 104
+
+ 18%|████████████████████████▉                                                                                                               | 107/584 [01:46<08:33,  1.08s/it]
+epoch_idx: 0
+batch_idx: 105
+loss tensor(13.7586, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 106
+loss tensor(13.8380, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+ 19%|█████████████████████████▍                                                                                                              | 109/584 [01:47<07:46,  1.02it/s]
+loss tensor(13.8640, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 108
+loss tensor(13.8308, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+ 19%|█████████████████████████▌                                                                                                              | 110/584 [01:49<10:29,  1.33s/it]
+loss tensor(13.3292, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+ 19%|██████████████████████████                                                                                                              | 112/584 [01:51<08:30,  1.08s/it]
+loss tensor(13.4817, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 111
+loss tensor(13.6994, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+ 20%|██████████████████████████▌                                                                                                             | 114/584 [01:53<07:36,  1.03it/s]
+loss tensor(13.4828, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 113
+loss tensor(13.6498, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+ 20%|███████████████████████████                                                                                                             | 116/584 [01:55<07:55,  1.02s/it]
+loss tensor(13.7557, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 115
+loss tensor(13.6311, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 116
+
+loss tensor(13.3548, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 117
+loss tensor(13.7118, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 118
+
+ 21%|████████████████████████████▏                                                                                                           | 121/584 [01:59<06:50,  1.13it/s]
+epoch_idx: 0
+batch_idx: 119
+loss tensor(13.8198, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 120
+loss tensor(13.8023, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+ 21%|████████████████████████████▋                                                                                                           | 123/584 [02:01<06:48,  1.13it/s]
+loss tensor(14.2659, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 122
+loss tensor(13.4920, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+ 21%|█████████████████████████████                                                                                                           | 125/584 [02:03<06:36,  1.16it/s]
+loss tensor(13.1647, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 124
+loss tensor(13.7741, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 125
+
+ 22%|█████████████████████████████▊                                                                                                          | 128/584 [02:06<06:36,  1.15it/s]
+epoch_idx: 0
+batch_idx: 126
+loss tensor(14.0405, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 127
+loss tensor(13.3712, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+ 22%|██████████████████████████████▎                                                                                                         | 130/584 [02:07<06:36,  1.14it/s]
+loss tensor(13.5674, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 129
+loss tensor(12.9912, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+ 23%|██████████████████████████████▋                                                                                                         | 132/584 [02:09<06:34,  1.15it/s]
+loss tensor(13.5591, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 131
+loss tensor(13.4557, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 132
+
+loss tensor(13.2689, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 133
+loss tensor(13.5359, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 134
+
+ 23%|███████████████████████████████▉                                                                                                        | 137/584 [02:13<06:22,  1.17it/s]
+epoch_idx: 0
+batch_idx: 135
+loss tensor(13.8232, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 136
+loss tensor(13.5009, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+ 24%|████████████████████████████████▎                                                                                                       | 139/584 [02:15<06:26,  1.15it/s]
+loss tensor(13.2578, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 138
+loss tensor(13.0522, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 139
+
+loss tensor(13.8160, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 140
+loss tensor(13.4176, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 141
+
+ 25%|█████████████████████████████████▌                                                                                                      | 144/584 [02:20<06:17,  1.16it/s]
+epoch_idx: 0
+batch_idx: 142
+loss tensor(13.2960, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 143
+loss tensor(13.0641, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+ 25%|██████████████████████████████████                                                                                                      | 146/584 [02:21<06:25,  1.14it/s]
+loss tensor(13.4551, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 145
+loss tensor(13.6003, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+ 25%|██████████████████████████████████▍                                                                                                     | 148/584 [02:23<06:20,  1.15it/s]
+loss tensor(13.5734, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 147
+loss tensor(13.7346, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 148
+
+ 26%|███████████████████████████████████▏                                                                                                    | 151/584 [02:26<06:20,  1.14it/s]
+epoch_idx: 0
+batch_idx: 149
+loss tensor(13.2880, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 150
+loss tensor(14.0119, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+ 26%|███████████████████████████████████▋                                                                                                    | 153/584 [02:27<06:22,  1.13it/s]
+loss tensor(13.5963, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 152
+loss tensor(13.4006, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+ 27%|████████████████████████████████████                                                                                                    | 155/584 [02:29<06:15,  1.14it/s]
+loss tensor(13.6383, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 154
+loss tensor(13.3059, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 155
+
+loss tensor(13.9198, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 156
+loss tensor(13.4972, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 157
+
+ 27%|█████████████████████████████████████▎                                                                                                  | 160/584 [02:33<06:07,  1.15it/s]
+epoch_idx: 0
+batch_idx: 158
+loss tensor(13.3115, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 159
+loss tensor(13.3449, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+ 28%|█████████████████████████████████████▋                                                                                                  | 162/584 [02:35<06:06,  1.15it/s]
+loss tensor(13.6912, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 161
+loss tensor(13.6706, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+ 28%|██████████████████████████████████████▏                                                                                                 | 164/584 [02:37<06:07,  1.14it/s]
+loss tensor(13.4638, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 163
+loss tensor(14.1243, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 164
+
+ 28%|██████████████████████████████████████▋                                                                                                 | 166/584 [02:39<06:53,  1.01it/s]
+epoch_idx: 0
+batch_idx: 165
+loss tensor(13.5374, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 166
+
+loss tensor(13.8251, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 167
+loss tensor(13.2739, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 168
+
+ 29%|███████████████████████████████████████▊                                                                                                | 171/584 [02:44<06:07,  1.12it/s]
+epoch_idx: 0
+batch_idx: 169
+loss tensor(13.2504, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 170
+loss tensor(12.7376, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+ 30%|████████████████████████████████████████▎                                                                                               | 173/584 [02:45<05:58,  1.15it/s]
+loss tensor(13.5460, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 172
+loss tensor(13.5033, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 173
+
+loss tensor(12.9971, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 174
+loss tensor(13.2448, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 175
+
+ 30%|████████████████████████████████████████▉                                                                                               | 176/584 [02:48<05:57,  1.14it/s]
+epoch_idx: 0
+batch_idx: 176
+
+ 31%|█████████████████████████████████████████▋                                                                                              | 179/584 [02:52<06:55,  1.03s/it]
+epoch_idx: 0
+batch_idx: 177
+loss tensor(13.7855, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 178
+loss tensor(12.9855, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+ 31%|██████████████████████████████████████████▏                                                                                             | 181/584 [02:53<06:20,  1.06it/s]
+loss tensor(13.3115, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 180
+loss tensor(13.1742, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+ 31%|██████████████████████████████████████████▌                                                                                             | 183/584 [02:55<06:05,  1.10it/s]
+loss tensor(13.3816, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 182
+loss tensor(13.4026, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 183
+
+ 32%|███████████████████████████████████████████▎                                                                                            | 186/584 [02:58<05:50,  1.14it/s]
+epoch_idx: 0
+batch_idx: 184
+loss tensor(13.9684, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 185
+loss tensor(13.5745, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+ 32%|███████████████████████████████████████████▊                                                                                            | 188/584 [02:59<05:46,  1.14it/s]
+loss tensor(13.5064, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 187
+loss tensor(13.6057, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+ 33%|████████████████████████████████████████████▏                                                                                           | 190/584 [03:01<05:43,  1.15it/s]
+loss tensor(13.1581, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 189
+loss tensor(13.6281, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 190
+
+loss tensor(13.9541, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 191
+loss tensor(13.3258, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 192
+
+ 33%|█████████████████████████████████████████████▍                                                                                          | 195/584 [03:06<05:33,  1.17it/s]
+epoch_idx: 0
+batch_idx: 193
+loss tensor(13.8103, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 194
+loss tensor(13.8179, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+ 34%|█████████████████████████████████████████████▉                                                                                          | 197/584 [03:07<05:32,  1.17it/s]
+loss tensor(13.3347, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 196
+loss tensor(13.6273, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 197
+
+loss tensor(13.4452, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 198
+loss tensor(13.3798, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 199
+
+ 34%|██████████████████████████████████████████████▌                                                                                         | 200/584 [03:18<20:19,  3.18s/it]
+checkpoint saved for epoch 0 batch count total 200
+epoch_idx: 0
+
+ 35%|███████████████████████████████████████████████                                                                                         | 202/584 [03:19<12:48,  2.01s/it]
+loss tensor(13.6185, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 201
+loss tensor(13.7465, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+ 35%|███████████████████████████████████████████████▌                                                                                        | 204/584 [03:21<08:56,  1.41s/it]
+loss tensor(13.3950, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 203
+loss tensor(13.3217, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 204
+
+ 35%|███████████████████████████████████████████████▉                                                                                        | 206/584 [03:23<08:16,  1.31s/it]
+epoch_idx: 0
+batch_idx: 205
+loss tensor(13.6661, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+ 36%|████████████████████████████████████████████████▍                                                                                       | 208/584 [03:25<06:44,  1.07s/it]
+loss tensor(13.4480, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 207
+loss tensor(13.8737, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 208
+
+ 36%|█████████████████████████████████████████████████▏                                                                                      | 211/584 [03:28<05:51,  1.06it/s]
+epoch_idx: 0
+batch_idx: 209
+loss tensor(13.6569, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 210
+loss tensor(13.8506, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+ 36%|█████████████████████████████████████████████████▌                                                                                      | 213/584 [03:29<05:41,  1.09it/s]
+loss tensor(13.4599, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 212
+loss tensor(13.1072, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+ 37%|██████████████████████████████████████████████████                                                                                      | 215/584 [03:31<05:27,  1.13it/s]
+loss tensor(13.4338, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 214
+loss tensor(13.5790, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 215
+
+ 37%|██████████████████████████████████████████████████▊                                                                                     | 218/584 [03:34<05:15,  1.16it/s]
+epoch_idx: 0
+batch_idx: 216
+loss tensor(13.1430, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 217
+loss tensor(13.6212, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+ 38%|███████████████████████████████████████████████████▏                                                                                    | 220/584 [03:35<05:19,  1.14it/s]
+loss tensor(13.6727, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 219
+loss tensor(13.2418, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+ 38%|███████████████████████████████████████████████████▋                                                                                    | 222/584 [03:37<05:14,  1.15it/s]
+loss tensor(13.5264, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 221
+loss tensor(13.3615, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 222
+
+loss tensor(13.4247, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 223
+loss tensor(13.9825, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 224
+
+ 39%|████████████████████████████████████████████████████▊                                                                                   | 227/584 [03:42<05:11,  1.15it/s]
+epoch_idx: 0
+batch_idx: 225
+loss tensor(13.7676, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 226
+loss tensor(13.5297, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+ 39%|█████████████████████████████████████████████████████▎                                                                                  | 229/584 [03:43<05:07,  1.16it/s]
+loss tensor(13.6470, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 228
+loss tensor(12.9631, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+ 40%|█████████████████████████████████████████████████████▊                                                                                  | 231/584 [03:45<05:04,  1.16it/s]
+loss tensor(13.3421, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 230
+loss tensor(13.6036, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 231
+
+ 40%|██████████████████████████████████████████████████████▍                                                                                 | 234/584 [03:48<05:02,  1.16it/s]
+epoch_idx: 0
+batch_idx: 232
+loss tensor(13.5137, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 233
+loss tensor(13.8640, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+ 40%|██████████████████████████████████████████████████████▋                                                                                 | 235/584 [03:49<05:03,  1.15it/s]
+loss tensor(13.3150, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+ 41%|███████████████████████████████████████████████████████▏                                                                                | 237/584 [03:51<06:26,  1.11s/it]
+loss tensor(13.0170, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 236
+loss tensor(13.3819, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+ 41%|███████████████████████████████████████████████████████▋                                                                                | 239/584 [03:53<05:39,  1.01it/s]
+loss tensor(13.7806, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 238
+loss tensor(13.7274, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 239
+
+ 41%|████████████████████████████████████████████████████████▎                                                                               | 242/584 [03:56<05:07,  1.11it/s]
+epoch_idx: 0
+batch_idx: 240
+loss tensor(13.3602, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 241
+loss tensor(13.4317, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+ 42%|████████████████████████████████████████████████████████▊                                                                               | 244/584 [03:57<04:52,  1.16it/s]
+loss tensor(13.4834, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 243
+loss tensor(13.6379, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+ 42%|█████████████████████████████████████████████████████████▎                                                                              | 246/584 [03:59<04:52,  1.16it/s]
+loss tensor(13.8795, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 245
+loss tensor(13.3745, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 246
+
+ 43%|█████████████████████████████████████████████████████████▉                                                                              | 249/584 [04:02<04:41,  1.19it/s]
+epoch_idx: 0
+batch_idx: 247
+loss tensor(13.1186, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 248
+loss tensor(13.1343, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+ 43%|██████████████████████████████████████████████████████████▍                                                                             | 251/584 [04:03<04:45,  1.17it/s]
+loss tensor(13.6279, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 250
+loss tensor(13.7798, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+ 43%|██████████████████████████████████████████████████████████▉                                                                             | 253/584 [04:05<04:46,  1.16it/s]
+loss tensor(13.2843, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 252
+loss tensor(13.4360, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 253
+
+ 44%|███████████████████████████████████████████████████████████▌                                                                            | 256/584 [04:08<04:38,  1.18it/s]
+epoch_idx: 0
+batch_idx: 254
+loss tensor(13.5685, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 255
+loss tensor(13.0563, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+ 44%|████████████████████████████████████████████████████████████                                                                            | 258/584 [04:09<04:40,  1.16it/s]
+loss tensor(13.1956, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 257
+loss tensor(13.1391, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+ 45%|████████████████████████████████████████████████████████████▌                                                                           | 260/584 [04:11<04:41,  1.15it/s]
+loss tensor(13.4266, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 259
+loss tensor(13.1593, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 260
+
+ 45%|█████████████████████████████████████████████████████████████▏                                                                          | 263/584 [04:14<04:33,  1.17it/s]
+epoch_idx: 0
+batch_idx: 261
+loss tensor(13.3686, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 262
+loss tensor(13.1169, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+
+ 45%|█████████████████████████████████████████████████████████████▍                                                                          | 264/584 [04:15<04:35,  1.16it/s]
+loss tensor(13.8723, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 264
+
+ 46%|██████████████████████████████████████████████████████████████▏                                                                         | 267/584 [04:18<04:57,  1.07it/s]
+epoch_idx: 0
+batch_idx: 265
+loss tensor(13.7127, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 266
+
+ 46%|███████████████████████████████████████████████████████████████                                                                         | 271/584 [04:21<04:42,  1.11it/s]
+epoch_idx: 0
+batch_idx: 267
+loss tensor(13.3291, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 268
+loss tensor(13.5571, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 269
+loss tensor(12.7912, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 270
+loss tensor(13.3251, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 271
+
+loss tensor(13.5148, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 272
+loss tensor(13.3605, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 0
+batch_idx: 273
+loss tensor(13.0161, device='cuda:0', grad_fn=<SumBackward0>)
+
+ 47%|████████████████████████████████████████████████████████████████▎                                                                       | 276/584 [04:26<04:25,  1.16it/s]
+
+loss tensor(13.3292, device='cuda:0', grad_fn=<SumBackward0>)
+
+ 48%|█████████████████████████████████████████████████████████████████▍                                                                      | 281/584 [04:30<04:20,  1.16it/s]
+
+loss tensor(13.5056, device='cuda:0', grad_fn=<SumBackward0>)
+
+ 49%|██████████████████████████████████████████████████████████████████▎                                                                     | 285/584 [04:33<04:16,  1.17it/s]
+
+loss tensor(13.2469, device='cuda:0', grad_fn=<SumBackward0>)
+
+ 50%|███████████████████████████████████████████████████████████████████▌                                                                    | 290/584 [04:38<04:13,  1.16it/s]
+
+loss tensor(13.5861, device='cuda:0', grad_fn=<SumBackward0>)
+
+ 50%|████████████████████████████████████████████████████████████████████▍                                                                   | 294/584 [04:41<04:14,  1.14it/s]
+
+loss tensor(13.1954, device='cuda:0', grad_fn=<SumBackward0>)
+
+ 51%|█████████████████████████████████████████████████████████████████████▋                                                                  | 299/584 [04:45<04:06,  1.16it/s]
+loss tensor(13.1954, device='cuda:0', grad_fn=<SumBackward0>)
+
+ 52%|██████████████████████████████████████████████████████████████████████                                                                  | 301/584 [04:56<12:26,  2.64s/it]
+
+ 52%|██████████████████████████████████████████████████████████████████████▌                                                                 | 303/584 [04:57<08:07,  1.73s/it]
+
+ 52%|███████████████████████████████████████████████████████████████████████                                                                 | 305/584 [04:59<06:02,  1.30s/it]
+
+ 53%|███████████████████████████████████████████████████████████████████████▋                                                                | 308/584 [05:02<04:36,  1.00s/it]
+
+ 53%|████████████████████████████████████████████████████████████████████████▏                                                               | 310/584 [05:03<04:13,  1.08it/s]
+
+ 53%|████████████████████████████████████████████████████████████████████████▋                                                               | 312/584 [05:05<04:01,  1.12it/s]
+
+ 54%|█████████████████████████████████████████████████████████████████████████                                                               | 314/584 [05:07<04:34,  1.01s/it]
+
+ 54%|█████████████████████████████████████████████████████████████████████████▌                                                              | 316/584 [05:09<04:12,  1.06it/s]
+
+ 55%|██████████████████████████████████████████████████████████████████████████▎                                                             | 319/584 [05:12<03:57,  1.12it/s]
+
+ 55%|██████████████████████████████████████████████████████████████████████████▊                                                             | 321/584 [05:13<03:53,  1.13it/s]
+
+ 55%|███████████████████████████████████████████████████████████████████████████▏                                                            | 323/584 [05:15<03:53,  1.12it/s]
+
+ 56%|███████████████████████████████████████████████████████████████████████████▉                                                            | 326/584 [05:18<03:43,  1.15it/s]
+
+epoch_idx: 013.1954, device='cuda:0', grad_fn=<SumBackward0>)
+
+ 57%|█████████████████████████████████████████████████████████████████████████████▌                                                          | 333/584 [05:24<03:38,  1.15it/s]
+
+ 57%|██████████████████████████████████████████████████████████████████████████████                                                          | 335/584 [05:26<03:33,  1.17it/s]
+
+ 58%|██████████████████████████████████████████████████████████████████████████████▍                                                         | 337/584 [05:27<03:31,  1.17it/s]
+
+ 58%|███████████████████████████████████████████████████████████████████████████████▏                                                        | 340/584 [05:30<03:34,  1.14it/s]
+
+ 59%|███████████████████████████████████████████████████████████████████████████████▋                                                        | 342/584 [05:32<03:29,  1.15it/s]
+
+ 59%|████████████████████████████████████████████████████████████████████████████████                                                        | 344/584 [05:33<03:31,  1.14it/s]
+
+ 59%|████████████████████████████████████████████████████████████████████████████████▌                                                       | 346/584 [05:35<03:26,  1.15it/s]
+
+ 60%|█████████████████████████████████████████████████████████████████████████████████▎                                                      | 349/584 [05:38<03:23,  1.15it/s]
+
+ 60%|█████████████████████████████████████████████████████████████████████████████████▋                                                      | 351/584 [05:39<03:18,  1.17it/s]
+
+ 60%|██████████████████████████████████████████████████████████████████████████████████▏                                                     | 353/584 [05:41<03:28,  1.11it/s]
+
+ 61%|██████████████████████████████████████████████████████████████████████████████████▋                                                     | 355/584 [05:43<03:23,  1.13it/s]
+
+ 61%|███████████████████████████████████████████████████████████████████████████████████▎                                                    | 358/584 [05:46<03:20,  1.13it/s]
+
+ 62%|███████████████████████████████████████████████████████████████████████████████████▊                                                    | 360/584 [05:47<03:13,  1.15it/s]
+
+ 62%|████████████████████████████████████████████████████████████████████████████████████                                                    | 361/584 [05:50<04:38,  1.25s/it]
+
+ 62%|████████████████████████████████████████████████████████████████████████████████████▌                                                   | 363/584 [05:51<03:51,  1.05s/it]
+
+ 62%|█████████████████████████████████████████████████████████████████████████████████████                                                   | 365/584 [05:53<03:31,  1.03it/s]
+
+ 63%|█████████████████████████████████████████████████████████████████████████████████████▋                                                  | 368/584 [05:56<03:16,  1.10it/s]
+
+ 63%|██████████████████████████████████████████████████████████████████████████████████████▏                                                 | 370/584 [05:58<03:09,  1.13it/s]
+
+ 64%|██████████████████████████████████████████████████████████████████████████████████████▋                                                 | 372/584 [05:59<03:05,  1.14it/s]
+
+ 64%|███████████████████████████████████████████████████████████████████████████████████████▎                                                | 375/584 [06:02<03:03,  1.14it/s]
+
+ 65%|███████████████████████████████████████████████████████████████████████████████████████▊                                                | 377/584 [06:04<02:59,  1.15it/s]
+
+ 65%|████████████████████████████████████████████████████████████████████████████████████████▎                                               | 379/584 [06:05<02:58,  1.15it/s]
+
+ 65%|████████████████████████████████████████████████████████████████████████████████████████▉                                               | 382/584 [06:08<02:55,  1.15it/s]
+
+ 66%|█████████████████████████████████████████████████████████████████████████████████████████▍                                              | 384/584 [06:10<02:54,  1.14it/s]
+
+ 66%|█████████████████████████████████████████████████████████████████████████████████████████▉                                              | 386/584 [06:11<02:52,  1.14it/s]
+
+ 66%|██████████████████████████████████████████████████████████████████████████████████████████▎                                             | 388/584 [06:13<02:53,  1.13it/s]
+
+ 67%|███████████████████████████████████████████████████████████████████████████████████████████                                             | 391/584 [06:16<02:47,  1.15it/s]
+
+ 67%|███████████████████████████████████████████████████████████████████████████████████████████▌                                            | 393/584 [06:18<02:42,  1.17it/s]
+
+ 68%|███████████████████████████████████████████████████████████████████████████████████████████▉                                            | 395/584 [06:19<02:42,  1.16it/s]
+
+ 68%|████████████████████████████████████████████████████████████████████████████████████████████▋                                           | 398/584 [06:22<02:38,  1.18it/s]
+
+ 68%|████████████████████████████████████████████████████████████████████████████████████████████▉                                           | 399/584 [06:23<02:38,  1.17it/s]
+
+ 69%|█████████████████████████████████████████████████████████████████████████████████████████████▍                                          | 401/584 [06:32<07:33,  2.48s/it]
+
+ 69%|█████████████████████████████████████████████████████████████████████████████████████████████▊                                          | 403/584 [06:34<05:01,  1.67s/it]
+
+ 69%|██████████████████████████████████████████████████████████████████████████████████████████████▎                                         | 405/584 [06:36<03:43,  1.25s/it]
+
+ 70%|███████████████████████████████████████████████████████████████████████████████████████████████                                         | 408/584 [06:38<02:53,  1.02it/s]
+
+ 70%|███████████████████████████████████████████████████████████████████████████████████████████████▍                                        | 410/584 [06:40<02:40,  1.08it/s]
+
+ 71%|███████████████████████████████████████████████████████████████████████████████████████████████▉                                        | 412/584 [06:42<02:53,  1.01s/it]
+
+ 71%|████████████████████████████████████████████████████████████████████████████████████████████████▍                                       | 414/584 [06:44<02:38,  1.07it/s]
+
+ 71%|████████████████████████████████████████████████████████████████████████████████████████████████▉                                       | 416/584 [06:45<02:30,  1.12it/s]
+
+ 72%|█████████████████████████████████████████████████████████████████████████████████████████████████▌                                      | 419/584 [06:48<02:25,  1.14it/s]
+
+ 72%|█████████████████████████████████████████████████████████████████████████████████████████████████▊                                      | 420/584 [06:50<03:22,  1.24s/it]
+
+ 72%|██████████████████████████████████████████████████████████████████████████████████████████████████▎                                     | 422/584 [06:52<02:49,  1.05s/it]
+
+ 73%|██████████████████████████████████████████████████████████████████████████████████████████████████▋                                     | 424/584 [06:53<02:32,  1.05it/s]
+
+ 73%|███████████████████████████████████████████████████████████████████████████████████████████████████▏                                    | 426/584 [06:55<02:25,  1.09it/s]
+
+ 73%|███████████████████████████████████████████████████████████████████████████████████████████████████▉                                    | 429/584 [06:58<02:15,  1.15it/s]
+
+ 74%|████████████████████████████████████████████████████████████████████████████████████████████████████▎                                   | 431/584 [07:00<02:11,  1.16it/s]
+
+ 74%|████████████████████████████████████████████████████████████████████████████████████████████████████▊                                   | 433/584 [07:01<02:10,  1.16it/s]
+
+ 75%|█████████████████████████████████████████████████████████████████████████████████████████████████████▌                                  | 436/584 [07:04<02:09,  1.15it/s]
+
+ 75%|██████████████████████████████████████████████████████████████████████████████████████████████████████                                  | 438/584 [07:06<02:06,  1.16it/s]
+
+ 75%|██████████████████████████████████████████████████████████████████████████████████████████████████████▍                                 | 440/584 [07:07<02:05,  1.15it/s]
+
+ 76%|███████████████████████████████████████████████████████████████████████████████████████████████████████▏                                | 443/584 [07:10<02:02,  1.15it/s]
+
+ 76%|███████████████████████████████████████████████████████████████████████████████████████████████████████▋                                | 445/584 [07:12<01:59,  1.16it/s]
+
+ 77%|████████████████████████████████████████████████████████████████████████████████████████████████████████                                | 447/584 [07:13<01:58,  1.15it/s]
+
+ 77%|████████████████████████████████████████████████████████████████████████████████████████████████████████▊                               | 450/584 [07:16<01:56,  1.15it/s]
+
+ 77%|█████████████████████████████████████████████████████████████████████████████████████████████████████████▎                              | 452/584 [07:18<01:55,  1.15it/s]
+
+ 78%|█████████████████████████████████████████████████████████████████████████████████████████████████████████▋                              | 454/584 [07:20<01:51,  1.17it/s]
+
+ 78%|██████████████████████████████████████████████████████████████████████████████████████████████████████████▍                             | 457/584 [07:22<01:49,  1.16it/s]
+
+ 79%|██████████████████████████████████████████████████████████████████████████████████████████████████████████▉                             | 459/584 [07:24<01:48,  1.16it/s]
+
+ 79%|███████████████████████████████████████████████████████████████████████████████████████████████████████████▎                            | 461/584 [07:26<01:45,  1.17it/s]
+
+ 79%|███████████████████████████████████████████████████████████████████████████████████████████████████████████▊                            | 463/584 [07:28<01:56,  1.04it/s]
+
+ 80%|████████████████████████████████████████████████████████████████████████████████████████████████████████████▎                           | 465/584 [07:29<01:49,  1.09it/s]
+
+ 80%|████████████████████████████████████████████████████████████████████████████████████████████████████████████▉                           | 468/584 [07:32<01:43,  1.12it/s]
+
+ 80%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████▍                          | 470/584 [07:34<01:40,  1.13it/s]
+
+ 81%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████▉                          | 472/584 [07:35<01:37,  1.15it/s]
+
+ 81%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████▌                         | 475/584 [07:38<01:33,  1.16it/s]
+
+ 82%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████                         | 477/584 [07:40<01:34,  1.14it/s]
+
+ 82%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████▌                        | 479/584 [07:42<01:31,  1.15it/s]
+
+ 83%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏                       | 482/584 [07:44<01:27,  1.16it/s]
+
+ 83%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋                       | 484/584 [07:46<01:26,  1.15it/s]
+
+ 83%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏                      | 486/584 [07:48<01:24,  1.16it/s]
+
+ 83%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████▍                      | 487/584 [07:50<02:02,  1.27s/it]
+
+ 84%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉                      | 489/584 [07:52<01:40,  1.06s/it]
+
+ 84%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎                     | 491/584 [07:53<01:29,  1.04it/s]
+
+ 84%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊                     | 493/584 [07:55<01:23,  1.09it/s]
+
+ 85%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌                    | 496/584 [07:58<01:16,  1.15it/s]
+
+ 85%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉                    | 498/584 [07:59<01:14,  1.16it/s]
+
+ 85%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏                   | 499/584 [08:00<01:13,  1.15it/s]
+
+ 86%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋                   | 501/584 [08:10<03:28,  2.52s/it]
+
+ 86%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏                  | 503/584 [08:12<02:16,  1.69s/it]
+
+ 86%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌                  | 505/584 [08:13<01:40,  1.27s/it]
+
+ 87%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████                  | 507/584 [08:15<01:21,  1.06s/it]
+
+ 87%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊                 | 510/584 [08:18<01:08,  1.09it/s]
+
+ 88%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏                | 512/584 [08:19<01:05,  1.10it/s]
+
+ 88%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋                | 514/584 [08:21<01:01,  1.13it/s]
+
+ 89%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▍               | 517/584 [08:24<00:59,  1.13it/s]
+
+ 89%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊               | 519/584 [08:25<00:57,  1.14it/s]
+
+ 89%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎              | 521/584 [08:27<00:55,  1.14it/s]
+
+ 90%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊              | 523/584 [08:29<00:52,  1.16it/s]
+
+ 90%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▍             | 526/584 [08:32<00:50,  1.16it/s]
+
+ 90%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉             | 528/584 [08:33<00:48,  1.15it/s]
+
+ 91%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▍            | 530/584 [08:35<00:46,  1.17it/s]
+
+ 91%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████            | 533/584 [08:38<00:44,  1.15it/s]
+
+ 92%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌           | 535/584 [08:39<00:42,  1.15it/s]
+
+ 92%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████           | 537/584 [08:41<00:40,  1.16it/s]
+
+ 92%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊          | 540/584 [08:44<00:38,  1.15it/s]
+
+ 93%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏         | 542/584 [08:45<00:36,  1.15it/s]
+
+ 93%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋         | 544/584 [08:47<00:35,  1.14it/s]
+
+ 93%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉         | 545/584 [08:48<00:34,  1.14it/s]
+
+ 94%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▍        | 547/584 [08:51<00:41,  1.12s/it]
+
+ 94%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████        | 550/584 [08:54<00:32,  1.06it/s]
+
+ 95%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌       | 552/584 [08:55<00:29,  1.10it/s]
+
+ 95%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████       | 554/584 [08:57<00:26,  1.12it/s]
+
+ 95%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋      | 557/584 [09:00<00:23,  1.16it/s]
+
+ 96%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏     | 559/584 [09:01<00:21,  1.16it/s]
+
+ 96%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋     | 561/584 [09:03<00:21,  1.09it/s]
+
+ 96%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████     | 563/584 [09:05<00:18,  1.13it/s]
+
+ 97%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊    | 566/584 [09:08<00:15,  1.15it/s]
+
+ 97%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎   | 568/584 [09:10<00:13,  1.15it/s]
+
+ 98%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋   | 570/584 [09:11<00:12,  1.13it/s]
+
+ 98%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏  | 572/584 [09:13<00:10,  1.16it/s]
+
+ 98%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉  | 575/584 [09:16<00:07,  1.17it/s]
+
+ 99%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎ | 577/584 [09:17<00:06,  1.14it/s]
+
+ 99%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊ | 579/584 [09:19<00:04,  1.16it/s]
+
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌| 582/584 [09:22<00:01,  1.16it/s]
+
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊| 583/584 [09:23<00:00,  1.16it/s]
+
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 584/584 [09:31<00:00,  1.02it/s]
+epoch_idx: 013.1954, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 013.1954, device='cuda:0', grad_fn=<SumBackward0>)
+  0%|▏                                                                                                                                         | 1/584 [00:00<08:54,  1.09it/s]
+
+  1%|▉                                                                                                                                         | 4/584 [00:03<08:32,  1.13it/s]
+
+  1%|█▍                                                                                                                                        | 6/584 [00:05<08:17,  1.16it/s]
+
+  1%|█▉                                                                                                                                        | 8/584 [00:07<08:21,  1.15it/s]
+
+  2%|██▌                                                                                                                                      | 11/584 [00:09<08:23,  1.14it/s]
+epoch_idx: 013.1954, device='cuda:0', grad_fn=<SumBackward0>)
+
+  2%|███                                                                                                                                      | 13/584 [00:12<11:01,  1.16s/it]
+
+  3%|███▌                                                                                                                                     | 15/584 [00:14<10:26,  1.10s/it]
+
+  3%|████▏                                                                                                                                    | 18/584 [00:17<08:54,  1.06it/s]
+
+  3%|████▋                                                                                                                                    | 20/584 [00:19<08:20,  1.13it/s]
+
+  4%|█████▏                                                                                                                                   | 22/584 [00:20<08:13,  1.14it/s]
+
+  4%|█████▊                                                                                                                                   | 25/584 [00:23<08:11,  1.14it/s]
+
+  5%|██████▎                                                                                                                                  | 27/584 [00:25<08:06,  1.14it/s]
+
+  5%|██████▊                                                                                                                                  | 29/584 [00:27<08:07,  1.14it/s]
+
+  5%|███████▌                                                                                                                                 | 32/584 [00:29<08:04,  1.14it/s]
+
+  6%|███████▉                                                                                                                                 | 34/584 [00:31<07:52,  1.16it/s]
+
+  6%|████████▍                                                                                                                                | 36/584 [00:33<08:05,  1.13it/s]
+
+  7%|████████▉                                                                                                                                | 38/584 [00:34<08:06,  1.12it/s]
+
+  7%|█████████▌                                                                                                                               | 41/584 [00:37<07:50,  1.15it/s]
+
+  7%|██████████                                                                                                                               | 43/584 [00:39<07:44,  1.16it/s]
+
+  8%|██████████▌                                                                                                                              | 45/584 [00:40<07:43,  1.16it/s]
+
+  8%|███████████▎                                                                                                                             | 48/584 [00:43<07:41,  1.16it/s]
+
+  9%|███████████▋                                                                                                                             | 50/584 [00:45<07:42,  1.15it/s]
+
+  9%|████████████▏                                                                                                                            | 52/584 [00:46<07:43,  1.15it/s]
+
+  9%|████████████▉                                                                                                                            | 55/584 [00:49<07:48,  1.13it/s]
+
+ 10%|█████████████▎                                                                                                                           | 57/584 [00:51<07:33,  1.16it/s]
+
+ 10%|█████████████▊                                                                                                                           | 59/584 [00:53<07:30,  1.16it/s]
+
+ 10%|██████████████▎                                                                                                                          | 61/584 [00:54<07:35,  1.15it/s]
+
+ 11%|███████████████                                                                                                                          | 64/584 [00:57<07:34,  1.15it/s]
+
+ 11%|███████████████▍                                                                                                                         | 66/584 [00:59<07:34,  1.14it/s]
+
+ 12%|███████████████▉                                                                                                                         | 68/584 [01:01<07:35,  1.13it/s]
+
+ 12%|████████████████▋                                                                                                                        | 71/584 [01:03<07:28,  1.14it/s]
+
+ 12%|█████████████████▏                                                                                                                       | 73/584 [01:05<07:23,  1.15it/s]
+
+ 13%|█████████████████▌                                                                                                                       | 75/584 [01:07<08:01,  1.06it/s]
+
+ 13%|██████████████████                                                                                                                       | 77/584 [01:09<07:41,  1.10it/s]
+
+ 13%|██████████████████▎                                                                                                                      | 78/584 [01:11<10:38,  1.26s/it]
+
+ 14%|██████████████████▊                                                                                                                      | 80/584 [01:13<08:58,  1.07s/it]
+
+ 14%|███████████████████▏                                                                                                                     | 82/584 [01:14<08:03,  1.04it/s]
+
+ 15%|███████████████████▉                                                                                                                     | 85/584 [01:17<07:31,  1.11it/s]
+
+ 15%|████████████████████▍                                                                                                                    | 87/584 [01:19<07:15,  1.14it/s]
+
+ 15%|████████████████████▉                                                                                                                    | 89/584 [01:20<07:14,  1.14it/s]
+
+ 16%|█████████████████████▌                                                                                                                   | 92/584 [01:23<07:16,  1.13it/s]
+
+ 16%|██████████████████████                                                                                                                   | 94/584 [01:25<06:59,  1.17it/s]
+
+ 16%|██████████████████████▌                                                                                                                  | 96/584 [01:27<07:01,  1.16it/s]
+
+ 17%|███████████████████████▏                                                                                                                 | 99/584 [01:29<07:03,  1.15it/s]
+epoch_idx: 013.1954, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 013.1954, device='cuda:0', grad_fn=<SumBackward0>)
+
+ 17%|███████████████████████▌                                                                                                                | 101/584 [01:38<19:39,  2.44s/it]
+
+ 18%|████████████████████████▏                                                                                                               | 104/584 [01:41<11:16,  1.41s/it]
+
+ 18%|████████████████████████▋                                                                                                               | 106/584 [01:43<09:00,  1.13s/it]
+
+ 18%|█████████████████████████▏                                                                                                              | 108/584 [01:45<07:55,  1.00it/s]
+
+ 19%|█████████████████████████▊                                                                                                              | 111/584 [01:47<07:10,  1.10it/s]
+
+ 19%|██████████████████████████▎                                                                                                             | 113/584 [01:49<06:51,  1.14it/s]
+
+ 20%|██████████████████████████▊                                                                                                             | 115/584 [01:51<06:52,  1.14it/s]
+
+ 20%|███████████████████████████▍                                                                                                            | 118/584 [01:53<06:42,  1.16it/s]
+epoch_idx: 013.1954, device='cuda:0', grad_fn=<SumBackward0>)
+
+ 21%|███████████████████████████▉                                                                                                            | 120/584 [01:55<06:37,  1.17it/s]
+
+ 21%|████████████████████████████▍                                                                                                           | 122/584 [01:57<06:42,  1.15it/s]
+
+ 21%|█████████████████████████████                                                                                                           | 125/584 [01:59<06:42,  1.14it/s]
+
+ 22%|█████████████████████████████▌                                                                                                          | 127/584 [02:01<07:10,  1.06it/s]
+
+ 22%|██████████████████████████████                                                                                                          | 129/584 [02:03<06:49,  1.11it/s]
+
+ 22%|██████████████████████████████▌                                                                                                         | 131/584 [02:05<06:48,  1.11it/s]
+
+ 23%|██████████████████████████████▉                                                                                                         | 133/584 [02:07<06:37,  1.13it/s]
+
+ 23%|███████████████████████████████▋                                                                                                        | 136/584 [02:09<06:36,  1.13it/s]
+
+ 23%|███████████████████████████████▉                                                                                                        | 137/584 [02:11<09:20,  1.25s/it]
+
+ 24%|████████████████████████████████▎                                                                                                       | 139/584 [02:13<07:53,  1.06s/it]
+
+ 24%|████████████████████████████████▊                                                                                                       | 141/584 [02:15<07:08,  1.03it/s]
+
+ 24%|█████████████████████████████████▎                                                                                                      | 143/584 [02:16<06:41,  1.10it/s]
+
+ 25%|██████████████████████████████████                                                                                                      | 146/584 [02:19<06:29,  1.12it/s]
+
+ 25%|██████████████████████████████████▍                                                                                                     | 148/584 [02:21<06:22,  1.14it/s]
+
+ 26%|██████████████████████████████████▉                                                                                                     | 150/584 [02:23<06:15,  1.16it/s]
+
+ 26%|███████████████████████████████████▋                                                                                                    | 153/584 [02:25<06:16,  1.14it/s]
+
+ 27%|████████████████████████████████████                                                                                                    | 155/584 [02:27<06:08,  1.16it/s]
+
+ 27%|████████████████████████████████████▌                                                                                                   | 157/584 [02:29<06:13,  1.14it/s]
+
+ 27%|█████████████████████████████████████▎                                                                                                  | 160/584 [02:31<06:08,  1.15it/s]
+
+ 28%|█████████████████████████████████████▋                                                                                                  | 162/584 [02:33<06:10,  1.14it/s]
+
+ 28%|██████████████████████████████████████▏                                                                                                 | 164/584 [02:35<06:04,  1.15it/s]
+
+ 28%|██████████████████████████████████████▋                                                                                                 | 166/584 [02:37<06:52,  1.01it/s]
+
+ 29%|███████████████████████████████████████                                                                                                 | 168/584 [02:39<06:22,  1.09it/s]
+
+ 29%|███████████████████████████████████████▊                                                                                                | 171/584 [02:41<06:08,  1.12it/s]
+
+ 30%|████████████████████████████████████████▎                                                                                               | 173/584 [02:43<05:59,  1.14it/s]
+
+ 30%|████████████████████████████████████████▊                                                                                               | 175/584 [02:45<06:00,  1.14it/s]
+
+ 30%|█████████████████████████████████████████▍                                                                                              | 178/584 [02:47<05:48,  1.16it/s]
+
+ 31%|█████████████████████████████████████████▉                                                                                              | 180/584 [02:49<05:55,  1.14it/s]
+
+ 31%|██████████████████████████████████████████▍                                                                                             | 182/584 [02:51<05:46,  1.16it/s]
+
+ 32%|██████████████████████████████████████████▊                                                                                             | 184/584 [02:53<05:51,  1.14it/s]
+
+ 32%|███████████████████████████████████████████▌                                                                                            | 187/584 [02:55<05:49,  1.14it/s]
+
+ 32%|████████████████████████████████████████████                                                                                            | 189/584 [02:57<05:45,  1.14it/s]
+
+ 33%|████████████████████████████████████████████▍                                                                                           | 191/584 [02:59<05:46,  1.13it/s]
+
+ 33%|█████████████████████████████████████████████▏                                                                                          | 194/584 [03:01<05:40,  1.15it/s]
+
+ 34%|█████████████████████████████████████████████▋                                                                                          | 196/584 [03:03<05:32,  1.17it/s]
+
+ 34%|██████████████████████████████████████████████                                                                                          | 198/584 [03:05<05:28,  1.17it/s]
+
+ 34%|██████████████████████████████████████████████▎                                                                                         | 199/584 [03:06<05:36,  1.15it/s]
+
+ 34%|██████████████████████████████████████████████▊                                                                                         | 201/584 [03:15<16:05,  2.52s/it]
+
+ 35%|███████████████████████████████████████████████▎                                                                                        | 203/584 [03:17<10:37,  1.67s/it]
+
+ 35%|███████████████████████████████████████████████▋                                                                                        | 205/584 [03:19<07:57,  1.26s/it]
+
+ 36%|████████████████████████████████████████████████▍                                                                                       | 208/584 [03:21<06:19,  1.01s/it]
+
+ 36%|████████████████████████████████████████████████▉                                                                                       | 210/584 [03:23<05:50,  1.07it/s]
+
+ 36%|█████████████████████████████████████████████████▎                                                                                      | 212/584 [03:25<05:36,  1.11it/s]
+
+ 37%|██████████████████████████████████████████████████                                                                                      | 215/584 [03:27<05:25,  1.13it/s]
+
+ 37%|██████████████████████████████████████████████████▌                                                                                     | 217/584 [03:29<05:24,  1.13it/s]
+
+ 38%|███████████████████████████████████████████████████                                                                                     | 219/584 [03:31<05:16,  1.15it/s]
+
+ 38%|███████████████████████████████████████████████████▍                                                                                    | 221/584 [03:33<05:13,  1.16it/s]
+
+ 38%|████████████████████████████████████████████████████▏                                                                                   | 224/584 [03:35<05:09,  1.16it/s]
+
+ 39%|████████████████████████████████████████████████████▋                                                                                   | 226/584 [03:37<05:07,  1.17it/s]
+
+ 39%|█████████████████████████████████████████████████████                                                                                   | 228/584 [03:39<05:30,  1.08it/s]
+
+ 39%|█████████████████████████████████████████████████████▌                                                                                  | 230/584 [03:41<05:18,  1.11it/s]
+
+ 40%|██████████████████████████████████████████████████████▎                                                                                 | 233/584 [03:43<05:05,  1.15it/s]
+
+ 40%|██████████████████████████████████████████████████████▋                                                                                 | 235/584 [03:45<05:09,  1.13it/s]
+
+ 41%|███████████████████████████████████████████████████████▏                                                                                | 237/584 [03:47<05:04,  1.14it/s]
+
+ 41%|███████████████████████████████████████████████████████▉                                                                                | 240/584 [03:49<04:56,  1.16it/s]
+
+ 41%|████████████████████████████████████████████████████████▎                                                                               | 242/584 [03:51<04:56,  1.16it/s]
+
+ 42%|████████████████████████████████████████████████████████▊                                                                               | 244/584 [03:53<04:56,  1.15it/s]
+
+ 42%|█████████████████████████████████████████████████████████▎                                                                              | 246/584 [03:55<04:51,  1.16it/s]
+
+ 43%|█████████████████████████████████████████████████████████▉                                                                              | 249/584 [03:57<04:52,  1.15it/s]
+
+ 43%|██████████████████████████████████████████████████████████▍                                                                             | 251/584 [03:59<04:49,  1.15it/s]
+
+ 43%|██████████████████████████████████████████████████████████▉                                                                             | 253/584 [04:01<04:47,  1.15it/s]
+
+ 44%|███████████████████████████████████████████████████████████▌                                                                            | 256/584 [04:03<04:42,  1.16it/s]
+
+ 44%|████████████████████████████████████████████████████████████                                                                            | 258/584 [04:05<04:42,  1.15it/s]
+
+ 45%|████████████████████████████████████████████████████████████▌                                                                           | 260/584 [04:07<04:42,  1.15it/s]
+
+ 45%|█████████████████████████████████████████████████████████████▏                                                                          | 263/584 [04:09<04:41,  1.14it/s]
+epoch_idx: 013.1954, device='cuda:0', grad_fn=<SumBackward0>)
+
+ 46%|█████████████████████████████████████████████████████████████▉                                                                          | 266/584 [04:13<05:37,  1.06s/it]
+
+ 46%|██████████████████████████████████████████████████████████████▍                                                                         | 268/584 [04:15<04:58,  1.06it/s]
+
+ 46%|██████████████████████████████████████████████████████████████▉                                                                         | 270/584 [04:17<04:47,  1.09it/s]
+
+ 47%|███████████████████████████████████████████████████████████████▌                                                                        | 273/584 [04:19<04:34,  1.13it/s]
+
+ 47%|████████████████████████████████████████████████████████████████                                                                        | 275/584 [04:21<04:30,  1.14it/s]
+
+ 47%|████████████████████████████████████████████████████████████████▌                                                                       | 277/584 [04:23<04:28,  1.14it/s]
+
+ 48%|████████████████████████████████████████████████████████████████▉                                                                       | 279/584 [04:25<04:48,  1.06it/s]
+
+ 48%|█████████████████████████████████████████████████████████████████▍                                                                      | 281/584 [04:27<04:34,  1.11it/s]
+
+ 49%|██████████████████████████████████████████████████████████████████▏                                                                     | 284/584 [04:29<04:22,  1.14it/s]
+
+ 49%|██████████████████████████████████████████████████████████████████▌                                                                     | 286/584 [04:31<04:20,  1.15it/s]
+
+ 49%|███████████████████████████████████████████████████████████████████                                                                     | 288/584 [04:33<04:17,  1.15it/s]
+
+ 50%|███████████████████████████████████████████████████████████████████▊                                                                    | 291/584 [04:35<04:10,  1.17it/s]
+
+ 50%|████████████████████████████████████████████████████████████████████▏                                                                   | 293/584 [04:37<04:15,  1.14it/s]
+
+ 51%|████████████████████████████████████████████████████████████████████▋                                                                   | 295/584 [04:39<04:15,  1.13it/s]
+
+ 51%|█████████████████████████████████████████████████████████████████████▍                                                                  | 298/584 [04:41<04:07,  1.16it/s]
+
+ 51%|█████████████████████████████████████████████████████████████████████▋                                                                  | 299/584 [04:42<04:05,  1.16it/s]
+
+ 51%|█████████████████████████████████████████████████████████████████████▊                                                                  | 300/584 [04:51<14:45,  3.12s/it]
+
+ 52%|██████████████████████████████████████████████████████████████████████▌                                                                 | 303/584 [04:53<07:40,  1.64s/it]
+
+ 52%|███████████████████████████████████████████████████████████████████████                                                                 | 305/584 [04:55<05:47,  1.24s/it]
+
+ 53%|███████████████████████████████████████████████████████████████████████▍                                                                | 307/584 [04:57<04:51,  1.05s/it]
+
+ 53%|████████████████████████████████████████████████████████████████████████▏                                                               | 310/584 [04:59<04:14,  1.08it/s]
+
+ 53%|████████████████████████████████████████████████████████████████████████▋                                                               | 312/584 [05:01<04:03,  1.12it/s]
+
+ 54%|█████████████████████████████████████████████████████████████████████████                                                               | 314/584 [05:03<03:57,  1.14it/s]
+
+ 54%|█████████████████████████████████████████████████████████████████████████▊                                                              | 317/584 [05:05<03:55,  1.13it/s]
+
+ 54%|██████████████████████████████████████████████████████████████████████████                                                              | 318/584 [05:07<04:34,  1.03s/it]
+
+ 55%|██████████████████████████████████████████████████████████████████████████▌                                                             | 320/584 [05:09<04:11,  1.05it/s]
+
+ 55%|██████████████████████████████████████████████████████████████████████████▊                                                             | 321/584 [05:11<05:40,  1.29s/it]
+
+ 55%|███████████████████████████████████████████████████████████████████████████▍                                                            | 324/584 [05:13<04:26,  1.03s/it]
+
+ 56%|███████████████████████████████████████████████████████████████████████████▉                                                            | 326/584 [05:15<04:08,  1.04it/s]
+
+ 56%|████████████████████████████████████████████████████████████████████████████▍                                                           | 328/584 [05:17<03:54,  1.09it/s]
+
+ 57%|█████████████████████████████████████████████████████████████████████████████                                                           | 331/584 [05:19<03:41,  1.14it/s]
+
+ 57%|█████████████████████████████████████████████████████████████████████████████▌                                                          | 333/584 [05:21<03:43,  1.12it/s]
+
+ 57%|██████████████████████████████████████████████████████████████████████████████                                                          | 335/584 [05:23<03:37,  1.15it/s]
+
+ 58%|██████████████████████████████████████████████████████████████████████████████▍                                                         | 337/584 [05:25<03:36,  1.14it/s]
+
+ 58%|███████████████████████████████████████████████████████████████████████████████▏                                                        | 340/584 [05:27<03:34,  1.14it/s]
+
+ 59%|███████████████████████████████████████████████████████████████████████████████▋                                                        | 342/584 [05:29<03:30,  1.15it/s]
+
+ 59%|████████████████████████████████████████████████████████████████████████████████                                                        | 344/584 [05:31<03:29,  1.15it/s]
+
+ 59%|████████████████████████████████████████████████████████████████████████████████▊                                                       | 347/584 [05:33<03:26,  1.15it/s]
+
+ 60%|█████████████████████████████████████████████████████████████████████████████████▎                                                      | 349/584 [05:35<03:23,  1.15it/s]
+
+ 60%|█████████████████████████████████████████████████████████████████████████████████▋                                                      | 351/584 [05:37<03:20,  1.16it/s]
+
+ 61%|██████████████████████████████████████████████████████████████████████████████████▍                                                     | 354/584 [05:39<03:14,  1.18it/s]
+
+ 61%|██████████████████████████████████████████████████████████████████████████████████▉                                                     | 356/584 [05:41<03:16,  1.16it/s]
+
+ 61%|███████████████████████████████████████████████████████████████████████████████████▎                                                    | 358/584 [05:43<03:12,  1.17it/s]
+
+ 62%|████████████████████████████████████████████████████████████████████████████████████                                                    | 361/584 [05:45<03:11,  1.16it/s]
+
+ 62%|████████████████████████████████████████████████████████████████████████████████████▌                                                   | 363/584 [05:47<03:12,  1.15it/s]
+
+ 62%|█████████████████████████████████████████████████████████████████████████████████████                                                   | 365/584 [05:49<03:04,  1.18it/s]
+
+ 63%|█████████████████████████████████████████████████████████████████████████████████████▋                                                  | 368/584 [05:52<03:06,  1.16it/s]
+
+ 63%|██████████████████████████████████████████████████████████████████████████████████████▏                                                 | 370/584 [05:53<03:07,  1.14it/s]
+
+ 64%|██████████████████████████████████████████████████████████████████████████████████████▋                                                 | 372/584 [05:55<03:04,  1.15it/s]
+
+ 64%|███████████████████████████████████████████████████████████████████████████████████████                                                 | 374/584 [05:57<02:59,  1.17it/s]
+
+ 64%|███████████████████████████████████████████████████████████████████████████████████████▌                                                | 376/584 [05:59<03:03,  1.13it/s]
+
+ 65%|████████████████████████████████████████████████████████████████████████████████████████▎                                               | 379/584 [06:02<03:11,  1.07it/s]
+
+ 65%|████████████████████████████████████████████████████████████████████████████████████████▋                                               | 381/584 [06:03<03:03,  1.11it/s]
+
+ 66%|█████████████████████████████████████████████████████████████████████████████████████████▏                                              | 383/584 [06:05<02:56,  1.14it/s]
+
+ 66%|█████████████████████████████████████████████████████████████████████████████████████████▉                                              | 386/584 [06:08<02:54,  1.14it/s]
+
+ 66%|██████████████████████████████████████████████████████████████████████████████████████████                                              | 387/584 [06:08<02:52,  1.14it/s]
+
+ 67%|██████████████████████████████████████████████████████████████████████████████████████████▌                                             | 389/584 [06:12<03:44,  1.15s/it]
+
+ 67%|███████████████████████████████████████████████████████████████████████████████████████████                                             | 391/584 [06:13<03:15,  1.01s/it]
+
+ 67%|███████████████████████████████████████████████████████████████████████████████████████████▌                                            | 393/584 [06:15<02:57,  1.07it/s]
+
+ 68%|████████████████████████████████████████████████████████████████████████████████████████████▏                                           | 396/584 [06:18<02:51,  1.10it/s]
+
+ 68%|████████████████████████████████████████████████████████████████████████████████████████████▋                                           | 398/584 [06:19<02:44,  1.13it/s]
+
+ 68%|████████████████████████████████████████████████████████████████████████████████████████████▉                                           | 399/584 [06:20<02:41,  1.14it/s]
+
+ 68%|█████████████████████████████████████████████████████████████████████████████████████████████▏                                          | 400/584 [06:29<10:00,  3.26s/it]
+
+ 69%|█████████████████████████████████████████████████████████████████████████████████████████████▌                                          | 402/584 [06:31<06:08,  2.03s/it]
+
+ 69%|██████████████████████████████████████████████████████████████████████████████████████████████▎                                         | 405/584 [06:33<03:46,  1.27s/it]
+
+ 70%|██████████████████████████████████████████████████████████████████████████████████████████████▊                                         | 407/584 [06:35<03:10,  1.08s/it]
+
+ 70%|███████████████████████████████████████████████████████████████████████████████████████████████▏                                        | 409/584 [06:37<02:46,  1.05it/s]
+
+ 71%|███████████████████████████████████████████████████████████████████████████████████████████████▉                                        | 412/584 [06:39<02:36,  1.10it/s]
+
+ 71%|████████████████████████████████████████████████████████████████████████████████████████████████▍                                       | 414/584 [06:41<02:30,  1.13it/s]
+
+ 71%|████████████████████████████████████████████████████████████████████████████████████████████████▉                                       | 416/584 [06:43<02:26,  1.15it/s]
+
+ 72%|█████████████████████████████████████████████████████████████████████████████████████████████████▌                                      | 419/584 [06:46<02:23,  1.15it/s]
+
+ 72%|██████████████████████████████████████████████████████████████████████████████████████████████████                                      | 421/584 [06:47<02:20,  1.16it/s]
+
+ 72%|██████████████████████████████████████████████████████████████████████████████████████████████████▌                                     | 423/584 [06:49<02:16,  1.18it/s]
+
+ 73%|██████████████████████████████████████████████████████████████████████████████████████████████████▉                                     | 425/584 [06:51<02:18,  1.15it/s]
+
+ 73%|███████████████████████████████████████████████████████████████████████████████████████████████████▋                                    | 428/584 [06:54<02:21,  1.10it/s]
+
+ 74%|████████████████████████████████████████████████████████████████████████████████████████████████████▏                                   | 430/584 [06:55<02:15,  1.13it/s]
+
+ 74%|████████████████████████████████████████████████████████████████████████████████████████████████████▌                                   | 432/584 [06:57<02:14,  1.13it/s]
+
+ 74%|█████████████████████████████████████████████████████████████████████████████████████████████████████▎                                  | 435/584 [07:00<02:11,  1.13it/s]
+
+ 75%|█████████████████████████████████████████████████████████████████████████████████████████████████████▊                                  | 437/584 [07:01<02:09,  1.13it/s]
+
+ 75%|██████████████████████████████████████████████████████████████████████████████████████████████████████▏                                 | 439/584 [07:03<02:07,  1.14it/s]
+
+ 76%|██████████████████████████████████████████████████████████████████████████████████████████████████████▋                                 | 441/584 [07:05<02:06,  1.13it/s]
+
+ 76%|███████████████████████████████████████████████████████████████████████████████████████████████████████▍                                | 444/584 [07:08<02:03,  1.13it/s]
+
+ 76%|███████████████████████████████████████████████████████████████████████████████████████████████████████▊                                | 446/584 [07:09<01:59,  1.15it/s]
+
+ 77%|████████████████████████████████████████████████████████████████████████████████████████████████████████                                | 447/584 [07:11<02:49,  1.24s/it]
+
+ 77%|████████████████████████████████████████████████████████████████████████████████████████████████████████▌                               | 449/584 [07:13<02:22,  1.05s/it]
+
+ 77%|█████████████████████████████████████████████████████████████████████████████████████████████████████████                               | 451/584 [07:15<02:06,  1.05it/s]
+
+ 78%|█████████████████████████████████████████████████████████████████████████████████████████████████████████▋                              | 454/584 [07:18<01:59,  1.09it/s]
+
+ 78%|██████████████████████████████████████████████████████████████████████████████████████████████████████████▏                             | 456/584 [07:19<01:54,  1.11it/s]
+
+ 78%|██████████████████████████████████████████████████████████████████████████████████████████████████████████▋                             | 458/584 [07:21<01:49,  1.15it/s]
+
+ 79%|███████████████████████████████████████████████████████████████████████████████████████████████████████████▎                            | 461/584 [07:24<01:49,  1.13it/s]
+
+ 79%|███████████████████████████████████████████████████████████████████████████████████████████████████████████▊                            | 463/584 [07:25<01:44,  1.16it/s]
+
+ 80%|████████████████████████████████████████████████████████████████████████████████████████████████████████████▎                           | 465/584 [07:27<01:50,  1.08it/s]
+
+ 80%|████████████████████████████████████████████████████████████████████████████████████████████████████████████▊                           | 467/584 [07:29<01:47,  1.09it/s]
+
+ 80%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████▏                          | 469/584 [07:31<01:41,  1.13it/s]
+
+ 81%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████▉                          | 472/584 [07:34<01:39,  1.13it/s]
+
+ 81%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████▍                         | 474/584 [07:35<01:36,  1.14it/s]
+
+ 82%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████▊                         | 476/584 [07:37<01:32,  1.17it/s]
+
+ 82%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████▌                        | 479/584 [07:40<01:30,  1.16it/s]
+
+ 82%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████                        | 481/584 [07:41<01:28,  1.17it/s]
+
+ 83%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████▍                       | 483/584 [07:43<01:28,  1.14it/s]
+
+ 83%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏                      | 486/584 [07:46<01:24,  1.15it/s]
+
+ 84%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋                      | 488/584 [07:48<01:24,  1.13it/s]
+
+ 84%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████                      | 490/584 [07:49<01:23,  1.13it/s]
+
+ 84%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌                     | 492/584 [07:51<01:20,  1.14it/s]
+
+ 85%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎                    | 495/584 [07:54<01:18,  1.13it/s]
+
+ 85%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋                    | 497/584 [07:55<01:15,  1.15it/s]
+
+ 85%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏                   | 499/584 [07:57<01:13,  1.15it/s]
+
+ 86%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▍                   | 500/584 [08:06<04:23,  3.14s/it]
+
+ 86%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉                   | 502/584 [08:07<02:42,  1.98s/it]
+
+ 86%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎                  | 504/584 [08:09<01:51,  1.40s/it]
+
+ 86%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌                  | 505/584 [08:11<02:10,  1.65s/it]
+
+ 87%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎                 | 508/584 [08:14<01:26,  1.14s/it]
+
+ 87%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊                 | 510/584 [08:16<01:14,  1.00s/it]
+
+ 88%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏                | 512/584 [08:17<01:06,  1.08it/s]
+
+ 88%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋                | 514/584 [08:19<01:04,  1.09it/s]
+
+ 89%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▍               | 517/584 [08:22<00:58,  1.14it/s]
+
+ 89%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊               | 519/584 [08:23<00:56,  1.16it/s]
+
+ 89%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎              | 521/584 [08:25<00:54,  1.15it/s]
+
+ 90%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊              | 523/584 [08:27<00:53,  1.14it/s]
+
+ 90%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎             | 525/584 [08:29<00:56,  1.05it/s]
+
+ 90%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉             | 528/584 [08:32<00:50,  1.11it/s]
+
+ 91%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▍            | 530/584 [08:33<00:47,  1.14it/s]
+
+ 91%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉            | 532/584 [08:35<00:46,  1.13it/s]
+
+ 92%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌           | 535/584 [08:38<00:42,  1.14it/s]
+
+ 92%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████           | 537/584 [08:39<00:40,  1.17it/s]
+
+ 92%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌          | 539/584 [08:41<00:39,  1.15it/s]
+
+ 93%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏         | 542/584 [08:44<00:36,  1.14it/s]
+
+ 93%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋         | 544/584 [08:46<00:35,  1.12it/s]
+
+ 93%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏        | 546/584 [08:47<00:33,  1.14it/s]
+
+ 94%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌        | 548/584 [08:49<00:31,  1.13it/s]
+
+ 94%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎       | 551/584 [08:52<00:28,  1.14it/s]
+
+ 95%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊       | 553/584 [08:53<00:27,  1.14it/s]
+
+ 95%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏      | 555/584 [08:55<00:25,  1.13it/s]
+
+ 96%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉      | 558/584 [08:58<00:23,  1.13it/s]
+
+ 96%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▍     | 560/584 [09:00<00:21,  1.12it/s]
+
+ 96%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉     | 562/584 [09:01<00:19,  1.14it/s]
+
+ 97%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎    | 564/584 [09:03<00:17,  1.17it/s]
+
+ 97%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████    | 567/584 [09:06<00:14,  1.14it/s]
+
+ 97%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌   | 569/584 [09:07<00:13,  1.15it/s]
+
+ 98%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉   | 571/584 [09:09<00:11,  1.15it/s]
+
+ 98%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏  | 572/584 [09:10<00:10,  1.13it/s]
+
+ 98%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋  | 574/584 [09:13<00:11,  1.15s/it]
+
+ 99%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏ | 576/584 [09:15<00:08,  1.07s/it]
+
+ 99%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊ | 579/584 [09:18<00:04,  1.04it/s]
+
+ 99%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎| 581/584 [09:20<00:02,  1.09it/s]
+
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊| 583/584 [09:21<00:00,  1.12it/s]
+
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 584/584 [09:30<00:00,  1.02it/s]
+  0%|                                                                                                                                                  | 0/584 [00:00<?, ?it/s]
+
+  0%|▍                                                                                                                                         | 2/584 [00:01<08:27,  1.15it/s]
+
+  1%|▉                                                                                                                                         | 4/584 [00:03<08:34,  1.13it/s]
+
+  1%|█▋                                                                                                                                        | 7/584 [00:06<08:27,  1.14it/s]
+
+  2%|██▏                                                                                                                                       | 9/584 [00:07<08:24,  1.14it/s]
+
+  2%|██▌                                                                                                                                      | 11/584 [00:09<08:17,  1.15it/s]
+
+  2%|███▎                                                                                                                                     | 14/584 [00:12<08:06,  1.17it/s]
+
+  3%|███▊                                                                                                                                     | 16/584 [00:13<08:12,  1.15it/s]
+
+  3%|████▏                                                                                                                                    | 18/584 [00:15<08:12,  1.15it/s]
+
+  4%|████▉                                                                                                                                    | 21/584 [00:18<08:09,  1.15it/s]
+
+  4%|█████▍                                                                                                                                   | 23/584 [00:20<08:39,  1.08it/s]
+
+  4%|█████▊                                                                                                                                   | 25/584 [00:22<08:27,  1.10it/s]
+
+  5%|██████▎                                                                                                                                  | 27/584 [00:23<08:11,  1.13it/s]
+
+  5%|██████▊                                                                                                                                  | 29/584 [00:25<08:07,  1.14it/s]
+
+  5%|███████▌                                                                                                                                 | 32/584 [00:28<08:04,  1.14it/s]
+
+  6%|███████▉                                                                                                                                 | 34/584 [00:29<07:58,  1.15it/s]
+
+  6%|████████▍                                                                                                                                | 36/584 [00:31<07:51,  1.16it/s]
+
+  6%|████████▋                                                                                                                                | 37/584 [00:33<11:17,  1.24s/it]
+
+  7%|█████████▍                                                                                                                               | 40/584 [00:36<09:08,  1.01s/it]
+
+  7%|█████████▊                                                                                                                               | 42/584 [00:38<08:28,  1.07it/s]
+
+  8%|██████████▎                                                                                                                              | 44/584 [00:39<08:07,  1.11it/s]
+
+  8%|██████████▊                                                                                                                              | 46/584 [00:41<07:56,  1.13it/s]
+
+  8%|███████████▍                                                                                                                             | 49/584 [00:44<07:46,  1.15it/s]
+
+  9%|███████████▉                                                                                                                             | 51/584 [00:45<07:40,  1.16it/s]
+
+  9%|████████████▍                                                                                                                            | 53/584 [00:47<07:41,  1.15it/s]
+
+ 10%|█████████████▏                                                                                                                           | 56/584 [00:50<07:37,  1.15it/s]
+
+ 10%|█████████████▌                                                                                                                           | 58/584 [00:51<07:34,  1.16it/s]
+
+ 10%|██████████████                                                                                                                           | 60/584 [00:53<07:29,  1.17it/s]
+
+ 11%|██████████████▊                                                                                                                          | 63/584 [00:56<07:30,  1.16it/s]
+
+ 11%|███████████████▏                                                                                                                         | 65/584 [00:57<07:36,  1.14it/s]
+
+ 11%|███████████████▋                                                                                                                         | 67/584 [00:59<07:28,  1.15it/s]
+
+ 12%|████████████████▍                                                                                                                        | 70/584 [01:02<07:24,  1.16it/s]
+
+ 12%|████████████████▉                                                                                                                        | 72/584 [01:03<07:27,  1.14it/s]
+
+ 13%|█████████████████▎                                                                                                                       | 74/584 [01:05<07:19,  1.16it/s]
+
+ 13%|██████████████████                                                                                                                       | 77/584 [01:08<07:16,  1.16it/s]
+
+ 14%|██████████████████▌                                                                                                                      | 79/584 [01:09<07:16,  1.16it/s]
+
+ 14%|███████████████████                                                                                                                      | 81/584 [01:11<07:14,  1.16it/s]
+
+ 14%|███████████████████▍                                                                                                                     | 83/584 [01:13<07:42,  1.08it/s]
+
+ 15%|████████████████████▏                                                                                                                    | 86/584 [01:16<07:21,  1.13it/s]
+
+ 15%|████████████████████▋                                                                                                                    | 88/584 [01:18<07:20,  1.12it/s]
+
+ 15%|█████████████████████                                                                                                                    | 90/584 [01:19<07:04,  1.16it/s]
+
+ 16%|█████████████████████▊                                                                                                                   | 93/584 [01:22<07:03,  1.16it/s]
+
+ 16%|██████████████████████▎                                                                                                                  | 95/584 [01:24<07:10,  1.14it/s]
+
+ 17%|██████████████████████▊                                                                                                                  | 97/584 [01:25<07:02,  1.15it/s]
+
+ 17%|███████████████████████▏                                                                                                                 | 99/584 [01:27<07:03,  1.15it/s]
+epoch_idx: 013.1954, device='cuda:0', grad_fn=<SumBackward0>)
+
+ 17%|███████████████████████▊                                                                                                                | 102/584 [01:38<16:25,  2.04s/it]
+
+ 18%|████████████████████████▏                                                                                                               | 104/584 [01:39<11:36,  1.45s/it]
+
+ 18%|████████████████████████▉                                                                                                               | 107/584 [01:42<08:16,  1.04s/it]
+
+ 19%|█████████████████████████▍                                                                                                              | 109/584 [01:44<07:31,  1.05it/s]
+
+ 19%|█████████████████████████▊                                                                                                              | 111/584 [01:45<07:16,  1.08it/s]
+
+ 20%|██████████████████████████▌                                                                                                             | 114/584 [01:48<06:50,  1.14it/s]
+
+ 20%|███████████████████████████                                                                                                             | 116/584 [01:50<06:44,  1.16it/s]
+
+ 20%|███████████████████████████▍                                                                                                            | 118/584 [01:51<06:51,  1.13it/s]
+
+ 21%|███████████████████████████▉                                                                                                            | 120/584 [01:53<06:42,  1.15it/s]
+
+ 21%|████████████████████████████▋                                                                                                           | 123/584 [01:56<06:35,  1.16it/s]
+
+ 21%|█████████████████████████████                                                                                                           | 125/584 [01:57<06:39,  1.15it/s]
+
+ 22%|█████████████████████████████▌                                                                                                          | 127/584 [01:59<06:32,  1.16it/s]
+
+ 22%|██████████████████████████████▎                                                                                                         | 130/584 [02:02<06:33,  1.15it/s]
+
+ 23%|██████████████████████████████▋                                                                                                         | 132/584 [02:03<06:30,  1.16it/s]
+
+ 23%|███████████████████████████████▏                                                                                                        | 134/584 [02:06<07:16,  1.03it/s]
+
+ 23%|███████████████████████████████▋                                                                                                        | 136/584 [02:07<06:50,  1.09it/s]
+
+ 24%|████████████████████████████████▎                                                                                                       | 139/584 [02:10<06:35,  1.12it/s]
+
+ 24%|████████████████████████████████▊                                                                                                       | 141/584 [02:12<06:28,  1.14it/s]
+
+ 24%|█████████████████████████████████▎                                                                                                      | 143/584 [02:13<06:26,  1.14it/s]
+
+ 25%|█████████████████████████████████▊                                                                                                      | 145/584 [02:15<06:23,  1.14it/s]
+
+ 25%|██████████████████████████████████▍                                                                                                     | 148/584 [02:18<06:19,  1.15it/s]
+
+ 26%|██████████████████████████████████▉                                                                                                     | 150/584 [02:19<06:15,  1.16it/s]
+
+ 26%|███████████████████████████████████▍                                                                                                    | 152/584 [02:21<06:08,  1.17it/s]
+
+ 27%|████████████████████████████████████                                                                                                    | 155/584 [02:24<06:04,  1.18it/s]
+
+ 27%|████████████████████████████████████▌                                                                                                   | 157/584 [02:25<06:09,  1.16it/s]
+
+ 27%|█████████████████████████████████████▎                                                                                                  | 160/584 [02:28<05:57,  1.19it/s]
+
+ 28%|█████████████████████████████████████▋                                                                                                  | 162/584 [02:30<05:58,  1.18it/s]
+
+ 28%|██████████████████████████████████████▏                                                                                                 | 164/584 [02:31<06:06,  1.15it/s]
+
+ 28%|██████████████████████████████████████▍                                                                                                 | 165/584 [02:34<08:44,  1.25s/it]
+
+ 29%|██████████████████████████████████████▉                                                                                                 | 167/584 [02:35<07:17,  1.05s/it]
+
+ 29%|███████████████████████████████████████▌                                                                                                | 170/584 [02:38<06:22,  1.08it/s]
+
+ 29%|████████████████████████████████████████                                                                                                | 172/584 [02:40<06:09,  1.11it/s]
+
+ 30%|████████████████████████████████████████▌                                                                                               | 174/584 [02:42<06:33,  1.04it/s]
+
+ 30%|████████████████████████████████████████▉                                                                                               | 176/584 [02:43<06:05,  1.12it/s]
+
+ 31%|█████████████████████████████████████████▋                                                                                              | 179/584 [02:46<05:49,  1.16it/s]
+
+ 31%|██████████████████████████████████████████▏                                                                                             | 181/584 [02:47<05:42,  1.18it/s]
+
+ 32%|██████████████████████████████████████████▊                                                                                             | 184/584 [02:50<05:42,  1.17it/s]
+
+ 32%|███████████████████████████████████████████▎                                                                                            | 186/584 [02:52<05:43,  1.16it/s]
+
+ 32%|███████████████████████████████████████████▊                                                                                            | 188/584 [02:53<05:39,  1.17it/s]
+
+ 33%|████████████████████████████████████████████▍                                                                                           | 191/584 [02:56<05:31,  1.18it/s]
+
+ 33%|████████████████████████████████████████████▉                                                                                           | 193/584 [02:58<05:32,  1.18it/s]
+
+ 33%|█████████████████████████████████████████████▍                                                                                          | 195/584 [02:59<05:33,  1.17it/s]
+
+ 34%|██████████████████████████████████████████████                                                                                          | 198/584 [03:02<05:34,  1.15it/s]
+
+
+ 34%|██████████████████████████████████████████████▌                                                                                         | 200/584 [03:12<21:10,  3.31s/it]
+
+ 35%|███████████████████████████████████████████████                                                                                         | 202/584 [03:14<13:07,  2.06s/it]
+
+ 35%|███████████████████████████████████████████████▌                                                                                        | 204/584 [03:15<09:16,  1.47s/it]
+
+ 35%|████████████████████████████████████████████████▏                                                                                       | 207/584 [03:18<06:44,  1.07s/it]
+
+ 36%|████████████████████████████████████████████████▋                                                                                       | 209/584 [03:20<06:03,  1.03it/s]
+
+ 36%|█████████████████████████████████████████████████▏                                                                                      | 211/584 [03:21<05:44,  1.08it/s]
+
+ 37%|█████████████████████████████████████████████████▊                                                                                      | 214/584 [03:24<05:22,  1.15it/s]
+
+ 37%|██████████████████████████████████████████████████▎                                                                                     | 216/584 [03:26<05:17,  1.16it/s]
+
+ 37%|██████████████████████████████████████████████████▊                                                                                     | 218/584 [03:27<05:14,  1.17it/s]
+
+ 38%|███████████████████████████████████████████████████▍                                                                                    | 221/584 [03:30<05:11,  1.17it/s]
+
+ 38%|███████████████████████████████████████████████████▋                                                                                    | 222/584 [03:31<05:14,  1.15it/s]
+
+ 38%|████████████████████████████████████████████████████▏                                                                                   | 224/584 [03:34<06:46,  1.13s/it]
+
+ 39%|████████████████████████████████████████████████████▋                                                                                   | 226/584 [03:36<06:00,  1.01s/it]
+
+ 39%|█████████████████████████████████████████████████████                                                                                   | 228/584 [03:37<05:32,  1.07it/s]
+
+ 40%|█████████████████████████████████████████████████████▊                                                                                  | 231/584 [03:40<05:14,  1.12it/s]
+
+ 40%|██████████████████████████████████████████████████████▎                                                                                 | 233/584 [03:42<05:11,  1.13it/s]
+
+ 40%|██████████████████████████████████████████████████████▋                                                                                 | 235/584 [03:44<05:44,  1.01it/s]
+
+ 41%|███████████████████████████████████████████████████████▏                                                                                | 237/584 [03:46<05:18,  1.09it/s]
+
+ 41%|███████████████████████████████████████████████████████▉                                                                                | 240/584 [03:48<04:59,  1.15it/s]
+
+ 41%|████████████████████████████████████████████████████████▎                                                                               | 242/584 [03:50<04:54,  1.16it/s]
+
+ 42%|████████████████████████████████████████████████████████▊                                                                               | 244/584 [03:51<04:51,  1.16it/s]
+
+ 42%|█████████████████████████████████████████████████████████▌                                                                              | 247/584 [03:54<04:49,  1.16it/s]
+
+ 43%|█████████████████████████████████████████████████████████▉                                                                              | 249/584 [03:56<04:47,  1.17it/s]
+
+ 43%|██████████████████████████████████████████████████████████▍                                                                             | 251/584 [03:57<04:46,  1.16it/s]
+
+ 43%|███████████████████████████████████████████████████████████▏                                                                            | 254/584 [04:00<04:46,  1.15it/s]
+
+ 44%|███████████████████████████████████████████████████████████▌                                                                            | 256/584 [04:02<04:41,  1.16it/s]
+
+ 44%|████████████████████████████████████████████████████████████                                                                            | 258/584 [04:04<04:44,  1.15it/s]
+
+ 45%|████████████████████████████████████████████████████████████▊                                                                           | 261/584 [04:06<04:33,  1.18it/s]
+
+ 45%|█████████████████████████████████████████████████████████████▏                                                                          | 263/584 [04:08<04:37,  1.16it/s]
+
+ 45%|█████████████████████████████████████████████████████████████▋                                                                          | 265/584 [04:10<04:38,  1.15it/s]
+
+ 46%|██████████████████████████████████████████████████████████████▍                                                                         | 268/584 [04:12<04:29,  1.17it/s]
+
+ 46%|██████████████████████████████████████████████████████████████▉                                                                         | 270/584 [04:14<04:33,  1.15it/s]
+
+ 47%|███████████████████████████████████████████████████████████████▎                                                                        | 272/584 [04:16<04:32,  1.14it/s]
+
+ 47%|████████████████████████████████████████████████████████████████                                                                        | 275/584 [04:18<04:22,  1.18it/s]
+
+ 47%|████████████████████████████████████████████████████████████████▌                                                                       | 277/584 [04:20<04:18,  1.19it/s]
+
+ 48%|████████████████████████████████████████████████████████████████▉                                                                       | 279/584 [04:22<04:17,  1.18it/s]
+
+ 48%|█████████████████████████████████████████████████████████████████▋                                                                      | 282/584 [04:24<04:15,  1.18it/s]
+
+ 49%|██████████████████████████████████████████████████████████████████▏                                                                     | 284/584 [04:26<04:14,  1.18it/s]
+
+ 49%|██████████████████████████████████████████████████████████████████▌                                                                     | 286/584 [04:28<04:40,  1.06it/s]
+
+ 49%|███████████████████████████████████████████████████████████████████                                                                     | 288/584 [04:30<04:30,  1.10it/s]
+
+ 49%|███████████████████████████████████████████████████████████████████▎                                                                    | 289/584 [04:30<04:24,  1.11it/s]
+
+ 50%|███████████████████████████████████████████████████████████████████▊                                                                    | 291/584 [04:33<05:32,  1.14s/it]
+
+ 50%|████████████████████████████████████████████████████████████████████▍                                                                   | 294/584 [04:36<04:37,  1.05it/s]
+
+ 51%|████████████████████████████████████████████████████████████████████▉                                                                   | 296/584 [04:38<04:20,  1.11it/s]
+
+ 51%|█████████████████████████████████████████████████████████████████████▋                                                                  | 299/584 [04:40<04:06,  1.16it/s]
+epoch_idx: 013.1954, device='cuda:0', grad_fn=<SumBackward0>)
+
+ 52%|██████████████████████████████████████████████████████████████████████                                                                  | 301/584 [04:50<11:39,  2.47s/it]
+
+ 52%|██████████████████████████████████████████████████████████████████████▊                                                                 | 304/584 [04:52<06:33,  1.41s/it]
+
+ 52%|███████████████████████████████████████████████████████████████████████▎                                                                | 306/584 [04:54<05:17,  1.14s/it]
+
+ 53%|███████████████████████████████████████████████████████████████████████▋                                                                | 308/584 [04:56<04:37,  1.01s/it]
+
+ 53%|████████████████████████████████████████████████████████████████████████▍                                                               | 311/584 [04:58<04:08,  1.10it/s]
+
+ 54%|████████████████████████████████████████████████████████████████████████▉                                                               | 313/584 [05:00<04:00,  1.13it/s]
+
+ 54%|█████████████████████████████████████████████████████████████████████████▎                                                              | 315/584 [05:02<03:58,  1.13it/s]
+
+ 54%|█████████████████████████████████████████████████████████████████████████▊                                                              | 317/584 [05:03<03:55,  1.14it/s]
+
+ 55%|██████████████████████████████████████████████████████████████████████████▌                                                             | 320/584 [05:06<03:49,  1.15it/s]
+
+ 55%|██████████████████████████████████████████████████████████████████████████▉                                                             | 322/584 [05:08<03:47,  1.15it/s]
+
+ 55%|███████████████████████████████████████████████████████████████████████████▍                                                            | 324/584 [05:09<03:47,  1.14it/s]
+
+ 56%|███████████████████████████████████████████████████████████████████████████▉                                                            | 326/584 [05:12<04:09,  1.03it/s]
+
+ 56%|████████████████████████████████████████████████████████████████████████████▌                                                           | 329/584 [05:14<03:48,  1.12it/s]
+
+ 57%|█████████████████████████████████████████████████████████████████████████████                                                           | 331/584 [05:16<03:40,  1.15it/s]
+
+ 57%|█████████████████████████████████████████████████████████████████████████████▌                                                          | 333/584 [05:18<03:38,  1.15it/s]
+
+ 58%|██████████████████████████████████████████████████████████████████████████████▏                                                         | 336/584 [05:20<03:35,  1.15it/s]
+
+ 58%|██████████████████████████████████████████████████████████████████████████████▋                                                         | 338/584 [05:22<03:34,  1.15it/s]
+
+ 58%|███████████████████████████████████████████████████████████████████████████████▏                                                        | 340/584 [05:24<03:33,  1.14it/s]
+
+ 59%|███████████████████████████████████████████████████████████████████████████████▉                                                        | 343/584 [05:26<03:28,  1.16it/s]
+
+ 59%|████████████████████████████████████████████████████████████████████████████████▎                                                       | 345/584 [05:28<03:26,  1.16it/s]
+
+ 59%|████████████████████████████████████████████████████████████████████████████████▊                                                       | 347/584 [05:30<03:27,  1.14it/s]
+
+ 60%|█████████████████████████████████████████████████████████████████████████████████                                                       | 348/584 [05:31<03:26,  1.14it/s]
+
+ 60%|█████████████████████████████████████████████████████████████████████████████████▌                                                      | 350/584 [05:34<04:30,  1.15s/it]
+
+ 60%|██████████████████████████████████████████████████████████████████████████████████▏                                                     | 353/584 [05:36<03:42,  1.04it/s]
+
+ 61%|██████████████████████████████████████████████████████████████████████████████████▋                                                     | 355/584 [05:38<03:28,  1.10it/s]
+
+ 61%|███████████████████████████████████████████████████████████████████████████████████▏                                                    | 357/584 [05:40<03:23,  1.12it/s]
+
+ 61%|███████████████████████████████████████████████████████████████████████████████████▌                                                    | 359/584 [05:42<03:22,  1.11it/s]
+
+ 62%|████████████████████████████████████████████████████████████████████████████████████▎                                                   | 362/584 [05:44<03:13,  1.15it/s]
+
+ 62%|████████████████████████████████████████████████████████████████████████████████████▊                                                   | 364/584 [05:46<03:10,  1.15it/s]
+
+ 63%|█████████████████████████████████████████████████████████████████████████████████████▏                                                  | 366/584 [05:48<03:11,  1.14it/s]
+
+ 63%|█████████████████████████████████████████████████████████████████████████████████████▉                                                  | 369/584 [05:50<03:05,  1.16it/s]
+
+ 64%|██████████████████████████████████████████████████████████████████████████████████████▍                                                 | 371/584 [05:52<03:03,  1.16it/s]
+
+ 64%|██████████████████████████████████████████████████████████████████████████████████████▊                                                 | 373/584 [05:54<03:02,  1.15it/s]
+
+ 64%|███████████████████████████████████████████████████████████████████████████████████████▌                                                | 376/584 [05:56<02:59,  1.16it/s]
+
+ 65%|████████████████████████████████████████████████████████████████████████████████████████                                                | 378/584 [05:58<02:58,  1.16it/s]
+
+ 65%|████████████████████████████████████████████████████████████████████████████████████████▍                                               | 380/584 [06:00<02:58,  1.15it/s]
+
+ 66%|█████████████████████████████████████████████████████████████████████████████████████████▏                                              | 383/584 [06:02<02:57,  1.13it/s]
+
+ 66%|█████████████████████████████████████████████████████████████████████████████████████████▍                                              | 384/584 [06:03<02:53,  1.15it/s]
+
+ 66%|██████████████████████████████████████████████████████████████████████████████████████████                                              | 387/584 [06:06<02:56,  1.11it/s]
+
+ 67%|██████████████████████████████████████████████████████████████████████████████████████████▌                                             | 389/584 [06:08<02:53,  1.12it/s]
+
+ 67%|███████████████████████████████████████████████████████████████████████████████████████████▎                                            | 392/584 [06:10<02:48,  1.14it/s]
+
+ 67%|███████████████████████████████████████████████████████████████████████████████████████████▊                                            | 394/584 [06:12<02:43,  1.16it/s]
+
+ 68%|████████████████████████████████████████████████████████████████████████████████████████████▏                                           | 396/584 [06:14<02:42,  1.16it/s]
+
+ 68%|████████████████████████████████████████████████████████████████████████████████████████████▋                                           | 398/584 [06:16<02:43,  1.14it/s]
+
+ 68%|████████████████████████████████████████████████████████████████████████████████████████████▉                                           | 399/584 [06:16<02:40,  1.15it/s]
+
+ 69%|█████████████████████████████████████████████████████████████████████████████████████████████▍                                          | 401/584 [06:26<07:34,  2.48s/it]
+
+ 69%|█████████████████████████████████████████████████████████████████████████████████████████████▊                                          | 403/584 [06:28<05:00,  1.66s/it]
+
+ 70%|██████████████████████████████████████████████████████████████████████████████████████████████▌                                         | 406/584 [06:30<03:22,  1.14s/it]
+
+ 70%|██████████████████████████████████████████████████████████████████████████████████████████████▊                                         | 407/584 [06:31<03:07,  1.06s/it]
+
+ 70%|███████████████████████████████████████████████████████████████████████████████████████████████                                         | 408/584 [06:33<04:03,  1.38s/it]
+
+ 70%|███████████████████████████████████████████████████████████████████████████████████████████████▋                                        | 411/584 [06:36<03:00,  1.04s/it]
+
+ 71%|████████████████████████████████████████████████████████████████████████████████████████████████▍                                       | 414/584 [06:38<02:37,  1.08it/s]
+
+ 71%|████████████████████████████████████████████████████████████████████████████████████████████████▉                                       | 416/584 [06:40<02:28,  1.13it/s]
+
+ 72%|█████████████████████████████████████████████████████████████████████████████████████████████████▎                                      | 418/584 [06:42<02:25,  1.14it/s]
+
+ 72%|█████████████████████████████████████████████████████████████████████████████████████████████████▊                                      | 420/584 [06:44<02:26,  1.12it/s]
+
+ 72%|██████████████████████████████████████████████████████████████████████████████████████████████████▌                                     | 423/584 [06:46<02:20,  1.15it/s]
+
+ 73%|██████████████████████████████████████████████████████████████████████████████████████████████████▉                                     | 425/584 [06:48<02:18,  1.15it/s]
+
+ 73%|███████████████████████████████████████████████████████████████████████████████████████████████████▍                                    | 427/584 [06:50<02:19,  1.13it/s]
+
+ 74%|████████████████████████████████████████████████████████████████████████████████████████████████████▏                                   | 430/584 [06:52<02:14,  1.14it/s]
+
+ 74%|████████████████████████████████████████████████████████████████████████████████████████████████████▌                                   | 432/584 [06:54<02:13,  1.14it/s]
+
+ 74%|█████████████████████████████████████████████████████████████████████████████████████████████████████                                   | 434/584 [06:56<02:25,  1.03it/s]
+
+ 75%|█████████████████████████████████████████████████████████████████████████████████████████████████████▌                                  | 436/584 [06:58<02:15,  1.09it/s]
+
+ 75%|██████████████████████████████████████████████████████████████████████████████████████████████████████                                  | 438/584 [07:00<02:10,  1.12it/s]
+
+ 76%|██████████████████████████████████████████████████████████████████████████████████████████████████████▋                                 | 441/584 [07:02<02:05,  1.14it/s]
+
+ 76%|███████████████████████████████████████████████████████████████████████████████████████████████████████▏                                | 443/584 [07:04<02:03,  1.14it/s]
+
+ 76%|███████████████████████████████████████████████████████████████████████████████████████████████████████▋                                | 445/584 [07:06<02:01,  1.14it/s]
+
+ 77%|████████████████████████████████████████████████████████████████████████████████████████████████████████▎                               | 448/584 [07:08<02:00,  1.13it/s]
+
+ 77%|████████████████████████████████████████████████████████████████████████████████████████████████████████▊                               | 450/584 [07:10<01:53,  1.18it/s]
+
+ 77%|█████████████████████████████████████████████████████████████████████████████████████████████████████████▎                              | 452/584 [07:12<01:53,  1.17it/s]
+
+ 78%|█████████████████████████████████████████████████████████████████████████████████████████████████████████▉                              | 455/584 [07:14<01:51,  1.15it/s]
+
+ 78%|██████████████████████████████████████████████████████████████████████████████████████████████████████████▍                             | 457/584 [07:16<01:49,  1.16it/s]
+
+ 79%|██████████████████████████████████████████████████████████████████████████████████████████████████████████▉                             | 459/584 [07:18<01:47,  1.17it/s]
+
+ 79%|███████████████████████████████████████████████████████████████████████████████████████████████████████████▌                            | 462/584 [07:20<01:46,  1.15it/s]
+
+ 79%|████████████████████████████████████████████████████████████████████████████████████████████████████████████                            | 464/584 [07:22<01:43,  1.16it/s]
+
+ 80%|████████████████████████████████████████████████████████████████████████████████████████████████████████████▌                           | 466/584 [07:24<01:39,  1.19it/s]
+
+ 80%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████▏                          | 469/584 [07:26<01:38,  1.17it/s]
+
+ 81%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████▋                          | 471/584 [07:28<01:36,  1.17it/s]
+
+ 81%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████▏                         | 473/584 [07:30<01:41,  1.09it/s]
+
+ 81%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████▍                         | 474/584 [07:31<01:39,  1.11it/s]
+
+ 82%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████▊                         | 476/584 [07:34<02:02,  1.14s/it]
+
+ 82%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████▌                        | 479/584 [07:36<01:40,  1.05it/s]
+
+ 82%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████                        | 481/584 [07:38<01:33,  1.10it/s]
+
+ 83%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████▍                       | 483/584 [07:40<01:30,  1.12it/s]
+
+ 83%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉                       | 485/584 [07:42<01:28,  1.12it/s]
+
+ 84%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋                      | 488/584 [07:44<01:23,  1.15it/s]
+
+ 84%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████                      | 490/584 [07:46<01:21,  1.15it/s]
+
+ 84%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌                     | 492/584 [07:48<01:21,  1.13it/s]
+
+ 85%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎                    | 495/584 [07:50<01:16,  1.17it/s]
+
+ 85%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋                    | 497/584 [07:52<01:14,  1.17it/s]
+
+ 85%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏                   | 499/584 [07:54<01:14,  1.15it/s]
+
+ 86%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▍                   | 500/584 [08:02<04:26,  3.18s/it]
+
+ 86%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉                   | 502/584 [08:04<02:43,  1.99s/it]
+
+ 86%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎                  | 504/584 [08:06<01:53,  1.42s/it]
+
+ 87%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████                  | 507/584 [08:08<01:22,  1.07s/it]
+
+ 87%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌                 | 509/584 [08:10<01:12,  1.04it/s]
+
+ 88%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████                 | 511/584 [08:12<01:05,  1.11it/s]
+
+ 88%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▍                | 513/584 [08:14<01:03,  1.13it/s]
+
+ 88%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏               | 516/584 [08:16<00:59,  1.15it/s]
+
+ 89%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋               | 518/584 [08:18<00:56,  1.16it/s]
+
+ 89%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎              | 521/584 [08:21<00:53,  1.17it/s]
+
+ 90%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊              | 523/584 [08:22<00:51,  1.17it/s]
+
+ 90%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎             | 525/584 [08:24<00:49,  1.18it/s]
+
+ 90%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉             | 528/584 [08:27<00:48,  1.16it/s]
+
+ 91%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▍            | 530/584 [08:28<00:46,  1.16it/s]
+
+ 91%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉            | 532/584 [08:30<00:49,  1.04it/s]
+
+ 91%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████            | 533/584 [08:31<00:46,  1.09it/s]
+
+ 92%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌           | 535/584 [08:34<00:56,  1.15s/it]
+
+ 92%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████           | 537/584 [08:36<00:47,  1.01s/it]
+
+ 92%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊          | 540/584 [08:38<00:39,  1.10it/s]
+
+ 93%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏         | 542/584 [08:40<00:36,  1.14it/s]
+
+ 93%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋         | 544/584 [08:42<00:34,  1.15it/s]
+
+ 94%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▍        | 547/584 [08:44<00:31,  1.16it/s]
+
+ 94%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊        | 549/584 [08:46<00:30,  1.16it/s]
+
+ 94%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎       | 551/584 [08:48<00:28,  1.14it/s]
+
+ 95%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████       | 554/584 [08:50<00:25,  1.15it/s]
+
+ 95%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▍      | 556/584 [08:52<00:24,  1.15it/s]
+
+ 96%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉      | 558/584 [08:54<00:22,  1.15it/s]
+
+ 96%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋     | 561/584 [08:57<00:19,  1.16it/s]
+
+ 96%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████     | 563/584 [08:58<00:18,  1.16it/s]
+
+ 97%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌    | 565/584 [09:00<00:16,  1.15it/s]
+
+ 97%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████    | 567/584 [09:02<00:14,  1.17it/s]
+
+ 98%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋   | 570/584 [09:04<00:12,  1.15it/s]
+
+ 98%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏  | 572/584 [09:06<00:10,  1.18it/s]
+
+ 98%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋  | 574/584 [09:08<00:08,  1.16it/s]
+
+ 99%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎ | 577/584 [09:10<00:06,  1.15it/s]
+
+ 99%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊ | 579/584 [09:12<00:04,  1.16it/s]
+
+ 99%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎| 581/584 [09:14<00:02,  1.16it/s]
+
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊| 583/584 [09:16<00:00,  1.04it/s]
+epoch_idx: 013.1954, device='cuda:0', grad_fn=<SumBackward0>)
+
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 584/584 [09:24<00:00,  1.03it/s]
+epoch_idx: 013.1954, device='cuda:0', grad_fn=<SumBackward0>)
+epoch_idx: 013.1954, device='cuda:0', grad_fn=<SumBackward0>)
