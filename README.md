@@ -1,6 +1,6 @@
-# Fine-tune GPT model on wikitext data (updating every day)
+# Fine-tune GPT model on user-defined data (updating every day)
 
-This Github repo demonstrated using wikitext data for fine-tuning GPT2 model language model. The same code can be applied to other language models. For demonstration purposes, we use GPT2 model since it is smaller.
+This Github repo demonstrated using user-defined data (e.g. wikitext data) for fine-tuning GPT2 model language model. The same code can be applied to other language models. For demonstration purposes, we use GPT2 model since it is smaller.
 
 To launch the virtual environment (The configuration of the virtual env is coming soon), just do
 
