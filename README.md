@@ -11,11 +11,10 @@ For demonstration, if you want to train the model for `num_epochs=3` epochs usin
 
 `python main.py --model_name checkpoint_e5.pth --test_model_path '/home-nfs/fx2024/NLP/experiments/checkpoint_e5.pth' --num_epochs 5 --train 1 --test 1 --input_prompts 'Valkyira Chronicles III is' --data_percentage 0.1
 `
-After you run the above command, the code will first print out the model performance \bold{before fine-tuning}:
-![image](https://github.com/FeiXu-spacetime/NLP_GPT-fine-tuning/assets/72999482/f0dac428-e691-4c39-b28c-4559b231e4e5)
+After you run the above command, the code will first print out the model performance \bold{before fine-tuning}, following the performance \bold{after fine-tuning} at epoch 7 is much better, even though the training loss has not converged yet:
 
-The performance \bold{after fine-tuning} at epoch 7 is much better, even though the training loss is not converged yet:
-<img src="https://github.com/FeiXu-spacetime/NLP_GPT-fine-tuning/assets/72999482/f79e9fb5-943f-4230-893a-cd0445d71eb6" width="100" height="10">
+<img width="1374" alt="image" src="https://github.com/FeiXu-spacetime/NLP_GPT-fine-tuning/assets/72999482/0e30ff52-ec49-4cf5-82b0-36894b31793e">
+
 
 The fine-tuned GPT model correctly answered the company that produces this game (Sega and Media.Vision), the year the game was released (2011), and the platform (PlayStation 4). 
 
