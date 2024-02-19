@@ -3,7 +3,9 @@ import os
 from pprint import pprint
 import torch
 import torch.nn as nn
-from torch.utils.data import Dataset, DataLoader
+from torch.utils.data import Dataset, DataLoader, SubsetRandomSampler
+import torch.nn.functional as F
+from torch.nn.parallel import DistributedDataParallel as DDP
 #import transformers
 from datasets import load_dataset
 from my_dataset import My_Dataset
@@ -14,7 +16,6 @@ from transformers import (
     GPT2LMHeadModel,
     GPT2Tokenizer
 )
-
 import pdb
 import argparse
 import numpy as np
@@ -23,17 +24,13 @@ import os
 import random
 from tqdm import tqdm
 import time
-import torch
-import torch.nn.functional as F
-from torch.utils.data import Dataset, DataLoader, SubsetRandomSampler
-from torch.nn.parallel import DistributedDataParallel as DDP
 import wandb
 from utils import group_texts, tokenize_function
 
 def data_cleaning(args):
     return
 
-
+# training function
 def gpt_finetune(args, model):
     
     num_gpus = torch.cuda.device_count()
@@ -64,7 +61,7 @@ def gpt_finetune(args, model):
     #        run_to_delete.delete()
     #    except:
     #        print("id {} doesn't exist".format(id))
-
+    # initialize wandb project configurations
     wandb.init(
         # set the wandb project where this run will be logged
         project="test-project",
@@ -80,30 +77,32 @@ def gpt_finetune(args, model):
         }
     )
 
-
+    # move GPT model to CUDA
     device = 'cuda'
     model = model.to(device)
     
     parameters = list(model.parameters())
     optim = torch.optim.Adam(parameters, args.learning_rate)
 
+    # Check GPU status, assign model to all available GPUs
     if args.use_data_parallel and num_gpus > 1:
         device_ids_list = list(range(num_gpus))
         model = torch.nn.DataParallel(model, device_ids=device_ids_list)
         #model = DDP(model, device_ids=device_ids_list)
         model = model.module    
        
-    # Create the dataset
-    #dir = os.path.join(args.dataset_path, args.mesh.name)
+    # Load tokenized training dataset
+    #dir = os.path.join(args.dataset_path)
     dataset = wikitext_dataset_train_tokenized
 
-    # Initialize variables
+    # Initialize training-related variables
     start_epoch = 0
     start_batch = 0
     save_path = os.path.join(args.save_dir, args.model_name)
     losses = []
     all_indices = list(range(len(dataset)))
 
+    # Load checkpoint, for continue training 
     if args.continue_train:
         checkpoint = torch.load(save_path, map_location=device)
         model.load_state_dict(checkpoint['model_state_dict'])
@@ -113,7 +112,7 @@ def gpt_finetune(args, model):
         all_indices = checkpoint['shuffled_indices']
         losses = checkpoint['losses']
 
-    
+    # Start training
     for epoch in range(start_epoch, args.num_epochs):
          # If this is a new epoch, shuffle the indices
         if epoch != start_epoch or start_batch == 0:
@@ -128,22 +127,19 @@ def gpt_finetune(args, model):
         
         # Sampling data using shuffled indices
         num_batches = len(dataloader)
-        
+
+        # Loop over all batches
         for batch_idx, (batch_input_ids, batch_attention_mask) in enumerate(tqdm(dataloader)):
-            #print(batch_input_ids, batch_attention_mask)
             print("epoch_idx: %d" % (epoch))
             print("batch_idx: %d" % (batch_idx + start_batch))
-            #batch_size = batch_labels.shape[0]
-            #batch_data = batch_data.to(device)
-            #batch_attention_mask = batch_attention_mask.to(device)
 
             # Calculate the loss
-            
             loss = model(batch_input_ids, attention_mask=batch_attention_mask, labels=batch_input_ids).loss.sum()
             loss.backward()
             print('loss', loss)
             optim.step()
             optim.zero_grad()
+            # Track losses
             with torch.no_grad():
                 losses.append(loss.item())
                 wandb.log({"loss": loss})
@@ -169,7 +165,7 @@ def gpt_finetune(args, model):
                 
 
               
-        # save epoch check point
+        # save epoch checkpoint
         if num_batches > 0:
             save_dir, fname = os.path.split(save_path)
             fbody, fext = fname.split(".")
@@ -188,9 +184,7 @@ def gpt_finetune(args, model):
                         'num_batch': round(num_batches)+1
                         }, save_path_epoch)
             print('checkpoint saved for epoch %d' % epoch)
-            #with torch.no_grad():
-                #plot_loss(loss.detach().cpu().numpy(), type='training')
-
+            
         start_batch = 0
 
     wandb.finish()
@@ -204,7 +198,7 @@ def plot_loss(loss, type=''):
     plt.ylabel('Loss')
     plt.savefig(os.path.join(dir, 'loss.jpg'))
 
-
+# Test checkpoint
 def gpt_infer(args, model):
     num_gpus = torch.cuda.device_count()
     print('number of avilable gpus: %d' % num_gpus)
@@ -217,7 +211,7 @@ def gpt_infer(args, model):
 
     if args.use_data_parallel and num_gpus > 1:
         device_ids_list = list(range(num_gpus))
-        model = torch.nn.DataParallel(model, device_ids=device_ids_list)
+        model = nn.DataParallel(model, device_ids=device_ids_list)
         #model = DDP(model, device_ids=device_ids_list)
         model = model.module    
 
@@ -254,20 +248,22 @@ if __name__ == '__main__':
     # general
     parser.add_argument('--seed', type=int, default=0)
 
-    # directory structure
-
-    # training data setting
-
     # data info
     parser.add_argument('--data_percentage', type=float, default=1)
 
+    # directory structure
     parser.add_argument('--save_dir', type=str, default='../experiments/')
     parser.add_argument('--data_path', type=str, default='/home-nfs/fx2024/NLP/textdata')
     parser.add_argument('--model_name', type=str, default='checkpoint.pth')
 
+    # wandb keywords
     parser.add_argument('--wandb_delete_previous_run', type=int, default=0)
+<<<<<<< HEAD
 
     parser.add_argument('--wandb_run_id', type=str, default=None)
+=======
+    parser.add_argument('--wandb_run_id', type=str, default='test1')
+>>>>>>> e3fc19088f13f6037330605d5efcae2cf57b1aa5
     
     # network
     parser.add_argument('--continue_train', type=int, default=0)
@@ -290,16 +286,21 @@ if __name__ == '__main__':
     parser.add_argument('--train', type=int, default=1)
     parser.add_argument('--test', type=int, default=1)
 
-    # input prompts
-    parser.add_argument('--input_prompts', type=str, default='Liu Kang is')
+    # Inference
+    parser.add_argument('--input_prompts', type=str, default='Liu Kang is') # input prompts
     parser.add_argument('--test_model_path', type=str, default='/home-nfs/fx2024/NLP/experiments/checkpoint.pth')
 
     args = parser.parse_args()
     
     device = 'cuda'
 
+<<<<<<< HEAD
     # Usage example
     wikitext_dataset = load_or_download_wikitext(args.data_path, dataset_name='wikitext', dataset_version='wikitext-2-raw-v1')
+=======
+    # Load wikitext data
+    wikitext_dataset_train = load_or_download_wikitext(args.data_path, dataset_name='wikitext', dataset_version='wikitext-2-raw-v1')['train']
+>>>>>>> e3fc19088f13f6037330605d5efcae2cf57b1aa5
 
     # Print a sample from the dataset to verify
     #print(wikitext_dataset_train['train']['text'][:5])
@@ -322,10 +323,13 @@ if __name__ == '__main__':
     attention_mask = torch.ones(inputs.shape, dtype=torch.long, device=device)
     # Set pad_token_id to the pad_token_id of the tokenizer
     pad_token_id = tokenizer.pad_token_id
+<<<<<<< HEAD
 
     #group_texts
 
     
+=======
+>>>>>>> e3fc19088f13f6037330605d5efcae2cf57b1aa5
     print("\ngenerating output")
     outputs = model.generate(
         inputs, 
@@ -336,18 +340,14 @@ if __name__ == '__main__':
         num_return_sequences=5, 
         early_stopping=True # Stop generating once max_length is reached
     )
-
     output = tokenizer.decode(outputs[0])
     print('Before training', args.input_prompts, output)
-
-    #model.train()
-    #optim = Adam(model.parameters(), lr=1e-3)
 
     # training
     if args.train == 1:
         print("training .... ")
         gpt_finetune(args, model)
-
+    # testing
     if args.test == 1:
         output = gpt_infer(args, model)
         print(output)
