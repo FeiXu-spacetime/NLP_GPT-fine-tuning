@@ -15,7 +15,7 @@ After you run the above command, the code will first print out the model perform
 ![image](https://github.com/FeiXu-spacetime/NLP_GPT-fine-tuning/assets/72999482/f0dac428-e691-4c39-b28c-4559b231e4e5)
 
 The performance \bold{after fine-tuning} at epoch 7 is much better, even though the training loss is not converged yet:
-![image](https://github.com/FeiXu-spacetime/NLP_GPT-fine-tuning/assets/72999482/f79e9fb5-943f-4230-893a-cd0445d71eb6)
+<img src="https://github.com/FeiXu-spacetime/NLP_GPT-fine-tuning/assets/72999482/f79e9fb5-943f-4230-893a-cd0445d71eb6" width="100" height="100">
 
 The fine-tuned GPT model correctly answered the company that produces this game (Sega and Media.Vision), the year the game was released (2011), and the platform (PlayStation 4). 
 
