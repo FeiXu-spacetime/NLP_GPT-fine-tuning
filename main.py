@@ -3,7 +3,9 @@ import os
 from pprint import pprint
 import torch
 import torch.nn as nn
-from torch.utils.data import Dataset, DataLoader
+from torch.utils.data import Dataset, DataLoader, SubsetRandomSampler
+import torch.nn.functional as F
+from torch.nn.parallel import DistributedDataParallel as DDP
 #import transformers
 from datasets import load_dataset
 from my_dataset import My_Dataset
@@ -14,7 +16,6 @@ from transformers import (
     GPT2LMHeadModel,
     GPT2Tokenizer
 )
-
 import pdb
 import argparse
 import numpy as np
@@ -23,10 +24,6 @@ import os
 import random
 from tqdm import tqdm
 import time
-import torch
-import torch.nn.functional as F
-from torch.utils.data import Dataset, DataLoader, SubsetRandomSampler
-from torch.nn.parallel import DistributedDataParallel as DDP
 import wandb
 
 
@@ -209,7 +206,7 @@ def gpt_infer(args, model):
 
     if args.use_data_parallel and num_gpus > 1:
         device_ids_list = list(range(num_gpus))
-        model = torch.nn.DataParallel(model, device_ids=device_ids_list)
+        model = nn.DataParallel(model, device_ids=device_ids_list)
         #model = DDP(model, device_ids=device_ids_list)
         model = model.module    
 
