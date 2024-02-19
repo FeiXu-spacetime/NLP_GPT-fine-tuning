@@ -26,7 +26,7 @@ from tqdm import tqdm
 import time
 import wandb
 
-
+# training function
 def gpt_finetune(args, model):
     
     num_gpus = torch.cuda.device_count()
@@ -54,7 +54,7 @@ def gpt_finetune(args, model):
     #        run_to_delete.delete()
     #    except:
     #        print("id {} doesn't exist".format(id))
-
+    # initialize wandb project configurations
     wandb.init(
         # set the wandb project where this run will be logged
         project="test-project",
@@ -70,29 +70,31 @@ def gpt_finetune(args, model):
         }
     )
 
-
+    # move GPT model to CUDA
     device = 'cuda'
     model = model.to(device)
     
     parameters = list(model.parameters())
     optim = torch.optim.Adam(parameters, args.learning_rate)
 
+    # Check GPU status, assign model to all available GPUs
     if args.use_data_parallel and num_gpus > 1:
         device_ids_list = list(range(num_gpus))
         model = torch.nn.DataParallel(model, device_ids=device_ids_list)
         #model = DDP(model, device_ids=device_ids_list)
        
-    # Create the dataset
-    #dir = os.path.join(args.dataset_path, args.mesh.name)
+    # Load tokenized training dataset
+    #dir = os.path.join(args.dataset_path)
     dataset = wikitext_dataset_train_tokenized
 
-    # Initialize variables
+    # Initialize training-related variables
     start_epoch = 0
     start_batch = 0
     save_path = os.path.join(args.save_dir, args.model_name)
     losses = []
     all_indices = list(range(len(dataset)))
 
+    # Load checkpoint, for continue training 
     if args.continue_train:
         checkpoint = torch.load(save_path, map_location=device)
         model.load_state_dict(checkpoint['model_state_dict'])
@@ -102,7 +104,7 @@ def gpt_finetune(args, model):
         all_indices = checkpoint['shuffled_indices']
         losses = checkpoint['losses']
 
-    
+    # Start training
     for epoch in range(start_epoch, args.num_epochs):
          # If this is a new epoch, shuffle the indices
         if epoch != start_epoch or start_batch == 0:
@@ -117,17 +119,13 @@ def gpt_finetune(args, model):
         
         # Sampling data using shuffled indices
         num_batches = len(dataloader)
-        
+
+        # Loop over all batches
         for batch_idx, (batch_input_ids, batch_attention_mask) in enumerate(tqdm(dataloader)):
-            #print(batch_input_ids, batch_attention_mask)
             print("epoch_idx: %d" % (epoch))
             print("batch_idx: %d" % (batch_idx + start_batch))
-            #batch_size = batch_labels.shape[0]
-            #batch_data = batch_data.to(device)
-            #batch_attention_mask = batch_attention_mask.to(device)
 
             # Calculate the loss
-            
             loss = model(batch_input_ids, attention_mask=batch_attention_mask, labels=batch_input_ids).loss.sum()
             loss.backward()
             print('loss', loss)
