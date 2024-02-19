@@ -131,6 +131,7 @@ def gpt_finetune(args, model):
             print('loss', loss)
             optim.step()
             optim.zero_grad()
+            # Track losses
             with torch.no_grad():
                 losses.append(loss.item())
                 wandb.log({"loss": loss})
@@ -156,7 +157,7 @@ def gpt_finetune(args, model):
                 
 
               
-        # save epoch check point
+        # save epoch checkpoint
         if num_batches > 0:
             save_dir, fname = os.path.split(save_path)
             fbody, fext = fname.split(".")
@@ -175,9 +176,7 @@ def gpt_finetune(args, model):
                         'num_batch': round(num_batches)+1
                         }, save_path_epoch)
             print('checkpoint saved for epoch %d' % epoch)
-            #with torch.no_grad():
-                #plot_loss(loss.detach().cpu().numpy(), type='training')
-
+            
         start_batch = 0
 
     wandb.finish()
@@ -191,7 +190,7 @@ def plot_loss(loss, type=''):
     plt.ylabel('Loss')
     plt.savefig(os.path.join(dir, 'loss.jpg'))
 
-
+# Test checkpoint
 def gpt_infer(args, model):
     num_gpus = torch.cuda.device_count()
     print('number of avilable gpus: %d' % num_gpus)
@@ -241,19 +240,16 @@ if __name__ == '__main__':
     # general
     parser.add_argument('--seed', type=int, default=0)
 
-    # directory structure
-
-    # training data setting
-
     # data info
     parser.add_argument('--data_percentage', type=float, default=0.1)
 
+    # directory structure
     parser.add_argument('--save_dir', type=str, default='../experiments/')
     parser.add_argument('--data_path', type=str, default='/home-nfs/fx2024/NLP/textdata')
     parser.add_argument('--model_name', type=str, default='checkpoint.pth')
 
+    # wandb keywords
     parser.add_argument('--wandb_delete_previous_run', type=int, default=0)
-
     parser.add_argument('--wandb_run_id', type=str, default='test1')
     
     # network
@@ -277,15 +273,15 @@ if __name__ == '__main__':
     parser.add_argument('--train', type=int, default=1)
     parser.add_argument('--test', type=int, default=1)
 
-    # input prompts
-    parser.add_argument('--input_prompts', type=str, default='Liu Kang is')
+    # Inference
+    parser.add_argument('--input_prompts', type=str, default='Liu Kang is') # input prompts
     parser.add_argument('--test_model_path', type=str, default='/home-nfs/fx2024/NLP/experiments/checkpoint.pth')
 
     args = parser.parse_args()
     
     device = 'cuda'
 
-    # Usage example
+    # Load wikitext data
     wikitext_dataset_train = load_or_download_wikitext(args.data_path, dataset_name='wikitext', dataset_version='wikitext-2-raw-v1')['train']
 
     # Print a sample from the dataset to verify
@@ -304,8 +300,6 @@ if __name__ == '__main__':
     attention_mask = torch.ones(inputs.shape, dtype=torch.long, device=device)
     # Set pad_token_id to the pad_token_id of the tokenizer
     pad_token_id = tokenizer.pad_token_id
-
-    
     print("\ngenerating output")
     outputs = model.generate(
         inputs, 
@@ -316,18 +310,14 @@ if __name__ == '__main__':
         num_return_sequences=5, 
         early_stopping=True # Stop generating once max_length is reached
     )
-
     output = tokenizer.decode(outputs[0])
     print('Before training', args.input_prompts, output)
-
-    #model.train()
-    #optim = Adam(model.parameters(), lr=1e-3)
 
     # training
     if args.train == 1:
         print("training .... ")
         gpt_finetune(args, model)
-
+    # testing
     if args.test == 1:
         output = gpt_infer(args, model)
         print(args.input_prompts, output)
