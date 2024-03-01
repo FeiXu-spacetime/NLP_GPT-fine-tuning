@@ -258,12 +258,7 @@ if __name__ == '__main__':
 
     # wandb keywords
     parser.add_argument('--wandb_delete_previous_run', type=int, default=0)
-<<<<<<< HEAD
-
-    parser.add_argument('--wandb_run_id', type=str, default=None)
-=======
     parser.add_argument('--wandb_run_id', type=str, default='test1')
->>>>>>> e3fc19088f13f6037330605d5efcae2cf57b1aa5
     
     # network
     parser.add_argument('--continue_train', type=int, default=0)
@@ -294,13 +289,10 @@ if __name__ == '__main__':
     
     device = 'cuda'
 
-<<<<<<< HEAD
-    # Usage example
-    wikitext_dataset = load_or_download_wikitext(args.data_path, dataset_name='wikitext', dataset_version='wikitext-2-raw-v1')
-=======
     # Load wikitext data
-    wikitext_dataset_train = load_or_download_wikitext(args.data_path, dataset_name='wikitext', dataset_version='wikitext-2-raw-v1')['train']
->>>>>>> e3fc19088f13f6037330605d5efcae2cf57b1aa5
+    wikitext_dataset = load_or_download_wikitext(args.data_path, dataset_name='wikitext', dataset_version='wikitext-2-raw-v1')
+    wikitext_dataset_processed = wikitext_dataset.map(remove_symbols)
+    pdb.set_trace()
 
     # Print a sample from the dataset to verify
     #print(wikitext_dataset_train['train']['text'][:5])
@@ -312,7 +304,8 @@ if __name__ == '__main__':
     tokenizer.pad_token = tokenizer.eos_token
     model = GPT2LMHeadModel.from_pretrained("gpt2").to(device)
 
-    tokenized_datasets = wikitext_dataset.map(tokenize_function, fn_kwargs={'tokenizer': tokenizer}, batched=True, num_proc=4, remove_columns=["text"])
+    tokenized_datasets = wikitext_dataset_processed.map(tokenize_function, fn_kwargs={'tokenizer': tokenizer}, batched=True, num_proc=4, remove_columns=["text"])
+    pdb.set_trace()
     lm_datasets = tokenized_datasets.map(group_texts, fn_kwargs={'block_size': 128}, batched=True, batch_size=1000, num_proc=4)
     wikitext_dataset_train_tokenized = My_Dataset(args, lm_datasets['train'], tokenizer)
 
@@ -323,13 +316,6 @@ if __name__ == '__main__':
     attention_mask = torch.ones(inputs.shape, dtype=torch.long, device=device)
     # Set pad_token_id to the pad_token_id of the tokenizer
     pad_token_id = tokenizer.pad_token_id
-<<<<<<< HEAD
-
-    #group_texts
-
-    
-=======
->>>>>>> e3fc19088f13f6037330605d5efcae2cf57b1aa5
     print("\ngenerating output")
     outputs = model.generate(
         inputs, 
@@ -353,5 +339,4 @@ if __name__ == '__main__':
         print(output)
 
     
-
 
